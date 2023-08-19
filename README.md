@@ -10,8 +10,14 @@
 
 # Установка
 
-1. Скачайте архив:
+## 1. Скачайте архив
 
-![image](https://github.com/Kvasus/BaronyRussianTranslation/assets/84940635/897b6902-4fe1-4f4c-aa81-3c9329c7620c)
+![image](https://github.com/Kvasus/BaronyRussianTranslation/assets/84940635/6b35ef16-cff6-4400-8d27-ecef0c6605f5)
 
-2. Разархивируйте содержимое архива в папку с игрой, соглашаясь на замену файлов.
+------------
+
+![image](https://github.com/Kvasus/BaronyRussianTranslation/assets/84940635/d45228b0-17cb-4eae-a8bb-7a0e49ce700c)
+
+## 2. Разархивируйте архив в папку с игрой
+
+Разархивируйте содержимое архива в папку с игрой, соглашаясь на замену файлов.
