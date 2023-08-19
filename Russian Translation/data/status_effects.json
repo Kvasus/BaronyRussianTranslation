@@ -1,0 +1,559 @@
+{
+	"version": 1,
+	"colors": {
+		"notification_text": {
+			"r": 255,
+			"g": 255,
+			"b": 255,
+			"a": 255
+		},
+		"tooltip_heading_text": {
+			"r": 67,
+			"g": 195,
+			"b": 157,
+			"a": 255
+		},
+		"tooltip_desc_text": {
+			"r": 188,
+			"g": 154,
+			"b": 114,
+			"a": 255
+		}
+	},
+	"notification_font": "fonts/pixelmix.ttf#16#2",
+	"default_tooltip_width": 200,
+	"sustained_effects": {
+		"SUSTAIN_LIGHT": {
+			"id": -1,
+			"spell_id": 7,
+			"internal_name": "SUSTAIN_LIGHT",
+			"name": "Свет",
+			"desc": "Вы поддерживаете магический источник света",
+			"img_path": "",
+			"img_from_spell_id": 7
+		},
+		"EFF_SHADOW_TAGGED": {
+			"id": 34,
+			"spell_id": 45,
+			"internal_name": "EFF_SHADOW_TAGGED",
+			"name": ["Метка чар\n(Активна на %s)", "Метка чар (Активна на %s)", "Метка чар (Цель неизвестна)"],
+			"desc": "Убирает расовые устойчивости/слабости цели\nЗаклинания телепортации телепортируют к цели",
+			"img_path": "",
+			"img_from_spell_id": 45
+		}
+	},
+	"effects": {
+		"EFF_HUNGER": {
+			"id": -2,
+			"internal_name": "EFF_HUNGER",
+			"name": ["Перенасыщен!", "Голодный", "Очень Голодный", "Умираете от Голода!"],
+			"desc": ["Вы страдаете от переедания:\n- Сила\n- Ловкость", "Отказ от еды вызовет негативные эффекты", "Вы страдаете от недостатка еды:\n- Сила\n- Ловкость", "Вы страдаете от недостатка еды и получаете периодический урон:\n- Сила\n- Ловкость\n- Интеллект\n- Восприятие"],
+			"img_path": ["*images/ui/HUD/HUD_Hunger_01A.png", "*images/ui/HUD/HUD_Hunger_01B.png", "*images/ui/HUD/HUD_Hunger_01C.png", "*images/ui/HUD/HUD_Hunger_01D.png"],
+			"img_from_spell_id": -1
+		},
+		"EFF_BLOOD_HUNGER": {
+			"id": -3,
+			"internal_name": "EFF_HUNGER",
+			"name": ["Перенасыщен!", "Голодный", "Очень Голодный", "Умираете от Голода!"],
+			"desc": ["Вы страдаете от переедания:\n- Сила\n- Ловкость", "Отказ от еды вызовет негативные эффекты", "Вы страдаете от недостатка еды:\n- Сила\n- Ловкость", "Вы страдаете от недостатка еды и получаете периодический урон:\n- Сила\n- Ловкость\n- Интеллект\n- Восприятие"],
+			"img_path": ["*images/ui/HUD/HUD_Hunger_Blood_00A.png", "*images/ui/HUD/HUD_Hunger_Blood_00B.png", "*images/ui/HUD/HUD_Hunger_Blood_00C.png", "*images/ui/HUD/HUD_Hunger_Blood_00D.png"],
+			"img_from_spell_id": -1
+		},
+		"EFF_AUTOMATON_HUNGER": {
+			"id": -4,
+			"internal_name": "EFF_AUTOMATON_HUNGER",
+			"name": ["Статус Бойлера:\nПЕРЕГРЕТЫЙ", "Статус Бойлера:\nНОМИНАЛЬНЫЙ", "Статус Бойлера:\nКРИТИЧЕСКИ НИЗКИЙ", "Статус Бойлера: ПЕРЕГРЕТЫЙ", "Статус Бойлера: НОМИНАЛЬНЫЙ", "Статус Бойлера: КРИТИЧЕСКИ НИЗКИЙ"],
+			"desc": ["Производит ТП на 200% номинальной скорости, вплоть до 400%, когда ТП ниже 50%\nУменьшена Ловкость, когда ТП ниже 25%", "Стабильно производит ТП\nУменьшена Ловкость, когда ТП ниже 25%", "Быстрая потеря ТП из-за пустого бойлера, при 0 ТП может возникнуть неисправность единицы\nУменьшена Ловкость, когда ТП ниже 25%\n- Сила\n- Восприятие", "Быстрая потеря ТП из-за пустого бойлера, при 0 ТП может возникнуть неисправность единицы\nУменьшена Ловкость, когда ТП ниже 25%"],
+			"img_path": ["*images/system/Hunger_boiler.png", "*images/system/Hunger_boiler.png", "*images/system/Hunger_boiler.png"],
+			"img_from_spell_id": -1
+		},
+		"EFF_WANTED": {
+			"id": -5,
+			"internal_name": "EFF_WANTED",
+			"name": "В Розыске!",
+			"desc": ["Вы признаны врагом Гильдии Торговцев за ваши %s преступления:","Убийство", "Подстрекательство к Насилию", "Участие в насилии"],
+			"img_path": "*images/ui/HUD/statusfx/redhanded.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 270
+		},
+		"EFF_WANTED_IN_SHOP": {
+			"id": -6,
+			"internal_name": "EFF_WANTED",
+			"name": "В Розыске!\n(Незаконное Проникновение)",
+			"desc": ["Вы признаны врагом Гильдии Торговцев за ваши %s преступления:","Убийство", "Подстрекательство к Насилию", "Участие в насилии"],
+			"img_path": "*images/ui/HUD/statusfx/redhanded.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 270
+		},
+		"EFF_BURNING": {
+			"id": -7,
+			"internal_name": "EFF_BURNING",
+			"name": "Горение",
+			"desc": "Вы получаете периодический урон",
+			"img_path": "*images/ui/HUD/statusfx/burning.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_FREEACTION": {
+			"id": -8,
+			"internal_name": "EFF_FREEACTION",
+			"name": "Дополнительное Действие",
+			"desc": "Лечит [Сон], [Замедление], [Паралич]",
+			"img_path": "*images/ui/HUD/statusfx/freeaction.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 200
+		},
+		"EFF_LESSERWARNING": {
+			"id": -9,
+			"internal_name": "EFF_LESSERWARNING",
+			"name": "Малое Предупреждение",
+			"desc": "Показывает местоположение движущихся монстров на карте",
+			"img_path": "*images/ui/HUD/statusfx/lesserwarning.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 240
+		},
+		"EFF_HPOFF": {
+			"id": -10,
+			"internal_name": "EFF_HPOFF",
+			"name": "Вырождение",
+			"desc": ["Регенерация ОЗ отключена", "Регенерация ОЗ отключена из-за выключения Голода в настройках текущей игры\nВосстанавливайте ОЗ потребляя еду и используя зелья/заклинания"],
+			"img_path": "*images/ui/HUD/statusfx/regen_hpoff.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 260
+		},
+		"EFF_RESISTFIRE": {
+			"id": -11,
+			"internal_name": "EFF_RESISTFIRE",
+			"name": "Сопротивление Горению",
+			"desc": "Иммунитет к [Горение]",
+			"img_path": "*images/ui/HUD/statusfx/resist_fire.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 200
+		},
+		"EFF_RESISTPOISON": {
+			"id": -12,
+			"internal_name": "EFF_RESISTPOISON",
+			"name": "Сопротивление к Яду",
+			"desc": "Лечит [Отравление]\nСопротивление яду, заклинаниям Кислоты",
+			"img_path": "*images/ui/HUD/statusfx/resist_poison.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 220
+		},
+		"EFF_SLOWDIGESTION": {
+			"id": -13,
+			"internal_name": "EFF_SLOWDIGESTION",
+			"name": "Медленное Переваривание",
+			"desc": "Повышает насыщение едой и отсрачивает голодание",
+			"img_path": "*images/ui/HUD/statusfx/slowdigestion.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 230
+		},
+		"EFF_STRANGULATION": {
+			"id": -14,
+			"internal_name": "EFF_STRANGULATION",
+			"name": "Удушение!",
+			"desc": "Вы получаете периодический урон\nНе можете пить или есть",
+			"img_path": "*images/ui/HUD/statusfx/strangulation.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 220
+		},
+		"EFF_WARNING": {
+			"id": -15,
+			"internal_name": "EFF_WARNING",
+			"name": "Предупреждение",
+			"desc": "Показывает местоположение монстров на карте",
+			"img_path": "*images/ui/HUD/statusfx/warning.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 200
+		},
+		"EFF_WATERBREATHING": {
+			"id": -16,
+			"internal_name": "EFF_WATERBREATHING",
+			"name": "Подводное Дыхание",
+			"desc": "Неограниченная скорость передвижения во время плавания",
+			"img_path": "*images/ui/HUD/statusfx/waterbreathing.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 200
+		},
+		"EFF_CONFLICT": {
+			"id": -17,
+			"internal_name": "EFF_CONFLICT",
+			"name": "Конфликт",
+			"desc": "Подстрекает ближайших монстров атаковать всех, кого они видят.",
+			"img_path": "*images/ui/HUD/statusfx/conflict.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 240
+		},
+		"EFF_WATERWALKING": {
+			"id": -18,
+			"internal_name": "EFF_WATERWALKING",
+			"name": "Ходьба по воде",
+			"desc": "Парение над водой и лавой",
+			"img_path": "*images/ui/HUD/statusfx/waterwalking.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 200
+		},
+		"EFF_LIFESAVING": {
+			"id": -19,
+			"internal_name": "EFF_LIFESAVING",
+			"name": "Сохранение Жизни",
+			"desc": "Воскрешение при смерти",
+			"img_path": "*images/ui/Inventory/tooltips/tooltip_icons/lifesaving.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 160
+		},
+		"EFF_PUSH": {
+			"id": -20,
+			"internal_name": "EFF_PUSH",
+			"name": "Толчок",
+			"desc": "Вы можете двигать валуны",
+			"img_path": "*images/ui/HUD/statusfx/push.png",
+			"tooltip_width": 232,
+			"img_from_spell_id": -1
+		},
+		"EFF_SNEAK": {
+			"id": -21,
+			"internal_name": "EFF_SNEAK",
+			"name": "Скрытность",
+			"desc": "Дальность обнаружение уменьшена",
+			"img_path": "*images/ui/HUD/statusfx/sneak.png",
+			"tooltip_width": 200,
+			"img_from_spell_id": -1
+		},
+		"EFF_DRUNK_GOATMAN": {
+			"id": -22,
+			"internal_name": "EFF_DRUNK_GOATMAN",
+			"name": "Опьянение (Козлолюд)",
+			"desc": "+ Сила\n+ Телосложение\n+ 20% Сопротивление Урону\n- Ловкость\n- Интеллект",
+			"img_path": "*images/system/drunk.png",
+			"img_from_spell_id": -1,
+			"tooltip_width": 212
+		},
+		"EFF_ASLEEP": {
+			"id": 0,
+			"internal_name": "EFF_ASLEEP",
+			"name": "Сон",
+			"desc": "Вы не можете двигаться и видеть",
+			"img_path": "",
+			"img_from_spell_id": 10
+		},
+		"EFF_POISONED": {
+			"id": 1,
+			"internal_name": "EFF_POISONED",
+			"name": "Отравление",
+			"desc": "Вы получаете периодический урон",
+			"img_path": "*images/ui/HUD/statusfx/poisoned.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_STUNNED": {
+			"id": 2,
+			"internal_name": "EFF_STUNNED",
+			"name": "",
+			"desc": "",
+			"img_path": "",
+			"img_from_spell_id": -1,
+			"never_display": true
+		},
+		"EFF_CONFUSED": {
+			"id": 3,
+			"internal_name": "EFF_CONFUSED",
+			"name": "Замешательство",
+			"desc": "Передвижение изменено",
+			"img_path": "",
+			"img_from_spell_id": 11
+		},
+		"EFF_DRUNK": {
+			"id": 4,
+			"internal_name": "EFF_DRUNK",
+			"name": "Опьянение",
+			"desc": "+ Сила\n- Ловкость",
+			"img_path": "*images/system/drunk.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_INVISIBLE": {
+			"id": 5,
+			"internal_name": "EFF_INVISIBLE",
+			"name": "Невидимость",
+			"desc": "Враги вас не могут заметить за пределами ближних атак",
+			"img_path": "",
+			"img_from_spell_id": 16,
+			"use_entry_for_sustained_spell": 16
+		},
+		"EFF_BLIND": {
+			"id": 6,
+			"internal_name": "EFF_BLIND",
+			"name": "Слепота",
+			"desc": "Вы не можете видеть",
+			"img_path": "*images/ui/HUD/statusfx/blind.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_GREASY": {
+			"id": 7,
+			"internal_name": "EFF_GREASY",
+			"name": "Склизскость",
+			"desc": "Оружие может выскользнуть из рук",
+			"img_path": "*images/ui/HUD/statusfx/grease.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_MESSY": {
+			"id": 8,
+			"internal_name": "EFF_MESSY",
+			"name": "Грязность",
+			"desc": "Вы не можете видеть",
+			"img_path": "*images/ui/HUD/statusfx/messypie.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_FAST": {
+			"id": 9,
+			"internal_name": "EFF_FAST",
+			"name": "Скорость",
+			"desc": "Увеличена Ловкость и скорость передвижения",
+			"img_path": "",
+			"img_from_spell_id": 39
+		},
+		"EFF_PARALYZED": {
+			"id": 10,
+			"internal_name": "EFF_PARALYZED",
+			"name": "Паралич",
+			"desc": "Вы не можете двигаться",
+			"img_path": "*images/ui/HUD/statusfx/paralyze.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_LEVITATING": {
+			"id": 11,
+			"internal_name": "EFF_LEVITATING",
+			"name": "Левитация",
+			"desc": "Полет над пропастью, водой и лавой",
+			"img_path": "",
+			"img_from_spell_id": 15,
+			"use_entry_for_sustained_spell": 15
+		},
+		"EFF_TELEPATH": {
+			"id": 12,
+			"internal_name": "EFF_TELEPATH",
+			"name": "Телепатия",
+			"desc": "Вы видите монстров сквозь стены",
+			"img_path": "*images/ui/HUD/statusfx/telepathy.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_VOMITING": {
+			"id": 13,
+			"internal_name": "EFF_VOMITING",
+			"name": "Рвота!",
+			"desc": "Вы страдаете от расстройства желудка",
+			"img_path": "",
+			"img_from_spell_id": -1,
+			"never_display": true
+		},
+		"EFF_BLEEDING": {
+			"id": 14,
+			"internal_name": "EFF_BLEEDING",
+			"name": "Кровотечение",
+			"desc": "Вы получаете периодический урон",
+			"img_path": "*images/ui/HUD/statusfx/bleed.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_SLOW": {
+			"id": 15,
+			"internal_name": "EFF_SLOW",
+			"name": "Замедление",
+			"desc": "Уменьшена скорость передвижения",
+			"img_path": "",
+			"img_from_spell_id": 12
+		},
+		"EFF_MAGICRESIST": {
+			"id": 16,
+			"internal_name": "EFF_MAGICRESIST",
+			"name": "Магическое Сопротивление",
+			"desc": "+1 к Магическому Сопротивлению",
+			"img_path": "*images/ui/HUD/statusfx/resist_magic.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_MAGICREFLECT": {
+			"id": 17,
+			"internal_name": "EFF_MAGICREFLECT",
+			"name": "Отражение Магии",
+			"desc": "Вы отражаете вражеские заклинания",
+			"img_path": "",
+			"img_from_spell_id": 26,
+			"use_entry_for_sustained_spell": 26,
+			"tooltip_width": 220
+		},
+		"EFF_VAMPIRICAURA": {
+			"id": 18,
+			"internal_name": "EFF_VAMPIRICAURA",
+			"name": ["Вампирское Проклятие", "Вампирская Аура"],
+			"desc": ["+ Сила и Ловкость\nУвеличена скорость голодания\nУвеличен шанс вызвать статус [кровотечение] когда вы безоружны\nШанс на кражу здоровья при смертельных скрытных атаках без оружия", "+ Сила и Ловкость\nУвеличена скорость голодания\nУвеличен шанс вызвать статус [кровотечение] когда вы безоружны\nШанс на кражу здоровья при любых атаках без оружия\nЕстественная регенерация ОЗ отключена"],
+			"img_path": "*images/ui/HUD/statusfx/bloodlust.png",
+			"img_from_spell_id": 30,
+			"use_entry_for_sustained_spell": 30,
+			"tooltip_width": 270
+		},
+		"EFF_SHRINE_RED_BUFF": {
+			"id": 19,
+			"internal_name": "EFF_SHRINE_RED_BUFF",
+			"name": "Бонус Красного Святилища",
+			"desc": "+ Сила\n+ Телосложение",
+			"img_path": "*images/ui/HUD/statusfx/orb_red.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_SHRINE_GREEN_BUFF": {
+			"id": 20,
+			"internal_name": "EFF_SHRINE_GREEN_BUFF",
+			"name": "Бонус Зеленого Святилища",
+			"desc": "+ Ловкость\n+ Восприятие",
+			"img_path": "*images/ui/HUD/statusfx/orb_green.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_SHRINE_BLUE_BUFF": {
+			"id": 21,
+			"internal_name": "EFF_SHRINE_BLUE_BUFF",
+			"name": "Бонус Синего Святилища",
+			"desc": "+ Интеллект\n+1 Магическое Сопротивление",
+			"img_path": "*images/ui/HUD/statusfx/orb_blue.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_HP_REGEN": {
+			"id": 22,
+			"internal_name": "EFF_HP_REGEN",
+			"name": "Регенерация Здоровья",
+			"desc": "+2 [Реген. ОЗ]",
+			"img_path": "*images/ui/HUD/statusfx/regen_hp.png",
+			"img_from_spell_id": 48
+		},
+		"EFF_MP_REGEN": {
+			"id": 23,
+			"internal_name": "EFF_MP_REGEN",
+			"name": "Регенерация Маны",
+			"desc": "+2 [Реген. ОМ]",
+			"img_path": "*images/ui/HUD/statusfx/regen_mp.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_PACIFY": {
+			"id": 24,
+			"internal_name": "EFF_PACIFY",
+			"name": "Умиротворение",
+			"desc": "Вы не можете атаковать и произвольно двигаться",
+			"img_path": "",
+			"img_from_spell_id": 31
+		},
+		"EFF_POLYMORPH": {
+			"id": 25,
+			"internal_name": "EFF_POLYMORPH",
+			"name": "Полиморфирован",
+			"desc": "Замаскирован как другой монстр",
+			"img_path": "*images/system/polymorph.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_KNOCKBACK": {
+			"id": 26,
+			"internal_name": "EFF_KNOCKBACK",
+			"name": "",
+			"desc": "",
+			"img_path": "",
+			"img_from_spell_id": -1,
+			"never_display": true
+		},
+		"EFF_WITHDRAWAL": {
+			"id": 27,
+			"internal_name": "EFF_WITHDRAWAL",
+			"name": "Похмелье",
+			"desc": "- Ловкость\nЛечится интоксикацией",
+			"img_path": "*images/system/hungover.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_POTION_STR": {
+			"id": 28,
+			"internal_name": "EFF_POTION_STR",
+			"name": "Сила",
+			"desc": "+ Сила\n- Восприятие",
+			"img_path": "*images/ui/HUD/statusfx/strengthbuff.png",
+			"img_from_spell_id": -1
+		},
+		"EFF_SHAPESHIFT": {
+			"id": 29,
+			"internal_name": "EFF_SHAPESHIFT",
+			"name": ["Форма Крысы", "Форма Членистоногого", "Форма Тролля", "Форма Беса"],
+			"desc": ["+ ЛОВ/ИНТ/ВОС\nБольший шанс получить ЛОВ/ИНТ при Повыш. Ур.\nДоступ к заклинаниям [Обнаружение Еды] и [Скорость]", "+ ВОС/СИЛ/ТЕЛ\nБольший шанс получить ВОС/ТЕЛ при Повыш. Ур\nДоступ к заклинаниям [Распылить Паутину] и [Яд]", "+ СИЛ/ТЕЛ\n- ЛОВ\nБольший шанс получить СИЛ/ТЕЛ при Повыш. Ур.\nДоступ к заклинаниям [Мощный Удар], [Страх] и [Кровь Тролля]", "Дает Левитацию\n+ ИНТ/ВОС\nБольший шанс получить ИНТ/ЛОВ при Повыш. Ур.\nДоступ к заклинаниям [Молния], [Запутать] и [Средоточие Стихий]"],
+			"img_path": "",
+			"img_from_spell_id": [33,34,35,36]
+		},
+		"EFF_WEBBED": {
+			"id": 30,
+			"internal_name": "EFF_WEBBED",
+			"name": "В Паутине",
+			"desc": "Уменьшена скорость передвижения\nБлижние удары вас отталкивают",
+			"img_path": "",
+			"img_from_spell_id": 37
+		},
+		"EFF_FEAR": {
+			"id": 31,
+			"internal_name": "EFF_FEAR",
+			"name": "Страх",
+			"desc": "Вы не можете атаковать и произвольно двигаться",
+			"img_path": "",
+			"img_from_spell_id": 40
+		},
+		"EFF_MAGICAMPLIFY": {
+			"id": 32,
+			"internal_name": "EFF_MAGICAMPLIFY",
+			"name": "Средоточие Стихий",
+			"desc": "Увеличен урон и уменьшена дальность заклинаний [Огонь], [Холод], [Молния] и [Магический Снаряд]",
+			"img_path": "",
+			"img_from_spell_id": 44,
+			"tooltip_width": 300,
+			"use_entry_for_sustained_spell": 44
+		},
+		"EFF_DISORIENTED": {
+			"id": 33,
+			"internal_name": "EFF_DISORIENTED",
+			"name": "",
+			"desc": "",
+			"img_path": "",
+			"img_from_spell_id": -1,
+			"never_display": true
+		},
+		"EFF_SHADOW_TAGGED": {
+			"id": 34,
+			"internal_name": "EFF_SHADOW_TAGGED",
+			"name": "Помечен Чарами",
+			"desc": "У вас убраны расовые устойчивости/слабости к урону",
+			"img_path": "",
+			"img_from_spell_id": 45,
+			"tooltip_width": 210
+		},
+		"EFF_TROLLS_BLOOD": {
+			"id": 35,
+			"internal_name": "EFF_TROLLS_BLOOD",
+			"name": "Кровь Тролля",
+			"desc": "+1 [Реген. ОЗ]",
+			"img_path": "",
+			"img_from_spell_id": 48
+		},
+		"EFF_FLUTTER": {
+			"id": 36,
+			"internal_name": "EFF_FLUTTER",
+			"name": "Порхание",
+			"desc": "Непродолжительная Левитация",
+			"img_path": "",
+			"img_from_spell_id": 50
+		},
+		"EFF_DASH": {
+			"id": 37,
+			"internal_name": "EFF_DASH",
+			"name": "",
+			"desc": "",
+			"img_path": "",
+			"img_from_spell_id": -1,
+			"never_display": true
+		},
+		"EFF_DISTRACTED_COOLDOWN": {
+			"id": 38,
+			"internal_name": "EFF_DISTRACTED_COOLDOWN",
+			"name": "",
+			"desc": "",
+			"img_path": "",
+			"img_from_spell_id": -1,
+			"never_display": true
+		}
+	}
+}

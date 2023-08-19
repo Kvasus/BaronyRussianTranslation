@@ -1,0 +1,295 @@
+{
+	"version": 1,
+	"hover_text": {
+		"autosort_button_mouse_compact": "Автосортировка инвентаря.\nЗажмите [ПКМ] для других опций.",
+		"autosort_button_mouse": "Автосортировка инвентаря.\nЗажмите [ПКМ] для\nдругих опций.",
+		"gold_mouse": "Зажмите [ПКМ] чтобы сбросить золото.",
+		"gold_controller": "Нажмите кнопку чтобы сбросить золото:",
+		"gold_option_10": "10 золота",
+		"gold_option_100": "100 золота",
+		"gold_option_1000": "1000 золота",
+		"gold_option_all": "ALL золото",
+		"game_timer_mouse": "[ЛКМ] чтобы ",
+		"game_timer_pin": "закрепить игровое время в HUD.",
+		"game_timer_unpin": "открепить игровое время из HUD.",
+		"race": {
+			"race_traits": "Особенности:",
+			"race_title_normal": "О РАСЕ",
+			"race_title_polymorph": "О РАСЕ (Полиморфирован)",
+			"race_title_shapeshift": "О РАСЕ (Обращен)"
+		},
+		"class": {
+			"class_title": "ПОВЫШЕНИЕ КЛАССОВЫХ Х-К",
+			"class_title_shapeshift": "ПОВЫШЕНИЕ КЛАССОВЫХ Х-К (Обращен)",
+			"stat_growth_info": "Повышение уровня увеличивает три Х-ки на +1, в зависимости от Класса\nУлучшение способн. дает +20% на бросок +2 для Соответствующей Х-ки   (См. Соответствующие Харак-ки в списке способностей)",
+			"stat_growth_min_tooltip_width": "320",
+			"stat_growth_max_tooltip_width": "320"
+		},
+		"stats": {
+			"stat_max_tooltip_width": "600",
+			"stat_min_tooltip_width": "380",
+			"stat_base_amount": "Базовый:",
+			"stat_modified_amount": "Бонусы:\n (От предметов/эффектов)",
+			"stat_str_title": "СИЛА",
+			"stat_dex_title": "ЛОВКОСТЬ",
+			"stat_con_title": "ТЕЛОСЛОЖЕНИЕ",
+			"stat_int_title": "ИНТЕЛЛЕКТ",
+			"stat_per_title": "ВОСПРИЯТИЕ",
+			"stat_chr_title": "ХАРИЗМА",
+			"stat_str_desc": "Увеличивает АТК ближних атак\nУвеличивает скорость передвижения при переноске больших весов",
+			"stat_dex_desc": "Увеличивает АТК дальних и метательных атак\nУвеличивает скорость передвижения при переноске малых весов",
+			"stat_con_desc": "Увеличивает Показатель Брони (ПБ)\nУменьшает длительность отрицательных статус эффектов\nУсиливает эффекты Зелий Лечения",
+			"stat_int_desc": "Увеличивает Мощь Заклинаний (МОЩ) и регенерацию ОМ (РЕГ)\nУсиливает эффекты способн. Магия и Заклинания\nУсиливает эффекты Зелий Восстановления Магии",
+			"stat_per_desc": "Увеличивает шанс Пробития Брони от Дальнего оружия\nУсиливает эффекты способн. Изобретательство и Опознание\nУлучшает видимость в темных местах",
+			"stat_chr_desc": "Улучшает цены при торговле с Лавочниками\nУсиливает эффекты способн. Лидерство и Торговля",
+			"stat_str_movement_bonus": "Бонус Скорости от СИЛ:",
+			"stat_atk_value_format": "%+d АТК",
+			"stat_str_atk_bonus": "Бонус Ближнего АТК:",
+			"stat_dex_movement_bonus": "Бонус Скорости от ЛОВ:",
+			"stat_dex_ranged_atk_bonus": "Бонус Дальнего АТК:",
+			"stat_dex_thrown_atk_bonus": "Бонус Метательного АТК:",
+			"stat_con_ac_bonus": "Бонус Показателя Брони:",
+			"stat_ac_value_format": "%+d ПБ",
+			"stat_movement_value_format": "%+.1f%% СКР",
+			"stat_int_pwr_bonus": "Бонус Мощи Заклинаний:",
+			"stat_int_mp_regen_bonus": "Бонус Регенерации ОМ:",
+			"stat_pwr_value_format": "%+.1f%% МОЩ",
+			"stat_mp_regen_value_format": "%+.1f%% РЕГ",
+			"stat_per_pierce_bonus": "Шанс Пробития Брони Дал. ор.:",
+			"stat_pierce_value_format": "%+.f%%",
+			"stat_per_light_bonus": "Постоянный Бонус Видимости:",
+			"stat_per_sneaking_bonus": "Бонус Видимости Крадучись:",
+			"stat_light_value_format": "%+d Света",
+			"stat_chr_selling_bonus": "Стоимость продажи:",
+			"stat_chr_buying_bonus": "Скидка при покупке:",
+			"stat_selling_value_format": "%+.1f%% Золота",
+			"stat_buying_value_format": "%+.1f%% Золота",
+			"icon_str_path": "#*images/ui/CharSheet/HUD_CharSheet_STR_00.png",
+			"icon_dex_path": "#*images/ui/CharSheet/HUD_CharSheet_DEX_00.png",
+			"icon_con_path": "#*images/ui/CharSheet/HUD_CharSheet_CON_00.png",
+			"icon_int_path": "#*images/ui/CharSheet/HUD_CharSheet_INT_00.png",
+			"icon_per_path": "#*images/ui/CharSheet/HUD_CharSheet_PER_00.png",
+			"icon_chr_path": "#*images/ui/CharSheet/HUD_CharSheet_CHA_00.png"
+		},
+		"icon_backing_path": "#*images/ui/HUD/HUD_ActionPromptBacking00_02.png",
+		"attributes_max_tooltip_width": "600",
+		"attributes_min_tooltip_width": "420",
+		"attributes_atk": {
+			"icon_atk_path": "#*images/ui/CharSheet/HUD_CharSheet_ATT_00.png",
+			"attributes_atk_total_sum_header": "Увеличение макс. АТК:",
+			"attributes_atk_title": "АТАКА",
+			"attributes_atk_title_unarmed": "Безоружный",
+			"attributes_atk_range": "Диапазон урона АТК:\n (Исп. способн. %s: %d/100)",
+			"attributes_atk_range_noskill": "Диапазон АТК:",
+			"attributes_atk_avg": "Средний АТК:",
+			"attributes_atk_value": "Урон АТК:",
+			"attributes_atk_melee_desc": "Крит. атаки наносят 200%% урона\nПовышение спос-ти %s ув. среднюю АТК\nАтаки со спины наносят доп. урон от спос-ти Скрытность",
+			"attributes_atk_pickaxe_desc": "Крит. атаки наносят 200%% урона\nАтаки со спины наносят доп. урон от спос-ти Скрытность",
+			"attributes_atk_unarmed_desc": "Крит. атаки наносят 200%% урона\nПовышение спос-ти %s ув. средний АТК\nНадетые кольца и кулач. оруж. изменяют АТК\nАтаки со спины наносят доп. урон от спос-ти Скрытность",
+			"attributes_atk_ranged_desc": "Дальние атаки имеют шанс игнорировать 50%% ПБ цели в зависимости от х-ки ВОС\nПовышение спос-ти %s ув. средний АТК\nНадетые колчаны изменяют АТК и накладывают доп. эффекты при попадании",
+			"attributes_atk_thrown_desc": "Атаки игнорируют 50-75%% ПБ цели\nПовышение спос-ти %s ув. АТК\nПолностью заряженный бросок наносит максимальный урон и ув. Пробитие Брони на цели",
+			"attributes_atk_gem_desc": "Повышение спос-ти %s ув. АТК\nПолностью заряженный бросок наносит максимальный урон",
+			"attributes_atk_potion_desc": "Эффекты Зелий также накладываются на цель при воздействии\nПовышение спос-ти %s ув. воздействие и урон эффектов зелий",
+			"attributes_atk_magicstaff_desc": "Использует Заклинание хранящееся в посохе при атаке\nЗарядка магического посоха ув. точность при отпускании атаки\nМощь заклинаний и эффектов не зависят от заряда",
+			"attributes_atk_tool_desc": "Нельзя атаковать когда в руке\nВзаимодействует с объектами окружения при использовании",
+			"attributes_atk_tinker_tool_desc": "Развертывает удерживаемый инструмент при атаке\nПолностью заряженный бросок развертывает удерживаемый предмет дальше",
+			"attributes_atk_entry_weapon_bonus": "Бонус Оружия:",
+			"attributes_atk_entry_items_bonus": "Бонус Предметов / Эффектов:",
+			"attributes_atk_entry_attr_bonus_melee": "Бонус х-ки (СИЛ):",
+			"attributes_atk_entry_attr_bonus_ranged": "Бонус х-ки (ЛОВ):",
+			"attributes_atk_entry_attr_bonus_whip": "Бонус х-ки (СИЛ/ЛОВ):",
+			"attributes_atk_entry_melee_weapon_base": "Базовый Ближний Урон:",
+			"attributes_atk_entry_ranged_weapon_base": "Базовый Дальний Урон:",
+			"attributes_atk_entry_unarmed_weapon_base": "Базовый Безоружный Урон:",
+			"attributes_atk_entry_thrown_weapon_base": "Базовый Метательный Урон:",
+			"attributes_atk_entry_thrown_weapon_fully_charged": "Бонус полностью заряженного броска:",
+			"attributes_atk_entry_skill_variance": "Варьирование АТК от способн.:",
+			"attributes_atk_entry_skill_bonus": "Бонус Способности:",
+			"attributes_atk_range_format": "%d - %d АТК",
+			"attributes_atk_bonus_format": "%+d АТК",
+			"attributes_atk_nobonus_format": "%d АТК",
+			"attributes_atk_percent_format": "%.2f%%",
+			"attributes_atk_average_format": "%.1f АТК"
+		},
+		"attributes_ac": {
+			"icon_ac_path": "#*images/ui/CharSheet/HUD_CharSheet_AC_00.png",
+			"attributes_ac_title": "ПОКАЗАТЕЛЬ БРОНИ",
+			"attributes_ac_base": "Базовый Показатель Брони:",
+			"attributes_ac_defending": "Активный Бонус Блокирования:\n (Исп. способн. %s: %d/100)",
+			"attributes_ac_entry_attr_bonus": "Бонус х-ки (ТЕЛ):",
+			"attributes_ac_bonus_format": "%+d ПБ",
+			"attributes_ac_nobonus_format": "%d ПБ",
+			"attributes_ac_entry_items_bonus": "Бонус Предметов / Эффектов:",
+			"attributes_ac_base_sum_header": "Увеличение базового ПБ:",
+			"attributes_ac_passive_bonus": "Пассивный Бонус Способности:",
+			"attributes_ac_desc": "Уменьшает получаемый физический урон за каждое очко ПБ\nБлокирование увеличивает ПБ независимо от направления или времени входящей атаки\nАктивный Бонус Блокирования дается за большинство предметов второй руки, но Пассивный Бонус Способности дается только за щиты"
+		},
+		"attributes_pwr": {
+			"icon_pwr_path": "#*images/ui/CharSheet/HUD_CharSheet_SPWR_00.png",
+			"attributes_pwr_title": "МОЩЬ ЗАКЛИНАНИЙ",
+			"attributes_pwr_base": "Мощь Заклинаний:",
+			"attributes_pwr_spellbook": "Бонус исп. Книг Заклинаний:\n (Исп. х-ку ИНТ)",
+			"attributes_pwr_entry_attr_bonus": "Бонус Х-ки (ИНТ):",
+			"attributes_pwr_bonus_format": "%+d%% МОЩ",
+			"attributes_pwr_nobonus_format": "%d%% МОЩ",
+			"attributes_pwr_base_value": "Базовая Мощь Заклинаний:",
+			"attributes_pwr_entry_items_bonus": "Бонус Предметов / Эффектов:",
+			"attributes_pwr_base_sum_header": "Увеличение Мощи Заклинаний:",
+			"attributes_pwr_passive_bonus": "Пассивный Бонус Способности:",
+			"attributes_pwr_desc": "Увеличивает урон и лечение при использовании выученных заклинаний\nИспользование заклинаний удерживаемой книгой увеличивает урон сильнее"
+		},
+		"attributes_res": {
+			"icon_res_path": "#*images/ui/CharSheet/HUD_CharSheet_RES_00.png",
+			"attributes_res_title": "МАГИЧЕСКОЕ СОПРОТИВЛЕНИЕ",
+			"attributes_res_base_sum_header": "Увеличение Магического Сопротивления:",
+			"attributes_res_base": "Магическое Сопротивление:",
+			"attributes_res_sources": "Источники Сопр.:\n (От предметов/эффектов)",
+			"attributes_res_base_value": "Бонус Расы (%s):",
+			"attributes_res_entry_items_bonus": "Бонус Предметов / Эффектов:",
+			"attributes_res_bonus_format": "%+d%% СОП",
+			"attributes_res_sources_format": "%+d источник(а)",
+			"attributes_res_nobonus_format": "%d%% СОП",
+			"attributes_res_desc": "Уменьшает получаемый урон от заклинаний на % Сопротивления (Отрицательный % увеличивает получаемый урон)\nНесколько источников Магического Сопротивления от предметов/эффектов складываются с убыванием"
+		},
+		"attributes_rgn_hp": {
+			"icon_rgn_hp_path": "#*images/ui/CharSheet/HUD_CharSheet_REGEN_00.png",
+			"attributes_rgn_hp_title": "РЕГЕНЕРАЦИЯ ОЗ",
+			"attributes_rgn_hp_base_sum_header": "Увеличение Регенерации ОЗ:",
+			"attributes_rgn_hp_base": "Общая Регенерация ОЗ:",
+			"attributes_rgn_sources": "Модиф. Регенерации:\n (От предметов/эффектов)",
+			"attributes_rgn_base_value": "Бонус Расы (%s):",
+			"attributes_rgn_entry_items_bonus": "Бонус Предметов / Эффектов:",
+			"attributes_rgn_plain_display": "Эфф. Частота:",
+			"attributes_rgn_hp_per_second_format_zero": "0 ОЗ каждые %2.1f секунд",
+			"attributes_rgn_disabled": "Регенерация ОЗ отключена",
+			"attributes_rgn_hp_per_second_format": "+1 ОЗ каждые %2.1f секунд",
+			"attributes_rgn_bonus_format": "%+.f%% РЕГ",
+			"attributes_rgn_small_format": "%.f%%",
+			"attributes_rgn_hp_sources_format": "%+d  [Реген. ОЗ]",
+			"attributes_rgn_nobonus_format": "%s РЕГ",
+			"attributes_rgn_hp_desc": "ОЗ медленно Регенерируются со временем, для моментального восстановления ОЗ необходимы Зелья и Заклинания\nМаксимальный модиф. Реген. от предметов/эффектов ограничен +3 [Реген. ОЗ]",
+			"attributes_rgn_hp_desc_no_hunger": "ВАЖНО: В настройках текущей игры отключен Голод, ОЗ не регенерируется пассивно\nВместо этого, восстанавливайте ОЗ потребляя еду и используя зелья/заклинания",
+			"attributes_rgn_en_desc_no_hunger": "ВАЖНО: В настройках текущей игры отключен Голод, ЭН не регенерируется пассивно\nИспользование заклинаний тратит ЭН\nГолод наступает когда ЭН нет\nВосстанавливайте ЭН потребляя пищу, сладкие жидкости и используя эффекты восстановления ОМ",
+			"icon_rgn_mp_path": "#*images/ui/CharSheet/HUD_CharSheet_REGEN_00.png",
+			"icon_rgn_ht_empty_path": "#*images/ui/CharSheet/HUD_CharSheet_Boiler_Empty_00.png",
+			"icon_rgn_ht_normal_path": "#*images/ui/CharSheet/HUD_CharSheet_Boiler_Normal_00.png",
+			"icon_rgn_ht_superheated_path": "#*images/ui/CharSheet/HUD_CharSheet_Boiler_Superheated_00.png",
+			"attributes_rgn_mp_title": "РЕГЕНЕРАЦИЯ ОМ",
+			"attributes_rgn_ht_title": "СТАТУС ТЕПЛА",
+			"attributes_rgn_en_title": "СКОРОСТЬ СГОРАНИЯ ЭНЕРГИИ",
+			"attributes_rgn_mp_base_sum_header": "Увеличение Регенерации ОМ:",
+			"attributes_rgn_ht_base_sum_header": "ОТЧЕТ О СТАТУСЕ:",
+			"attributes_rgn_en_base_sum_header": "Увеличение Скорости Сгорания Энергии:",
+			"attributes_rgn_en_bonus_format": "%+.f%% ЭН",
+			"attributes_rgn_en_nobonus_format": "%s ЭН",
+			"attributes_rgn_en_sources": "Модиф. Скорости:\n (От предметов/эффектов)",
+			"attributes_rgn_mp_base": "Общая Регенерация ОМ:",
+			"attributes_rgn_ht_base": "Общая Скорость Тепла (ТП):",
+			"attributes_rgn_en_base": "Скорость Сгорания Энергии (ЭН):",
+			"attributes_rgn_en_entry_items_bonus": "Модиф. Предметов / Эффектов:",
+			"attributes_rgn_ht_boiler_status": "Статус Бойлера:",
+			"attributes_rgn_ht_boiler_value_normal": "НОМИНАЛЬНЫЙ",
+			"attributes_rgn_ht_boiler_value_superheat": "ПЕРЕГРЕТЫЙ",
+			"attributes_rgn_ht_boiler_value_low": "КРИТИЧЕСКИ НИЗКИЙ",
+			"attributes_rgn_ht_base_bonus": "Базовая Скорость ТП:",
+			"attributes_rgn_en_base_bonus": "Базовая Скорость Сгорания ЭН:\n (При любых модиф. Голода)",
+			"attributes_rgn_entry_statskill_bonus": "Бонус Х-к / Способностей:\n (Исп. х-ку ИНТ x способн. Заклинательство)",
+			"attributes_rgn_mp_per_second_format": "+1 ОМ каждые %2.1f секунд",
+			"attributes_rgn_ht_per_second_format": "%+d ТП каждые %2.1f секунд",
+			"attributes_rgn_en_per_second_format": "-1 ЭН каждые %2.1f секунд",
+			"attributes_rgn_mp_sources_format": "%+d  [Реген. ОМ]",
+			"attributes_rgn_ht_sources_format": "%+d  [Реген. ТП]",
+			"attributes_rgn_en_sources_format": "%+d  [Удерж. ЭН]",
+			"attributes_rgn_ht_bonus_format": "%+.f%% РЕГ",
+			"attributes_rgn_ht_small_format": "%.f%%",
+			"attributes_rgn_mp_desc": "ОМ медленно регенерируются со временем, максимум 1 ОМ каждые 2 секунды без учета Модиф.ов Регенерации\nМаксимальный модиф. Реген. от предметов/эффектов ограничен +3 [Реген. ОМ]",
+			"attributes_rgn_ht_desc": "НОМИНАЛЬНЫЙ бойлер увеличивает выработку ТП\nПЕРЕГРЕТЫЙ бойлер увеличивает выработку ТП вдвое, или вчетверо если ТП ниже 50%\nКРИТИЧЕСКИ НИЗКИЙ бойлер быстро теряет ТП, при 0 ТП может возникнуть неисправность единицы",
+			"attributes_rgn_en_desc": "Энергия уменьшается со временем, эффекты Медленного Переваривания увеличивает сохранение ЭН\nИспользование заклинаний тратит ЭН\nГолод наступает когда ЭН нет\nВосстанавливайте ЭН потребляя еду, сладкие жидкости и используя эффекты восстановления ОМ"
+		},
+		"attributes_wgt":
+		{
+			"icon_wgt_path": "#*images/ui/CharSheet/HUD_CharSheet_WGT_00.png",
+			"attributes_wgt_title": "ВЕС",
+			"attributes_wgt_base_sum_header": "Увеличение Скорости Передвижения:",
+			"attributes_wgt_base": "Переносимый Вес:",
+			"attributes_wgt_movement_speed": "Текущая Скор. Передв.:\n (Исп. Вес + СИЛ + ЛОВ)",
+			"attributes_wgt_inventory_value": "Штраф Веса Инвентаря:",
+			"attributes_wgt_equipment_value": "Штраф Веса Экипировки:",
+			"attributes_wgt_gold_value": "Штраф Переносимого Золота:",
+			"attributes_wgt_bonus_format": "%+d ВЕС",
+			"attributes_wgt_speed_format": "%.1f%% СКР",
+			"attributes_wgt_speed_bonus_format": "%+.2f%% СКР",
+			"attributes_wgt_speed_bonus_format1": "%+.2f%% %+.2f%% %+.2f%% СКР",
+			"attributes_wgt_nobonus_format": "%d ВЕС",
+			"attributes_wgt_attributes_bonus": "Бонус Х-ки (ЛОВ):",
+			"attributes_wgt_noweight_speed": "Штраф Переносимого Веса:",
+			"attributes_wgt_desc": "Хранение вещей и золота увеличивает Переносимый Вес, уменьшающий скорость передвижения\nСИЛ уменьшает Штраф Веса\nЛОВ дает пассивную скорость передвижения и увеличивает максимальную"
+		}
+	},
+	"level_strings": {
+		"Start Map": { 
+			"display_name": "Шахта Гамлета",
+			"description": "На окраинах юго-западных ворот Гамлета находится вход в Оплот Дьявола."
+		},
+		"The Mines": { 
+			"display_name": "Шахты",
+			"description": "Граждане Гамлета зря добывали здесь золото."
+		},
+		"The Swamp": { 
+			"display_name": "Болото",
+			"description": "Здешние подземные источники питают странные растения."
+		},
+		"The Labyrinth": { 
+			"display_name": "Песчаный Лабиринт",
+			"description": "Кажется, этот песок - часть высохшего древнего океана."
+		},
+		"The Ruins": { 
+			"display_name": "Руины",
+			"description": "В глубочайших глубинах рабы Геркса построили город."
+		},
+		"Mines to Swamp Transition": { 
+			"display_name": "Выход из Шахт",
+			"description": "Место, построенное для тех, кто идет дальше."
+		},
+		"Swamp to Labyrinth Transition": { 
+			"display_name": "Выход из Болота",
+			"description": "Мосты позволяют пройти через великую пропасть."
+		},
+		"Labyrinth to Ruins Transition": { 
+			"display_name": "Выход из лабиринта",
+			"description": "Похоже, мосты были убраны."
+		},
+		"Boss": { 
+			"display_name": "Логово Геркса",
+			"description": "Это место выглядит так, будто его построили не люди."
+		},
+		"Hell Boss": { 
+			"display_name": "Владения Бафомета",
+			"description": "Вы чувсвуете магическую связь между этим местом и Логовом Геркса."
+		},
+		"Hell": { 
+			"display_name": "Ад",
+			"description": "Это место взывает к ненависти внутри вас."
+		},
+		"Mages Guild": { 
+			"display_name": "Гамлет",
+			"description": "Похоже, что здания вокруг шахты обслуживали приключенцев, проходящих здесь."
+		},
+		"Caves To Citadel Transition": { 
+			"display_name": "Выход из Пещер",
+			"description": "Местные механизмы, похоже, питаются кристаллами."
+		},
+		"Caves": { 
+			"display_name": "Кристаллические пещеры",
+			"description": "Воздух пульсирует магией от материалов здешних стен."
+		},
+		"Citadel": { 
+			"display_name": "Цитадель",
+			"description": "Этот механический кампус кажется отрезанным от внешнего мира."
+		},
+		"Sanctum": { 
+			"display_name": "Святилище",
+			"description": "Кажется, законы мироздания рушатся в центре этой огромной машины."
+		}
+	}
+}
