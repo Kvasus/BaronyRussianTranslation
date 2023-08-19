@@ -16,7 +16,7 @@
 
 ------------
 
-![image](https://github.com/Kvasus/BaronyRussianTranslation/assets/84940635/d45228b0-17cb-4eae-a8bb-7a0e49ce700c)
+![image](https://github.com/Kvasus/BaronyRussianTranslation/assets/84940635/53ff3af6-8581-4fc2-9a03-31521ba45393)
 
 ## 2. Разархивируйте архив в папку с игрой
 
