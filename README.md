@@ -13,6 +13,9 @@
 Страница перевода в Steam Workshop:
 https://steamcommunity.com/sharedfiles/filedetails/?id=3020031169
 
+Буду рад добровольным пожертвованиям:
+https://www.donationalerts.com/r/kva5u5
+
 # Установка
 
 ## 1. Скачайте архив
