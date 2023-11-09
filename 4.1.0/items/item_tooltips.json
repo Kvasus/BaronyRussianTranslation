@@ -1,0 +1,4942 @@
+{
+	"version": 1,
+	"default_text_colors": {
+		"heading": {
+			"r": 67,
+			"g": 195,
+			"b": 157,
+			"a": 255
+		},
+		"icons": {
+			"r": 188,
+			"g": 154,
+			"b": 114,
+			"a": 255
+		},
+		"description": {
+			"r": 188,
+			"g": 154,
+			"b": 114,
+			"a": 255
+		},
+		"details": {
+			"r": 67,
+			"g": 195,
+			"b": 157,
+			"a": 255
+		},
+		"positive_color": {
+			"r": 188,
+			"g": 154,
+			"b": 114,
+			"a": 255
+		},
+		"negative_color": {
+			"r": 215,
+			"g": 38,
+			"b": 61,
+			"a": 255
+		},
+		"status_effect": {
+			"r": 160,
+			"g": 74,
+			"b": 252,
+			"a": 255
+		},
+		"faint_text": {
+			"r": 128,
+			"g": 128,
+			"b": 128,
+			"a": 255
+		}
+	},
+	"adjectives": {
+		"spell_prefixes": {
+			"spell_of": "Заклинание "
+		},
+		"scroll_prefixes": {
+			"scroll_of": "свиток ",
+			"piece_of": "лист ",
+			"unknown_scroll": "неизвестный свиток"
+		},
+		"equipment_status": {
+			"broken": "Сломанный",
+			"decrepit": "Дряхлый",
+			"worn": "Поношенный",
+			"serviceable": "Исправный",
+			"excellent": "Отличный"
+		},
+		"food_status": {
+			"broken": "Гнилой",
+			"decrepit": "Плесневелый",
+			"worn": "Старый",
+			"serviceable": "Немного старый",
+			"excellent": "Свежий"
+		},
+		"potion_status": {
+			"broken": "Выпаренное",
+			"decrepit": "Мутное",
+			"worn": "Завихренное",
+			"serviceable": "Обычное",
+			"excellent": "Пузырящееся"
+		},
+		"book_status": {
+			"broken": "Разорванный",
+			"decrepit": "Надорванный",
+			"worn": "Выцветший",
+			"serviceable": "Помеченный",
+			"excellent": "Абсолютно новый"
+		},
+		"jewelry_status": {
+			"broken": "Уничтоженный",
+			"decrepit": "Треснувший",
+			"worn": "Грубый",
+			"serviceable": "Несовершенный",
+			"excellent": "Безупречный"
+		},
+		"tinkering_status": {
+			"broken": "Сломанный",
+			"decrepit": "Простой",
+			"worn": "Непростой",
+			"serviceable": "Замысловатый",
+			"excellent": "Ремесленный"
+		},
+		"beatitude_status": {
+			"cursed": "Проклятие",
+			"blessed": "Освящение",
+			"uncursed": "Непроклятый"
+		},
+		"skill_modifiers": {
+			"penalty": "штраф",
+			"bonus": "бонус"
+		},
+		"item_identified_status": {
+			"unidentified": "Неопознанный",
+			"cursed": "Проклятый",
+			"blessed": "Освященный",
+			"uncursed": "Непроклятый"
+		},
+		"potion_ally_damage": {
+			"no_harm_ally": "\n+Без урона по сюзникам",
+			"harm_ally": ""
+		},
+		"potion_alchemy_types": {
+			"base_ingredient": "Основной ингридиент для смешивания",
+			"secondary_ingredient": "Вторичный ингридиент для смешивания",
+			"no_ingredient": "Нет уникальных эффектов",
+			"unknown": "Неизвестный эффект"
+		},
+		"proficiency_levels": {
+			"none": "Нет",
+			"novice": "Новичок",
+			"basic": "Основы",
+			"skilled": "Умелый",
+			"expert": "Эксперт",
+			"master": "Мастер",
+			"legend": "Легенда"
+		},
+		"proficiency_types": {
+			"mace": "Палицы",
+			"sword": "Мечи",
+			"axe": "Топоры",
+			"polearm": "Древковые",
+			"unarmed": "Безоружный",
+			"shield": "Блокирование",
+			"ranged": "Дальнее"
+		},
+		"equipment_slot_types": {
+			"breastpiece": "Торс",
+			"gloves": "Перчатки",
+			"helm": "Шлем",
+			"boots": "Обувь",
+			"mainhand": "Основная Рука",
+			"offhand": "Вторая Рука",
+			"ring": "Кольцо",
+			"amulet": "Амулет",
+			"mask": "Лицо",
+			"cloak": "Плащ",
+			"unknown": "Неизвестно"
+		},
+		"stat_short_name": {
+			"STR": "СИЛ",
+			"DEX": "ЛОВ",
+			"CON": "ТЕЛ",
+			"INT": "ИНТ",
+			"PER": "ВОС",
+			"CHR": "ХАР",
+			"AC": "ПБ"
+		},
+		"stat_long_name": {
+			"STR": "Сила",
+			"DEX": "Ловкость",
+			"CON": "Телосложение",
+			"INT": "Интеллект",
+			"PER": "Восприятие",
+			"CHR": "Харизма",
+			"AC": "Показатель Брони"
+		},
+		"spell_strings": {
+			"healing": "лечение",
+			"damage": "урон",
+			"duration": "длительность",
+			"spell_type_area": "Область",
+			"spell_type_self": "На себя",
+			"spell_type_self_sustain": "Поддерживаемое",
+			"spell_type_projectile": "Снаряд",
+			"spell_type_projectile_3x": "3x Снаряда"
+		},
+		"equipment_effects_icon_text": {
+			"EFF_LEVITATION": "Дарует\n[Левитация]",
+			"EFF_FEATHER": "[Легкость]",
+			"EFF_WATERWALKING": "Дарует\n[Хождение По Воде]",
+			"EFF_POISONRESIST": "Дарует\n[Сопротивления Яду]",
+			"EFF_MAGICRESIST": "+1  [Магическое Сопротивление]",
+			"EFF_MAGICRESIST_SHIELD": "+1  [Магическое Сопротивление]",
+			"EFF_MAGICREFLECT": "Дарует\n[Магическое Отражение]",
+			"EFF_SEXCHANGE": "Накладывает [Смена Пола]",
+			"EFF_WATERBREATHING": "Дарует\n[Подвоное Дыхание]",
+			"EFF_LIFESAVING": "Дарует\n[Возрождение] при смерти",
+			"EFF_STRANGULATION": "Накладывает [Удушение]",
+			"EFF_QUIVER_HUNTING": "Добавляет [Охотничий] модификатор урона",
+			"EFF_QUIVER_HUNTING2": "Вызывает [Отравление/Замедление] на  [3с]",
+			"EFF_QUIVER_SILVER": "Добавляет [Сокрушающий] модификатор урона",
+			"EFF_QUIVER_PIERCING": "+50% [Пробитие Брони]",
+			"EFF_QUIVER_SWIFT": "Дарует\n[Быстрая Перезарядка]",
+			"EFF_QUIVER_KNOCKBACK": "Накладывает [Отталкивание] при попадании",
+			"EFF_QUIVER_FIRE": "Вызывает [Горение] при попадании",
+			"EFF_SLOWDIGESTION": "Дарует\n[Медленное Переваривание]",
+			"EFF_WARNING": "Дарует\n[Предупреждение]",
+			"EFF_FOOTSTEP_WARNING": "Дарует\n[Малое Предупреждение]",
+			"EFF_INVISIBLE": "Дарует\n[Невидимость]",
+			"EFF_MAGICRESIST1": "",
+			"EFF_CONFLICT": "Провоцирует [Конфликт] в\nобласти вокруг носителя",
+			"EFF_REGENERATION": "[Реген. ОЗ]",
+			"EFF_DISABLE_REGENERATION": "Отключает Реген. ОЗ",
+			"EFF_MP_REGENERATION": "[Реген. ОМ]",
+			"EFF_TELEPORTATION": "Накладывает [Телепортация]\nв случайное время",
+			"EFF_UNBREAKABLE": "[Неразрушимый]",
+			"EFF_DISARMING": "[Обезоруживает] оружие и щиты",
+			"EFF_FIRERESIST": "Дарует\n[Сопротивление Горению]",
+			"EFF_BLEED_ENERGIZE": "Дарует\n[Реген. ОМ] при наложении\n[Кровотечение] на противников"
+		},
+		"equipment_effects_attributes_text": {
+			"EFF_FEATHER": "Легкий",
+			"EFF_WARNING": ""
+		}
+	},
+	"templates": {
+		"": [""],
+		"template_potion_base_damage": ["\nПри броске:", "%+d Базовый урон Зелий"],
+		"template_potion_beatitude": ["%+d урон Зелий от %s"],
+		"template_potion_alchemy_damage": ["%+d%% урона от способности Алхимия%s"],
+		"template_alchemy_type": ["Алхимия:", "* %s"],
+		"template_potion_curse_sideeffect": ["^* Дополнительные эффекты от %s"],
+		"template_amulet_curse_sideeffect": ["^* Дополнительные эффекты от %s\n"],
+		"template_ring_curse_sideeffect": ["^* Дополнительные эффекты от %s\n"],
+		"template_shamanmask_curse_sideeffect": ["^* Дополнительные эффекты от %s"],
+		"template_monocle_curse_sideeffect": ["^* Дополнительные эффекты от %s\n"],
+		"template_doublet_curse_sideeffect": ["^* Дополнительные эффекты от\n^%s\n"],
+		"template_scroll_curse_sideeffect": ["^* Дополнительные эффекты от %s"],
+		"template_food_curse_sideeffect": ["^* Дополнительные эффекты от %s\n"],
+		"template_armor_base_ac": ["%+d базового ПБ от предмета"],
+		"template_armor_beatitude_ac": ["%+d ПБ от %s"],
+		"template_armor_shield_bonus": ["+%d пассивного ПБ от способности %s", "+%d защитного ПБ от способности %s"],
+		"template_tool_shield_bonus": ["+%d защитного ПБ от способности %s"],
+		"template_armor_shield_resistance_bonus": ["* Дополнительно +1  [Сопротивление Магии] \n при защите"],
+		"template_shield_description": ["Дарует дополнительный ПБ при защите."],
+		"template_mirror_shield_description": ["Хрупкий щит, который отражает все магические снаряды при защите."],
+		"template_armor_cloak_backpack_description": ["Увеличивает объем инвентаря.", "Снятие рюкзака выбросит все вещи, находящиеся в нем."],
+		"template_torch_description": ["При удержании в руках, сгорает со временем. Обеспечивает дополнительный ПБ и свет при защите."],
+		"template_shard_description": ["Хрупкий истоник света, который горит вечно. Обеспечивает дополнительный ПБ и свет при защите."],
+		"template_shield_brittle": ["+100% шанс испортиться при получении удара во время защиты"],
+		"template_weapon_description": ["Зажмите [Атаковать] чтобы совершить критическую атаку."],
+		"template_whip_description": ["Длинное оружие ближнего боя. Зажмите [Атаковать] чтобы совершить критическую атаку."],
+		"template_knuckles_description": ["Дает доп. АТК когда Основная Рука пуста."],
+		"template_thrown_description": ["Метательное оружие. Зажмите [Атаковать] чтобы увеличить урон и дальность."],
+		"template_gem_description": ["Может быть продано за высокую цену или брошено. Зажмите [Атаковать] чтобы увеличить урон и дальность."],
+		"template_rock_description": ["Тяжелое метательное оружие. Зажмите [Атаковать] чтобы увеличить урон и дальность."],
+		"template_glass_description": ["Имитация драгоценности, которую лучше всего выбросить. Зажмите [Атаковать] чтобы увеличить урон и дальность."],
+		"template_amulet_description_single_use": ["Дезинтегрируется при активации."],
+		"template_amulet_description_lifesaving": ["Дезинтегрируется при активации."],
+		"template_armor_monocle_description": ["Обозначает вас как союзника Лавочников, когда заметно надет."],
+		"template_amulet_description_generic": [""],
+		"template_potion_description": ["Может быть выпито или брошено."],
+		"template_potion_empty_description": ["Экипируйте и\n[Атакуйте] для набирания жикости в бутылку из источника."],
+		"template_ranged_description_long": ["Дальнобойное дальнее оружие.", "Зажмите [Атаковать] для непрерывной стрельбы."],
+		"template_ranged_description_short": ["Дальнее оружие короткой дистанции.", "Зажмите [Атаковать] для непрерывной стрельбы."],
+		"template_ranged_description_medium": ["Дальнее оружие средней дистанции.", "Зажмите [Атаковать] для непрерывной стрельбы."],
+		"template_quiver_description": ["Боеприпасы к дальнобойному оружию. Экипируйте для использования при стрельбе из лука или арбалета."],
+		"template_readable_book_description": ["Написанна обитателем Бэрони.", "Используйте книгу, чтобы прочесть содержимое.", "Также является хорошим топливом для бойлера."],
+		"template_scrap_metal_description": ["Куски обычного материала, которые используются ремесленным набором.", "Плохое топливо для нагрева бойлера."],
+		"template_scrap_magic_description": ["Куски редкого магического материала, которые используются ремесленным набором.", "Хорошее топливо для нагрева бойлера."],
+		"template_tool_sentrybot_description": ["Экипируйте и используйте [Атаку] для развертывания."],
+		"template_spellbot_rate_of_fire": ["%+d%% скорость стрельбы"],
+		"template_tinkerbot_status_bonus": ["Характеристики: (%s качество)"],
+		"template_tinkerbot_turn_rate": ["%+dx скорость поворота"],
+		"template_tinkerbot_atk_initiative": ["* Более быстрое обнаружение цели"],
+		"template_tinkerbot_broken_description": ["Лучше всего разобрать на запчасти."],
+		"template_tool_dummybot_description": ["Экипируйте и используйте [Атаку] для развертывания."],
+		"template_tool_gyrobot_description": ["Экипируйте и используйте [Атаку] для развертывания."],
+		"template_tool_decoy_description": ["Экипируйте и используйте [Атаку] для развертывания.", "Слышна через стены."],
+		"template_tool_mirror_description": ["\"Лицо - зеркало разума,", "А глаза безмолвно выдают тайны сердца.\"", "-Аноним"],
+		"template_tool_towel_description": ["Используйте чтобы очистить себя и перевязать кровоточащие раны."],
+		"template_tool_beartrap_description": ["Экипируйте и зажмите [Атаковать] чтобы установить."],
+		"template_beartrap_degrade_on_use": ["%+d%% шанс сломаться из-за","%s качества при развертывании"],
+		"template_beartrap_degrade_on_use_cursed": ["%+d%% шанс сломаться из-за %s качества при развертывании"],
+		"template_tool_detonated_charge_description": ["Бесполезные остатки использованной ловушки.", "Лучше всего разобрать на запчасти."],
+		"template_tool_bomb_description": ["Экипируйте и используйте [Атаку] для развертывания.", "Прилипает к поверхностям и объектам."],
+		"template_tool_bomb_lockpickable": ["* Переключайте условия активации используя [Атаку] отмычкой после развертывания"],
+		"template_bomb_atk_stat_per": ["%+d АТК от х-ки %d%% ВОС"],
+		"template_tool_teleport_bomb_description": ["Экипируйте и используйте [Атаку] для развертывания.", "Настройте в качестве приемника для другой ловушки-телепорта с помощью отмычки."],
+		"template_tool_decoy_range": ["%+d клеток радиус", "* 5 секунд перезарядки для последовательного", "приманивания одной и той же цели"],
+		"template_tool_pickaxe_description": ["Ломает валуны и стены при ударе."],
+		"template_tool_lockpick_description": ["Отпирает сундуки, двери и позволяет работать с механизмами.", "Нажмите [Атака] когда экипирована для использования."],
+		"template_tool_skeletonkey_description": ["Отпирает и запирает сундуки и двери.", "Нажмите [Атака] когда экипирован для использования."],
+		"template_tool_tinopener_description": ["Позволяет открывать консервы пока в инвентаре."],
+		"template_food_tin_description": ["Сильно утоляет голод.", "Нужна открывашка, чтобы съесть."],
+		"template_weapon_base_atk": ["%+d базовой АТК от предмета"],
+		"template_weapon_beatitude_atk": ["%+d АТК от %s"],
+		"template_weapon_on_degraded_atk": ["%+d АТК от %s качества"],
+		"template_armor_on_degraded_ac": ["%+d ПБ от %s качества"],
+		"template_weapon_mace_effects": ["+10% ломания брони при ударе"],
+		"template_weapon_axe_effects": ["* Увеличена АТК по деревянным объектам"],
+		"template_weapon_sword_effects": ["+10% шанс наложить [Кровотечение] при ударе"],
+		"template_weapon_polearm_effects": ["+33% минимального урона оружия"],
+		"template_weapon_legendary_polearm_effects": ["* Удары всегда наносят максимальный урон"],
+		"template_weapon_skill_modifier": ["%+d%% эффективности от способности %s"],
+		"template_when_equipped_text": ["\nКогда экипировано:"],
+		"template_when_equipped_text_no_leading_newline": ["Когда экипировано:"],
+		"template_player_atk_stat_str": ["%+d АТК от х-ки СИЛ"],
+		"template_player_atk_stat_whip": ["%+d АТК от х-к 50%% СИЛ + ЛОВ"],
+		"template_knuckles_base_ac": ["%+d базовых ПБ / АТК от предмета"],
+		"template_knuckles_beatitude_ac": ["%+d ПБ / АТК от %s"],
+		"template_ranged_armor_pierce": ["%+d%% шанс Пробития Брони от х-ки ВОС"],
+		"template_ranged_quiver_augment": ["* Накладывает эффекты колчанов в", " слоте %s"],
+		"template_ranged_rate_of_fire": ["%+d%% базовой скорости атаки"],
+		"template_player_unarmed_atk_stat_str": ["%+d АТК от х-ки СИЛ"],
+		"template_ring_unarmed_atk": ["%+d Безоруж. АТК от %s"],
+		"template_player_atk_stat_dex": ["%+d АТК от х-ки ЛОВ"],
+		"template_knuckle_skill_modifier": ["%+d АТК от способности %s"],
+		"template_knuckle_knockback_modifier": ["+%d%% Отталкивания при критическом ударе"],
+		"template_weapon_durability": ["%+d%% прочности от способности %s"],
+		"template_weapon_legendary_durability": ["* Неразрушимость от способности %s"],
+		"template_shield_durability": ["%+d%% прочности от способности %s"],
+		"template_shield_legendary_durability": ["* Неразрушимость от способности %s"],
+		"template_fragile_equipment_description": ["Хрупкий."],
+		"template_fragile_weapon_description": ["Хрупкий."],
+		"template_weapon_bonus_exp": ["%+d%% шанс увеличить способность %s"],
+		"template_equipment_fragile_durability": ["%+d%% прочности от Хрупкости"],
+		"template_armor_fragile_durability": ["%+d%% прочности от Хрупкости"],
+		"template_attributes_text": ["Атрибуты:"],
+		"template_weapon_damage_text": ["Бонусы урона оружия:"],
+		"template_quiver_damage_text": ["Бонусы дальнего урона:"],
+		"template_armor_ac_text": ["Бонусы брони:"],
+		"template_thrown_skill_modifier": ["%+d%% урона от способности %s"],
+		"template_gem_skill_modifier": ["%+d урона от способности %s"],
+		"template_quiver_silver_attributes": ["+50% АТК по нежити и демонам от [Сокрушающий]"],
+		"template_quiver_piercing_attributes": ["* [Пробитие Брони] проходит через 50% ПБ цели"],
+		"template_quiver_swift_attributes": ["+50% Уменьшение времени перезарядки между дальними атаками от [Быстрой Перезарядки]"],
+		"template_quiver_fire_attributes": ["* Обеспечивает освещение полов и стен"],
+		"template_quiver_knockback_attributes": ["* Цели, обездвиженные статус эффектами, получают большее [Отталкивание]"],
+		"template_quiver_hunting_attributes": ["+50% АТК по большим и малым зверям от [Охотничий]"],
+		"template_attributes_text_armor_conditional_tags": ["STR", "DEX", "CON", "INT", "PER", "CHR", "FRAGILE", "EFF_FEATHER", "EFF_WATERWALKING", "EFF_POISONRESIST", "EFF_WATERBREATHING", "EFF_LIFESAVING", "EFF_MAGICREFLECT", "EFF_STRANGULATION",
+		"EFF_SEXCHANGE", "EFF_MAGICRESIST_SHIELD", "EFF_QUIVER_SILVER", "EFF_QUIVER_PIERCING", "EFF_QUIVER_SWIFT", "EFF_SHIELD_BRITTLE", "EFF_UNBREAKABLE", "EFF_QUIVER_FIRE", "EFF_QUIVER_KNOCKBACK", "EFF_QUIVER_HUNTING", "EFF_QUIVER_HUNTING2", "EFF_QUIVER_CRYSTAL", "EFF_WARNING", "EFF_FOOTSTEP_WARNING", "EFF_TELEPORTATION", "EFF_CONFLICT", "EFF_SLOWDIGESTION", "EFF_BREAKABLE", "EFF_BLEED_ENERGIZE", "EFF_LIGHT"],
+		"template_armor_stat_bonus": ["%+d базового %s от предмета", "%+d %s от %s"],
+		"template_equipment_effect_feather": ["%+d базового веса предмета от %s"],
+		"template_equipment_effect_waterwalking": ["* Носитель парит над водой и лавой от [Хождения По Воде]"],
+		"template_equipment_effect_poisonresist": ["* Лечит статус эффект [Отравление]", "+2 [Сопротивление Магии] против\nзаклинаний Яд / Кислота"],
+		"template_equipment_effect_magicreflect": ["* Отражает магические заклинания при попадании", "* 50% шанс порчи при отражении"],
+		"template_equipment_effect_waterbreathing": ["* 100% скорости передвижения в воде или\n лаве"],
+		"template_equipment_effect_warning": ["* Открывает местоположение противников\nна карте от [Предупреждения]","%+d клеток радиус от %s"],
+		"template_equipment_effect_footstep_warning": ["* Открывает местоположение движущихся противников на карте от [Малого Предупреждения]", "+20 клеток радиус"],
+		"template_equipment_effect_teleportation": ["* Телепортирует носителя в случайные локации"],
+		"template_equipment_effect_conflict": ["* Заставляет монстров охотиться на других, независимо от их принадлежности", "+7 клеток радиус"],
+		"template_equipment_effect_slowdigestion": ["* Повышает насыщение едой и отсрачивает голодание"],
+		"template_equipment_effect_freeaction": ["", "Когда экипировано:", "* Лечит эффекты [Сон] [Паралич] [Замедление]","от [Дополнительного Действия]"],
+		"template_equipment_effect_telepathy": ["", "Когда экипировано:", "* Показывает монстров сквозь стены от [Телепатии]"],
+		"template_tool_pickaxe_degrade": ["* 50% шанс порчи при [Копании]"],
+		"template_lockpick_text_tinkering": ["* Эффекты от способности Механика", ""],
+		"template_lockpick_text_chestsdoors": ["Отпирает Сундуки и Двери:"],
+		"template_lockpick_chestsdoors_unlock_chance": ["%+d%% базовый шанс отпереть"],
+		"template_lockpick_skeletonkey_chestsdoors_unlock_chance": ["+100% базовый шанс отпереть"],
+		"template_lockpick_chests_scrap_chance": ["%+d%% шанс на получение Ремесленного хлама при отпирании сундуков"],
+		"template_lockpick_skeletonkey_chests_scrap_chance": ["+0% шанс на получение Ремесленного хлама при отпирании сундуков"],
+		"template_lockpick_text_mechanisms": ["", "Механизмы:", "* Переключает активацию установленных Ремесленных ловушек"],
+		"template_lockpick_skeletonkey_text_mechanisms": ["", "Механизмы:"],
+		"template_lockpick_arrow_disarm": ["%+d%% шанс обезвредить стрелковые ловушки"],
+		"template_lockpick_automaton_disarm": ["%+d%% шанс обезвредить Автоматонов для получения Ремесленного хлама"],
+		"template_lockpick_durability_chance": ["* 20% шанс порчи при использовании"],
+		"template_food_puke_chance": ["%+d%% шанс на [Расстройство желудка] от %s качества"],
+		"template_food_on_eating": ["При потреблении:"],
+		"template_spellbook_cast_bonus": ["", "Бонус Колдовства с Книги:", "%+d%% %s от х-ки %s", "%+d%% %s от %s"],
+		"template_spellbook_cast_success": ["%+d%% успешного использования когда не выучено"],
+		"template_spellbook_extramana_chance": ["%+d%% эффективность затрат маны"],
+		"template_spellbook_magic_requirement": ["Требования для выучивания: %d (%s)"],
+		"template_spellbook_magic_current": ["Текущий уроень способн. Магия + х-ка ИНТ: %d (%s)"],
+		"template_spellbook_icon_damage_bonus": ["Эффект Колдовства с Книги:", "%+d%% Магический Урон"],
+		"template_spellbook_icon_duration_bonus": ["Эффект Колдовства с Книги:", "%+d%% Длительность эффекта"],
+		"template_spellbook_icon_heal_bonus": ["Эффект Колдовства с Книги:", "%+d%% Восстановление ОЗ"],
+		"template_spellbook_icon_cureailment_bonus": ["Эффект Колдовства с Книги:", "%+ds [Реген. ОЗ] при использовании"],
+		"template_icon_spell_forcebolt": ["%+d Магический Урон"],
+		"template_icon_spell_magicmissile": ["%+d Магический Урон"],
+		"template_icon_spell_cold": ["%+d Магический Урон\nНакладывает [Замедление]"],
+		"template_icon_spell_fireball": ["\n%+d Магический Урон\nНакладывает [Горение]"],
+		"template_icon_spell_light": ["Призывает [Свет]", "следующий за заклинателем"],
+		"template_icon_spell_removecurse": ["Снимает [Проклятие]"],
+		"template_icon_spell_lightning": ["%+d Магический Урон"],
+		"template_icon_spell_identify": ["[Опознает] предмет"],
+		"template_icon_spell_magicmapping": ["[Открывает] текущий", "уровень подземелья"],
+		"template_icon_spell_sleep": ["Накладывает [Сон]"],
+		"template_icon_spell_confuse": ["Накладывает [Смятение]"],
+		"template_icon_spell_slow": ["Накладывает [Замедление]"],
+		"template_icon_spell_opening": ["[Отпирает] двери,","ворота и закрытые контейнеры"],
+		"template_icon_spell_locking": ["[Запирает] двери", "и сундуки"],
+		"template_icon_spell_levitation": ["Дарует [Левитацию]", "при поддержании"],
+		"template_icon_spell_invisibility": ["Дарует [Невидимость]", "при поддержании"],
+		"template_icon_spell_teleportation": ["[Телепортирует] в ", "случайную локацию"],
+		"template_icon_spell_healing": ["%+d [Восстановление ОЗ]\nИсцеляет ближайших союзников"],
+		"template_icon_spell_extrahealing": ["%+d [Восстановление ОЗ]\nИсцеляет ближайших союзников"],
+		"template_icon_spell_cureailment": ["[Лечит] статус эффекты", "заклинателя и ближайших союзников"],
+		"template_icon_spell_dig": ["Ломает валуны", "и стены"],
+		"template_icon_spell_summon": ["Призывает %d", "Союзного(ых) Скелета(ов)"],
+		"template_icon_spell_stoneblood": ["Накладывает [Паралич]"],
+		"template_icon_spell_bleed": ["%+d Магический Урон", "Накладывает\n[Кровотечение/Замедление]"],
+		"template_icon_spell_reflect_magic": ["Дарует [Отражение Магии]", "при поддержании"],
+		"template_icon_spell_dominate": ["[Повелевает] монстром", "чтобы он стал союзным"],
+		"template_icon_spell_acid_spray": ["%+d Магический Урон", "Накладывает [Отравление]"],
+		"template_icon_spell_steal_weapon": ["[Кража] удерживаемого оружия"],
+		"template_icon_spell_drain_soul": ["%+d Магический Урон", "Накладывает [Урон по ОМ]"],
+		"template_icon_spell_vampiric_aura": ["Дарует безоружным атакам %\n[Кражу Здоровья] [Кровотечение]"],
+		"template_icon_spell_charm": ["Пытается [Очаровать]", "монстра чтобы он стал союзным"],
+		"template_icon_spell_revert_form": ["Убирает активные", "эффекты [Обращения] или", "[Полиморфирования]"],
+		"template_icon_spell_rat_form": ["Временно [Обращается]", "в другую форму"],
+		"template_icon_spell_spider_form": ["Временно [Обращается]", "в другую форму"],
+		"template_icon_spell_troll_form": ["Временно [Обращается]", "в другую форму"],
+		"template_icon_spell_imp_form": ["Временно [Обращается]", "в другую форму"],
+		"template_icon_spell_spray_web": ["Накладывает +1  эффект", "[В Паутине] (Макс. 3x)"],
+		"template_icon_spell_poison": ["%+d Магический Урон\nНакладывает [Отравление]"],
+		"template_icon_spell_speed": ["Дарует [Скорость] заклинателю", "и ближайшим союзникам"],
+		"template_icon_spell_fear": ["Накладывает [Страх] на ближайших", "противников"],
+		"template_icon_spell_strike": ["Заряжает мощный ближний\nудар, наносящий +400%% АТК"],
+		"template_icon_spell_detect_food": ["Показывает местоположение пищи", "на текущем этаже подземелья"],
+		"template_icon_spell_weakness": ["Накладывает [Слабость к Магии]"],
+		"template_icon_spell_amplify_magic": ["Усиливает [Огненный Шар] [Холод]", "[Молнию] [Магический Снаряд]"],
+		"template_icon_spell_shadow_tag": ["Накладывает [Обнуление] и", "показывает местоположение цели"],
+		"template_icon_spell_telepull": ["[Телепортирует] цель\nк заклинателю"],
+		"template_icon_spell_demon_illu": ["Вызывает Внутреннего Демона", "который накладывает [Провокацию]"],
+		"template_icon_spell_trolls_blood": ["Дарует [Реген. ОЗ]", "заклинателю и ближайшим союзникам"],
+		"template_icon_spell_salvage": ["[Преобразует] ближайшие вещи", "в Ремесленный хлам"],
+		"template_icon_spell_flutter": ["Ненадолго дарует", "[Левитацию]"],
+		"template_icon_spell_dash": ["[Перемещает] заклинателя", "в направлении текущего движения"],
+		"template_icon_spell_ghost_bolt": ["Вызывает [Отталкивание]", "and [Замедление]"],
+		"template_icon_spell_self_polymorph": ["Временно", "[Полиморфирует]","в другого случайного", "гуманоида"],
+		"template_desc_spell_forcebolt": ["Нажмите [Колдовать]", "когда экипировано", "чтобы сколдовать [Снаряд]."],
+		"template_desc_spell_magicmissile": ["Нажмите [Колдовать", "когда экипировано", "чтобы сколдовать [Снаряд]."],
+		"template_desc_spell_cold": ["Нажмите [Колдовать]", "когда экипировано", "чтобы сколдовать [Снаряд]."],
+		"template_desc_spell_fireball": ["Нажмите [Колдовать]", "когда экипировано", "чтобы сколдовать [Снаряд]."],
+		"template_desc_spell_ghost_bolt": ["Нажмите [Колдовать] когда экипировано", "чтобы сколдовать [Снаряд]."],
+		"template_desc_spell_light": ["Нажмите [Колдовать]", "когда экипировано чтобы включить", "эффект [Поддержания]."],
+		"template_desc_spell_removecurse": ["Нажмите [Колдовать]", "когда экипировано", "чтобы выбрать вещь для Снятия Проклятия."],
+		"template_desc_spell_lightning": ["Нажмите [Колдовать]", "когда экипировано", "чтобы сколдовать [Снаряд]."],
+		"template_desc_spell_identify": ["Нажмите [Колдовать]", "когда экипировано", "чтобы выбрать вещь для Оценивания."],
+		"template_desc_spell_magicmapping": ["Нажмите [Колдовать]", "когда экипировано показать", "неисследованные зоны карты."],
+		"template_desc_spell_sleep": ["Нажмите [Колдовать]", "когда экипировано", "чтобы сколдовать [Снаряд]."],
+		"template_desc_spell_confuse": ["Нажмите [Колдовать]", "когда экипировано", "чтобы сколдовать [Снаряд]."],
+		"template_desc_spell_slow": ["Нажмите [Колдовать]", "когда экипировано", "чтобы сколдовать [Снаряд]."],
+		"template_desc_spell_opening": ["Нажмите [Колдовать]", "когда экипировано чтобы ", "сколдовать [Снаряд]."],
+		"template_desc_spell_locking": ["Нажмите [Колдовать]", "когда экипировано", "чтобы сколдовать [Снаряд]."],
+		"template_desc_spell_levitation": ["Нажмите [Колдовать]", "когда экипировано чтобы", "включить эффект [Поддержания]."],
+		"template_desc_spell_invisibility": ["Нажмите [Колдовать]", "когда экипировано чтобы", "включить эффект [Поддержания]."],
+		"template_desc_spell_teleportation": ["Нажмите [Колдовать]", "когда экипировано", "чтобы моментально", "телепортироваться."],
+		"template_desc_spell_healing": ["Нажмите [Колдовать]", "когда экипировано чтобы", "вызвать эффект по [Области]."],
+		"template_desc_spell_extrahealing": ["Нажмите [Колдовать]", "когда экипировано чтобы", "вызвать эффект по [Области]."],
+		"template_desc_spell_cureailment": ["Нажмите [Колдовать]", "когда экипировано чтобы", "вызвать эффект по [Области]."],
+		"template_desc_spell_dig": ["Нажмите [Колдовать]", "когда экипировано", "чтобы сколдовать [Снаряд]."],
+		"template_desc_spell_summon": ["Нажмите [Колдовать] когда экипировано призвать.", "Существующие призыва возвращаются и", "восстанавливают ОМ при последующих использованиях."],
+		"template_desc_spell_stoneblood": ["Заклинание короткой дальности.", "Нажмите [Колдовать]", "когда экипировано ", "чтобы сколдовать 3x [Снаряда]."],
+		"template_desc_spell_bleed": ["Нажмите [Колдовать]", "когда экипировано", "чтобы сколдовать [Снаряд]."],
+		"template_desc_spell_reflect_magic": ["Нажмите [Колдовать]", "когда экипировано чтобы", "включить эффект [Поддержания]."],
+		"template_desc_spell_dominate": ["Стоимость ОМ увеличивается за", "каждое ОЗ цели повелевания.", "Нажмите [Колдовать] когда экип.", "чтобы сколдовать [Снаряд]."],
+		"template_desc_spell_acid_spray": ["Разъедает броню при попадании.", "Заклинание короткой дальности.", "Нажмите [Колдовать] когда экипировано ", "чтобы сколдовать 3x [Снаряда]."],
+		"template_desc_spell_steal_weapon": ["Украденное оружие переходит в", "инвентарь заклинателя.", "Нажмите [Колдовать] когда экипировано", "чтобы сколдовать [Снаряд]."],
+		"template_desc_spell_drain_soul": ["Восстанавливает в зависимости от нанесенного урона.", "Нажмите [Колдовать] когда экипировано чтобы", "сколдовать [Снаряд]."],
+		"template_desc_spell_vampiric_aura": ["Увеличивает скорость голодания когда активно.", "Нажмите [Колдовать] когда экипировано чтобы включить", "эффект [Поддержания]."],
+		"template_desc_spell_charm": ["Успех зависит от типа монстра.", "Только 1 монстр может быть Очарован", "в один момент времени.", "Нажмите [Колдовать] когда экипировано чтобы сколдовать", "[Снаряд]."],
+		"template_desc_spell_revert_form": ["Нажмите [Колдовать]", "когда экипировано чтобы", "вернуться в нормальную форму."],
+		"template_desc_spell_rat_form": ["Нажмите [Колдовать]", "когда экипировано чтобы", "обратиться в форму Крысы."],
+		"template_desc_spell_spider_form": ["Нажмите [Колдовать]", "когда экипировано чтобы", "обратиться в форму Членистоногого."],
+		"template_desc_spell_troll_form": ["Нажмите [Колдовать]", "когда экипировано чтобы", "обратиться в форму Тролля."],
+		"template_desc_spell_imp_form": ["Нажмите [Колдовать]", "когда экипировано чтобы", "обратиться в форму Беса."],
+		"template_desc_spell_spray_web": ["Каждый эффект увеличивает эффективность.", "Заклинание короткой дальности. Нажмите [Колдовать] пока","экипировано чтобы сколдовать 3x [Снаряда]."],
+		"template_desc_spell_poison": ["Нажмите [Колдовать]", "когда экипировано", "чтобы сколдовать [Снаряд]."],
+		"template_desc_spell_speed": ["Нажмите [Колдовать]", "когда экипировано чтобы", "чтобы вызвать эффект по [Области]."],
+		"template_desc_spell_fear": ["Устрашенные цели не могут атаковать", "фокусируют внимание на заклинателя.", "Нажмите [Колдовать] когда экипировано чтобы вызвать", "эффект по [Области]."],
+		"template_desc_spell_strike": ["Нажмите [Колдовать]", "когда экипировано чтобы", "зарядить удар."],
+		"template_desc_spell_detect_food": ["Нажмите [Колдовать]", "когда экипировано чтобы", "показать местоположение еды на карте."],
+		"template_desc_spell_weakness": ["Накладывает [Слабость к Магии]"],
+		"template_desc_spell_amplify_magic": ["Увеличивает урон и уменьшает дальность", "стихийных заклинаний.", "Нажмите [Колдовать] когда экипировано чтобы включить", "эффект [Поддержания]."],
+		"template_desc_spell_shadow_tag": ["Помеченные цели перефокусируют заклинания", "Телепортации вокруг себя.", "Нажмите [Колдовать] когда экипировано чтобы сколдовать", "[Снаряд]."],
+		"template_desc_spell_telepull": ["Дезориентированные цели временно", "не могут действовать пока их не ударят.", "Нажмите [Колдовать] когда экипировано чтобы", "сколдовать [Снаряд]."],
+		"template_desc_spell_demon_illu": ["Х-ки Демона зависят от заклинателя.", "Нажмите [Колдовать] когда экипировано чтобы сколдовать", "[Снаряд]."],
+		"template_desc_spell_trolls_blood": ["Нажмите [Колдовать]", "когда экипировано чтобы", "чтобы вызвать эффект по [Области]."],
+		"template_desc_spell_salvage": ["Работает только на предметы на земле.", "Нажмите [Колдовать] когда экипировано чтобы", "вызвать эффект по [Области]."],
+		"template_desc_spell_flutter": ["Нажмите [Колдовать]", "когда экипировано", "чтобы взлететь."],
+		"template_desc_spell_dash": ["Использование стоя на месте вызвает", "прыжок назад.", "Нажмите [Колдовать] когда экипировано сделать рывок."],
+		"template_desc_spell_self_polymorph": ["Нажмите [Колдовать]", "когда экипировано чтобы", "изменить форму и", "расовые особенности.", "Не люди всегда Полиморфируют в", "человеческую форму."],
+		"template_spell_cost": ["Стоимость: %d ОМ"],
+		"template_spell_cost_dominate": ["Стоимость: %d + ?? ОМ"],
+		"template_spell_cost_demon_illusion": ["Стоимость: %d ОМ", "10%% Макс. ОЗ "],
+		"template_spell_cost_sustained": ["Стоимость: %d ОМ", "(1 ОМ/%1.2fс)"],
+		"template_spell_damage_bonus": ["Бонусы заклинания %s:", "%+d базовый магический %s", "%+.f%% %s от х-ки %s"],
+		"template_spell_cast_success": ["^Штраф низкой способности Заклинательство:", "^* %d%% вероятность успеха"],
+		"template_spell_extramana_chance": ["^* %d%% шанс потребить", "^дополнительные ОМ "],
+		"template_attr_spell_shadow_tag": ["Атрибуты:", "* Типы Урона (Дальний, Топоры и т.д.) на Обнуленных целях всегда наносят 100% урона", "-50% стоимость ОМ заклинаний Телепортации пока активно", "", "* Использование закл. [Телепортации] перемещает заклинателя к помеченной цели", "* Использование закл. [Телепортировать Других] помещает помеченную цель перед заклинателем"],
+		"template_attr_spell_summon": ["Атрибуты:", "* Уровни призванных союзников сохраняются между использованиями, улучшая снаряжение каждые 5 уровней (Макс. при УРОВ 30)", "* Стоимость ОМ увеличивается с рангом призванного", "* Экспертная способность Магия (60) + х-ка ИНТ создает дополнительного призванного", "", "Команды последователей:", "* [Отказаться от Души] уничтожает призванных из возвращает ОМ основываясь на текущих ОЗ"],
+		"template_attr_spell_self_polymorph": ["Атрибуты:", "* Эффект [Полиморфирован] пропадает при прикосновении к воде или ее потреблении"],
+		"template_attr_spell_acid_spray": ["Атрибуты:", "+25% базовый шанс порчи брони при попадании", ""],
+		"template_attr_spell_charm": ["Модификаторы Очарования:", "+30%% шанс на монстров в [Смятении] или [Пьяных]", "%+d%% шанс от х-ки ИНТ", "%+d%% шанс от х-ки ХАР + способности Лидерство"],
+		"template_attr_spell_dominate": ["Атрибуты:", "* Повелевание монстрами позволяет перейти через лимит союзников способности Лидерство", "", "Стоимость ОМ Повелевания:", "* Ослабленные монстры уменьшают стоимость ОМ для Повелевания (прим. Монстр с текущими ОЗ 20 стоит 41 ОМ)"],
+		"template_attr_spell_revert_form": ["Атрибуты:", "* Снимает только 1 эффект за раз"],
+		"template_attr_magicstaff_charm": ["", "Модификаторы Очарования:", "+30%% шанс на монстров в [Смятении] или [Пьяных]", "%+d%% шанс от х-ки ХАР + способности Лидерство"],
+		"template_magicstaff_degrade_chance": ["Атрибуты:", "* %d%% шанс порчи при использовании"],
+		"template_magicstaff_charm_worn_degrade": ["Атрибуты:", "* %d%% шанс порчи при использовании из-за статуса %s"],
+		"template_spellbook_degrade_chance": ["* 100% шанс порчи при чтении", "* 12% шанс порчи при Колдовстве с Книги"]
+	},
+	"tooltips": {
+		"tooltip_artifact_orb_blue": {
+			"icons": [
+			{
+				"text": "[Важный предмет]",
+				"icon_path": "images/ui/Inventory/tooltips/tooltip_icons/keyitem.png"
+			}],
+			"description": ["Артефакт, найденный в глубинах Руин. Нажмите [Атака] когда экипировано чтобы использовать."],
+			"size": {
+				"min_width": 260
+			}
+		},
+		"tooltip_artifact_orb_red": {
+			"icons": [
+			{
+				"text": "[Важный предмет]",
+				"icon_path": "images/ui/Inventory/tooltips/tooltip_icons/keyitem.png"
+			}],
+			"description": ["Артефакт, найденный в глубинах Лабиринта. Нажмите [Атака] когда экипировано чтобы использовать."],
+			"size": {
+				"min_width": 260
+			}
+		},
+		"tooltip_artifact_orb_green": {
+			"icons": [
+			{
+				"text": "[Важный предмет]",
+				"icon_path": "images/ui/Inventory/tooltips/tooltip_icons/keyitem.png"
+			}],
+			"description": ["Артефакт, найденный в глубинах Болот. Нажмите [Атака] когда экипировано чтобы использовать."],
+			"size": {
+				"min_width": 250
+			}
+		},
+		"tooltip_artifact_orb_purple": {
+			"icons": [
+			{
+				"text": "[Важный предмет]",
+				"icon_path": "images/ui/Inventory/tooltips/tooltip_icons/keyitem.png"
+			}],
+			"description": ["Артефакт, найденный в останках презренного лича. Нажмите [Атака] когда экипировано чтобы использовать."],
+			"size": {
+				"min_width": 270
+			}
+		},
+		"tooltip_gem_rock": {
+			"icons": [
+			{
+				"text": "%+d Метательного урона",
+				"icon_path": "#*images/ui/SkillSheet/Icons/Ranged01.png"
+			},
+			{
+				"text": "%s",
+				"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/feather.png",
+				"conditional_attribute": "EFF_FEATHER"
+			}
+			],
+			"description": "template_rock_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"piercing": ["+50% Пробивания Брони"]
+				},
+				{
+					"degrade": ["+50% шанс расколоться при ударе"]
+				},
+				{
+					"EFF_FEATHER": "template_equipment_effect_feather"
+				},
+				{
+					"blank_space": [""]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"thrown_atk_from_player_stat": "template_player_atk_stat_dex"
+				},
+				{
+					"fully_charged": ["+3 АТК при полностью заряженном броске"]
+				},
+				{
+					"thrown_skill_modifier": "template_gem_skill_modifier"
+				}
+			],
+			"size": {
+				"max_width": 0,
+				"min_width": 316,
+				"max_header_width": 290
+			}
+		},
+		"tooltip_gem_glass": {
+			"icons": [
+			{
+				"text": "\n%+d Метательного урона",
+				"icon_path": "#*images/ui/SkillSheet/Icons/Ranged01.png"
+			}],
+			"description": "template_glass_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"piercing": ["+50% Пробивания Брони"]
+				},
+				{
+					"degrade": ["+50% шанс расколоться при ударе"]
+				},
+				{
+					"EFF_FEATHER": "template_equipment_effect_feather"
+				},
+				{
+					"blank_space": [""]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"thrown_atk_from_player_stat": "template_player_atk_stat_dex"
+				},
+				{
+					"fully_charged": ["+3 АТК при полностью заряженном броске"]
+				},
+				{
+					"thrown_skill_modifier": "template_gem_skill_modifier"
+				}
+			],
+			"size": {
+				"max_width": 0,
+				"min_width": 304,
+				"max_header_width": 290
+			}
+		},
+		"tooltip_gem": {
+			"icons": [
+			{
+				"text": "%+d Метательного урона",
+				"icon_path": "#*images/ui/SkillSheet/Icons/Ranged01.png"
+			}],
+			"description": "template_gem_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"piercing": ["+50% Пробивания Брони"]
+				},
+				{
+					"degrade": ["+50% шанс расколоться при ударе"]
+				},
+				{
+					"EFF_FEATHER": "template_equipment_effect_feather"
+				},
+				{
+					"blank_space": [""]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"thrown_atk_from_player_stat": "template_player_atk_stat_dex"
+				},
+				{
+					"fully_charged": ["+3 АТК при полностью заряженном броске"]
+				},
+				{
+					"thrown_skill_modifier": "template_gem_skill_modifier"
+				}
+			],
+			"size": {
+				"max_width": 0,
+				"min_width": 304,
+				"max_header_width": 290
+			}
+		},
+		"tooltip_magicstaff": {
+			"icons": [
+			{
+				"text": "",
+				"icon_path": "",
+				"conditional_attribute": "magicstaff_light"
+			},
+			{
+				"text": "",
+				"icon_path": "",
+				"conditional_attribute": "magicstaff_digging"
+			},
+			{
+				"text": "",
+				"icon_path": "",
+				"conditional_attribute": "magicstaff_locking"
+			},
+			{
+				"text": "",
+				"icon_path": "",
+				"conditional_attribute": "magicstaff_magicmissile"
+			},
+			{
+				"text": "",
+				"icon_path": "",
+				"conditional_attribute": "magicstaff_opening"
+			},
+			{
+				"text": "",
+				"icon_path": "",
+				"conditional_attribute": "magicstaff_slow"
+			},
+			{
+				"text": "",
+				"icon_path": "",
+				"conditional_attribute": "magicstaff_cold"
+			},
+			{
+				"text": "",
+				"icon_path": "",
+				"conditional_attribute": "magicstaff_fire"
+			},
+			{
+				"text": "",
+				"icon_path": "",
+				"conditional_attribute": "magicstaff_lightning"
+			},
+			{
+				"text": "",
+				"icon_path": "",
+				"conditional_attribute": "magicstaff_sleep"
+			},
+			{
+				"text": "",
+				"icon_path": "",
+				"conditional_attribute": "magicstaff_stoneblood"
+			},
+			{
+				"text": "",
+				"icon_path": "",
+				"conditional_attribute": "magicstaff_bleed"
+			},
+			{
+				"text": "",
+				"icon_path": "",
+				"conditional_attribute": "magicstaff_charm"
+			},
+			{
+				"text": "",
+				"icon_path": "",
+				"conditional_attribute": "magicstaff_poison"
+			}],
+			"description": ["Нажмите [Атака] когда экипировано\nчтобы сколдовать содержащееся заклинание."],
+			"details": [
+				{
+					"default": [""]
+				},
+				{
+					"magicstaff_degrade_chance": "template_magicstaff_degrade_chance"
+				},
+				{
+					"magicstaff_charm_degrade_chance": "template_magicstaff_charm_worn_degrade"
+				},
+				{
+					"attribute_spell_charm": "template_attr_magicstaff_charm"
+				}
+			],
+			"size": {
+				"max_width": 0,
+				"min_width": 300,
+				"max_header_width": 310,
+				"item_overrides": {
+					"magicstaff_charm": {
+						"min_width": 310
+					}
+				}
+			}
+		},
+		"tooltip_scroll_mail": {
+			"icons": [
+			{
+				"text": "Подписанное:\n%s",
+				"icon_path": "images/system/int64.png",
+				"conditional_attribute": "SCROLL_LABEL"
+			}],
+			"description": ["Письмо, адресованное кому-то другому."],
+			"details": [{
+					"default": [""]
+				}
+			],
+			"size": {
+				"min_width": 200
+			}
+		},
+		"tooltip_scroll_blank": {
+			"icons": [
+			{
+				"text": "Без эффекта",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png"
+			},
+			{
+				"text": "Подписанный:\n%s",
+				"icon_path": "images/system/int64.png",
+				"conditional_attribute": "SCROLL_LABEL"
+			}],
+			"description": ["Можно в нем писать для придания магических эффектов."],
+			"details": [{
+					"default": [""]
+				}
+			],
+			"size": {
+				"max_width": 0,
+				"min_width": 220
+			}
+		},
+		"tooltip_scroll": {
+			"icons": [
+			{
+				"text": "[Освящает] снаряжение\nдержится в Основной Руке",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "scroll_enchantweapon"
+			},
+			{
+				"text": "Создает [Свет] в\nтекущем местоположении",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "scroll_light"
+			},
+			{
+				"text": "[Уничтожает] случайную\nнадетую броню",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "scroll_destroyarmor"
+			},
+			{
+				"text": "[Освящает] случайную\nнадетую броню",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "scroll_enchantarmor"
+			},
+			{
+				"text": "[Чинит] выбранное\nснаряжение",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "scroll_repair"
+			},
+			{
+				"text": "Снимает [Проклятие] с\nвыбранного предмета",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "scroll_removecurse"
+			},
+			{
+				"text": "[Призывает] пламя\nв текущем местоположении",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "scroll_fire"
+			},
+			{
+				"text": "[Призывает] несколько\nединиц еды",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "scroll_food"
+			},
+			{
+				"text": "[Призывает] боеприпасы\nдля дальнего оружия",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "scroll_conjurearrow"
+			},
+			{
+				"text": "[Раскрывает] текущий\nэтаж подземелья",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "scroll_magicmapping"
+			},
+			{
+				"text": "[Телепортирует] в\nслучайную локацию",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "scroll_teleportation"
+			},
+			{
+				"text": "[Призывает] случайное\nколичество монстров",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "scroll_summon"
+			},
+			{
+				"text": "[Опознает] выбранное\nснаряжение",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "scroll_identify"
+			},
+			{
+				"text": "[Чинит] Магические Посохи\nи Зачарованные Перья",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "scroll_charging"
+			},
+			{
+				"text": "Подписанный:\n%s",
+				"icon_path": "images/system/int64.png",
+				"conditional_attribute": "SCROLL_LABEL"
+			}],
+			"description": ["Накладывает магические эффекты при прочтении. Исчезает при использовании."],
+			"details": [{
+					"default": [""]
+				},
+				{
+					"scroll_on_cursed_sideeffect": "template_scroll_curse_sideeffect"
+				}
+			],
+			"size": {
+				"max_width": 0,
+				"min_width": 280,
+				"max_header_width": 280
+			}
+		},
+		"tooltip_spell_item": {
+			"icons": [
+			{
+				"text": "",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "SPELL_ICON_EFFECT"
+			},
+			{
+				"text": "Отражает Магический Урон\nтратит [ОМ]",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "spell_reflect_magic"
+			},
+			{
+				"text": "Заклинание забирает\nздоровье когда [ОМ] нет",
+				"icon_path": "#*images/system/Hunger_blood.png",
+				"conditional_attribute": "spell_dominate"
+			},
+			{
+				"text": "Увеличивает Силу/Ловкость",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "spell_vampiric_aura"
+			},
+			{
+				"text": "-100% [Реген. ОЗ]",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "spell_vampiric_aura"
+			},
+			{
+				"text": "Restores caster [ОЗ/ОМ]",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "spell_drain_soul"
+			},
+			{
+				"text": "Накладывает [Умиротворить]\nесли невозвожно [Очаровать]",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "spell_charm"
+			},
+			{
+				"text": "Форма Крысы дарует\n+ЛОВ +ИНТ +ВОС",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "spell_rat_form"
+			},
+			{
+				"text": "Дарует заклинания\n[Скорость] [Обнаружить Еду]",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "spell_rat_form"
+			},
+			{
+				"text": "Форма Членистоногого дарует\n+СИЛ +ТЕЛ +ВОС",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "spell_spider_form"
+			},
+			{
+				"text": "Дарует заклинания\n[Яд] [Разбрызгать Паутину]",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "spell_spider_form"
+			},
+			{
+				"text": "Форма Тролля дарует\n+СИЛ +ТЕЛ -ЛОВ",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "spell_troll_form"
+			},
+			{
+				"text": "Дарует заклинания\n[Кровь Тролля] [Мощный Удар]",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "spell_troll_form"
+			},
+			{
+				"text": "Форма Беса дарует\n+ИНТ +ВОС и [Левитацию]",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "spell_imp_form"
+			},
+			{
+				"text": "Дарует заклинания [Смятение]\n[Молния] [Средоточие Стихий]",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "spell_imp_form"
+			},
+			{
+				"text": "[В Паутине] накладывает [Замедление] и\n[Отталкивание] от ближних ударов",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "spell_spray_web"
+			},
+			{
+				"text": "Рушит валуны, стены\nи двери при воздействии",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "spell_strike"
+			},
+			{
+				"text": "Урон нанесенный Демону\n[Возвращается] атакующему",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "spell_demon_illu"
+			},
+			{
+				"text": "Заклинание тратит здоровье\nравное 10% [Макс. ОЗ]",
+				"icon_path": "#*images/system/Hunger_blood.png",
+				"conditional_attribute": "spell_demon_illu"
+			},
+			{
+				"text": "Рушит двери при воздействии",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "spell_dash"
+			},
+			{
+				"text": "[Обнуление] убирает Сопротивления\nи Слабости к типам урона",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "spell_shadow_tag"
+			},
+			{
+				"text": "Накладывает [Дизориентирован]\nв зависимости от дистанции перемещения",
+				"icon_path": "#*images/ui/HUD/statusfx/magic_effect.png",
+				"conditional_attribute": "spell_telepull"
+			}
+			],
+			"description": ["Нажмите [Колдовать] когда экипировано to вызвать."],
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attribute_spell_shadow_tag": "template_attr_spell_shadow_tag"
+				},
+				{
+					"attribute_spell_summon": "template_attr_spell_summon"
+				},
+				{
+					"attribute_spell_self_polymorph": "template_attr_spell_self_polymorph"
+				},
+				{
+					"attribute_spell_acid_spray": "template_attr_spell_acid_spray"
+				},
+				{
+					"attribute_spell_charm": "template_attr_spell_charm"
+				},
+				{
+					"attribute_spell_dominate": "template_attr_spell_dominate"
+				},
+				{
+					"attribute_spell_revert_form": "template_attr_spell_revert_form"
+				},
+				{
+					"spell_damage_bonus": "template_spell_damage_bonus"
+				},
+				{
+					"spell_newbie_newline": ""
+				},
+				{
+					"spell_cast_success": "template_spell_cast_success"
+				},
+				{
+					"spell_extramana_chance": "template_spell_extramana_chance"
+				}
+			],
+			"size": {
+				"max_width": 0,
+				"min_width": 250,
+				"max_header_width": 280,
+				"item_overrides": {
+					"spell_forcebolt": {
+						"min_width": 240
+					},
+					"spell_magicmissile": {
+						"min_width": 240
+					},
+					"spell_cold": {
+						"min_width": 240
+					},
+					"spell_fireball": {
+						"min_width": 240
+					},
+					"spell_light": {
+						"min_width": 316
+					},
+					"spell_removecurse": {
+						"min_width": 250
+					},
+					"spell_lightning": {
+						"min_width": 240
+					},
+					"spell_identify": {
+						"min_width": 256
+					},
+					"spell_magicmapping": {
+						"min_width": 300
+					},
+					"spell_sleep": {
+						"min_width": 240
+					},
+					"spell_confuse": {
+						"min_width": 240
+					},
+					"spell_slow": {
+						"min_width": 240
+					},
+					"spell_opening": {
+						"min_width": 280
+					},
+					"spell_locking": {
+						"min_width": 240
+					},
+					"spell_levitation": {
+						"min_width": 256
+					},
+					"spell_invisibility": {
+						"min_width": 256
+					},
+					"spell_teleportation": {
+						"min_width": 240
+					},
+					"spell_healing": {
+						"min_width": 250
+					},
+					"spell_extrahealing": {
+						"min_width": 250
+					},
+					"spell_cureailment": {
+						"min_width": 300
+					},
+					"spell_dig": {
+						"min_width": 240
+					},
+					"spell_summon": {
+						"min_width": 320
+					},
+					"spell_stoneblood": {
+						"min_width": 240
+					},
+					"spell_bleed": {
+						"min_width": 270
+					},
+					"spell_reflect_magic": {
+						"min_width": 290
+					},
+					"spell_dominate": {
+						"min_width": 280
+					},
+					"spell_acid_spray": {
+						"min_width": 250
+					},
+					"spell_steal_weapon": {
+						"min_width": 260
+					},
+					"spell_drain_soul": {
+						"min_width": 270
+					},
+					"spell_vampiric_aura": {
+						"min_width": 316
+					},
+					"spell_charm": {
+						"min_width": 310
+					},
+					"spell_revert_form": {
+						"min_width": 260
+					},
+					"spell_rat_form": {
+						"min_width": 290
+					},
+					"spell_spider_form": {
+						"min_width": 290
+					},
+					"spell_troll_form": {
+						"min_width": 290
+					},
+					"spell_imp_form": {
+						"min_width": 290
+					},
+					"spell_spray_web": {
+						"min_width": 320
+					},
+					"spell_poison": {
+						"min_width": 240
+					},
+					"spell_speed": {
+						"min_width": 290
+					},
+					"spell_fear": {
+						"min_width": 310
+					},
+					"spell_strike": {
+						"min_width": 310
+					},
+					"spell_detect_food": {
+						"min_width": 286
+					},
+					"spell_weakness": {
+						"min_width": 300
+					},
+					"spell_amplify_magic": {
+						"min_width": 310
+					},
+					"spell_shadow_tag": {
+						"min_width": 320
+					},
+					"spell_telepull": {
+						"min_width": 280
+					},
+					"spell_demon_illu": {
+						"min_width": 300
+					},
+					"spell_trolls_blood": {
+						"min_width": 290
+					},
+					"spell_salvage": {
+						"min_width": 310
+					},
+					"spell_flutter": {
+						"min_width": 240
+					},
+					"spell_dash": {
+						"min_width": 300
+					},
+					"spell_self_polymorph": {
+						"min_width": 290
+					},
+					"spell_ghost_bolt": {
+						"min_width": 300
+					}
+				}
+			}
+		},
+		"tooltip_spellbook": {
+			"icons": [
+			{
+				"text": "Обучает [%s]\nпри прочтении",
+				"icon_path": "",
+				"conditional_attribute": "SPELLBOOK_SPELLINFO_UNLEARNED"
+			},
+			{
+				"text": "",
+				"icon_path": "",
+				"conditional_attribute": "SPELLBOOK_SPELLINFO_LEARNED"
+			},
+			{
+				"text": "",
+				"icon_path": "images/ui/CharSheet/HUD_CharSheet_SPWR_00.png",
+				"conditional_attribute": "SPELLBOOK_CAST_BONUS"
+			},
+			{
+				"text": "[Еще нельзя выучить]",
+				"icon_path": "#*images/system/Broken24x.png",
+				"conditional_attribute": "SPELLBOOK_UNLEARNED"
+			},
+			{
+				"text": "[Можно выучить]",
+				"icon_path": "images/system/int64u.png",
+				"conditional_attribute": "SPELLBOOK_LEARNABLE"
+			},
+			{
+				"text": "[Невозможно выучить]",
+				"icon_path": "#*images/system/Broken24x.png",
+				"conditional_attribute": "SPELLBOOK_UNLEARNABLE"
+			}],
+			"description": ["Нажмите [Защита] при удержании во Второй Руке для альтернативного Колдовства с Книги."],
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"spellbook_degrade": "template_spellbook_degrade_chance"
+				},
+				{
+					"spellbook_cast_bonus": "template_spellbook_cast_bonus"
+				},
+				{
+					"spellbook_unlearned_blank_space": [""]
+				},
+				{
+					"spellbook_magic_requirement": "template_spellbook_magic_requirement"
+				},
+				{
+					"spellbook_magic_current": "template_spellbook_magic_current"
+				}
+			],
+			"size": {
+				"max_width": 360,
+				"min_width": 350,
+				"max_header_width": 360
+			}
+		},
+		"tooltip_readable_book": {
+			"description": "template_readable_book_description",
+			"size": {
+				"min_width": 280
+			}
+		},
+		"tooltip_scrap_metal": {
+			"description": "template_scrap_metal_description",
+			"size": {
+				"min_width": 260
+			}
+		},
+		"tooltip_scrap_magic": {
+			"description": "template_scrap_magic_description",
+			"size": {
+				"min_width": 260
+			}
+		},
+		"tooltip_enchanted_feather": {
+			"description": ["Используется чтобы починить Книги Заклинаний или начертать магические слова в Пустых Свитках."]
+		},
+		"tooltip_tool_tinkering_kit": {
+			"description": ["Экипируйте\nи удерживайте [Защита]\nчтобы разобрать предметы на земле на хлам.", "Используется опцию Механика чтобы Мастерить, Разбирать, или Чинить вещи в вашем инвентаре."],
+			"size": {
+				"min_width": 340
+			}
+		},
+		"tooltip_tool_mirror": {
+			"description": "template_tool_mirror_description",
+			"size": {
+				"min_width": 280
+			}
+		},
+		"tooltip_tool_towel": {
+			"icons": [
+			{
+				"text": "Убирает [Склизскость]\n[Грязность] [Кровотечение]",
+				"icon_path": "images/ui/HUD/statusfx/grease.png"
+			}
+			],
+			"description": "template_tool_towel_description",
+			"size": {
+				"min_width": 240
+			}
+		},
+		"tooltip_tool_beartrap": {
+			"icons": [{
+				"text": "%+d Урона",
+				"icon_path": "#*images/ui/Inventory/tooltips/HUD_Tooltip_Icon_Damage_00.png"
+			},
+			{
+				"text": "Накладывает [Паралич]\nДлительность: [%dс]",
+				"icon_path": "images/ui/HUD/statusfx/paralyze.png",
+				"conditional_attribute": "EFF_PARALYZE"
+			},
+			{
+				"text": "Накладывает [Кровотечение]\nДлительность: [%dс]",
+				"icon_path": "images/ui/HUD/statusfx/bleed.png",
+				"conditional_attribute": "EFF_BLEEDING"
+			}
+			],
+			"description": "template_tool_beartrap_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"beartrap_degrade_on_use": "template_beartrap_degrade_on_use"
+				},
+				{
+					"beartrap_degrade_on_use_cursed": "template_beartrap_degrade_on_use_cursed"
+				},
+				{
+					"degrade": ["* Ухудшается при срабатывании"]
+				},
+				{
+					"blank_space": [""]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"on_degraded": "template_weapon_on_degraded_atk"
+				}
+			],
+			"size": {
+				"min_width": 284
+			}
+		},
+		"tooltip_tool_alembic": {
+			"description": ["Используйте чтобы смешивать зелья.", "Зелья улучшаются со способностью Алхимия."],
+			"size": {
+				"min_width": 300
+			}
+		},
+		"tooltip_tool_sentrybot": {
+			"icons": [{
+				"text": "\n%+d Дальнего Урона",
+				"icon_path": "#*images/ui/SkillSheet/Icons/Ranged01.png",
+				"conditional_attribute": "TINKERBOT_RANGEDATK"
+			},
+			{
+				"text": "%d ОЗ\n%d Показатель Брони",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png",
+				"conditional_attribute": "TINKERBOT_HPAC"
+			},
+			{
+				"text": "[Можно Улучшить]",
+				"icon_path": "#*images/ui/SkillSheet/Icons/Tinkering01.png",
+				"conditional_attribute": "TINKERBOT_UPGRADEABLE"
+			},
+			{
+				"text": "[Нельзя Починить]",
+				"icon_path": "#*images/system/Broken24x.png",
+				"conditional_attribute": "TINKERBOT_BROKEN"
+			}],
+			"description": "template_tool_sentrybot_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"tinkerbot_status_bonus": "template_tinkerbot_status_bonus"
+				},
+				{
+					"tinkerbot_turn_rate": "template_tinkerbot_turn_rate"
+				},
+				{
+					"tinkerbot_atk_initiative": "template_tinkerbot_atk_initiative"
+				}
+			],
+			"size": {
+				"min_width": 300
+			}
+		},
+		"tooltip_tool_spellbot": {
+			"icons": [{
+				"text": "%+d Магический Урон",
+				"icon_path": "#*images/ui/SkillSheet/Icons/Magic01.png",
+				"conditional_attribute": "TINKERBOT_MAGICATK"
+			},
+			{
+				"text": "%d ОЗ\n%d Показатель Брони",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png",
+				"conditional_attribute": "TINKERBOT_HPAC"
+			},
+			{
+				"text": "[Можно Улучшить]",
+				"icon_path": "#*images/ui/SkillSheet/Icons/Tinkering01.png",
+				"conditional_attribute": "TINKERBOT_UPGRADEABLE"
+			},
+			{
+				"text": "[Нельзя Починить]",
+				"icon_path": "#*images/system/Broken24x.png",
+				"conditional_attribute": "TINKERBOT_BROKEN"
+			}],
+			"description": "template_tool_sentrybot_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"tinkerbot_status_bonus": "template_tinkerbot_status_bonus"
+				},
+				{
+					"spellbot_rate_of_fire": "template_spellbot_rate_of_fire"
+				},
+				{
+					"tinkerbot_turn_rate": "template_tinkerbot_turn_rate"
+				},
+				{
+					"tinkerbot_atk_initiative": "template_tinkerbot_atk_initiative"
+				}
+			],
+			"size": {
+				"min_width": 280
+			}
+		},
+		"tooltip_tool_dummybot": {
+			"icons": [
+			{
+				"text": "%d ОЗ\n%d Показатель Брони",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png",
+				"conditional_attribute": "TINKERBOT_HPAC"
+			},
+			{
+				"text": "[Можно Улучшить]",
+				"icon_path": "#*images/ui/SkillSheet/Icons/Tinkering01.png",
+				"conditional_attribute": "TINKERBOT_UPGRADEABLE"
+			},
+			{
+				"text": "[Нельзя Починить]",
+				"icon_path": "#*images/system/Broken24x.png",
+				"conditional_attribute": "TINKERBOT_BROKEN"
+			}],
+			"description": "template_tool_dummybot_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"dummybot_info": ["* Эффективно приманимает врагов", "* Можно использовать чтобы тренировать\nбоевые навыки до уровня Основы"]
+				}
+			],
+			"size": {
+				"min_width": 280
+			}
+		},
+		"tooltip_tool_gyrobot": {
+			"icons": [
+			{
+				"text": "%d ОЗ",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png",
+				"conditional_attribute": "TINKERBOT_HPAC"
+			},
+			{
+				"text": "[Можно Улучшить]",
+				"icon_path": "#*images/ui/SkillSheet/Icons/Tinkering01.png",
+				"conditional_attribute": "TINKERBOT_UPGRADEABLE"
+			},
+			{
+				"text": "[Нельзя Починить]",
+				"icon_path": "#*images/system/Broken24x.png",
+				"conditional_attribute": "TINKERBOT_BROKEN"
+			}],
+			"description": "template_tool_gyrobot_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"gyrobot_info": ["* Автоматически возвращает Ремесленных союзников при выходе с этажа"]
+				},
+				{
+					"gyrobot_info_interact": ["* Может поднимать/класть предметы и настраивать ловушки (%s качество)"]
+				}
+			],
+			"size": {
+				"min_width": 300
+			}
+		},
+		"tooltip_tool_detonated_charge": {
+			"description": "template_tool_detonated_charge_description",
+			"size": {
+				"min_width": 280
+			}
+		},
+		"tooltip_tool_bomb_fire": {
+			"icons": [{
+				"text": "%+d Магический Урон\nНакладывает [Горение]",
+				"icon_path": "#*items/images/spells/fireball.png",
+				"conditional_attribute": "BOMB_ATK"
+			}],
+			"description": "template_tool_bomb_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"tool_bomb_lockpickable": "template_tool_bomb_lockpickable"
+				},
+				{
+					"blank_space": [""]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"tool_bomb_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"tool_bomb_per_atk": "template_bomb_atk_stat_per"
+				}
+			],
+			"size": {
+				"min_width": 348
+			}
+		},
+		"tooltip_tool_bomb_sleep": {
+			"icons": [{
+				"text": "Взрывается\nзаклинанием [Сон]",
+				"icon_path": "#*items/images/spells/sleep.png"
+			}],
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"tool_bomb_lockpickable": "template_tool_bomb_lockpickable"
+				}
+			],
+			"description": "template_tool_bomb_description",
+			"size": {
+				"min_width": 316
+			}
+		},
+		"tooltip_tool_bomb_freeze": {
+			"icons": [{
+				"text": "%+d Магический Урон\nНакладывает [Замедление]",
+				"icon_path": "#*items/images/spells/cold.png",
+				"conditional_attribute": "BOMB_ATK"
+			}],
+			"description": "template_tool_bomb_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"tool_bomb_lockpickable": "template_tool_bomb_lockpickable"
+				},
+				{
+					"blank_space": [""]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"tool_bomb_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"tool_bomb_per_atk": "template_bomb_atk_stat_per"
+				}
+			],
+			"size": {
+				"min_width": 348
+			}
+		},
+		"tooltip_tool_bomb_teleport": {
+			"icons": [{
+				"text": "[Телепортирует] цель",
+				"icon_path": "#*items/images/spells/teleport.png"
+			}],
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"tool_bomb_lockpickable": "template_tool_bomb_lockpickable"
+				}
+			],
+			"description": "template_tool_teleport_bomb_description",
+			"size": {
+				"min_width": 316
+			}
+		},
+		"tooltip_tool_decoy": {
+			"icons": [{
+				"text": "[Приманивает] ближайших врагов",
+				"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/noise.png"
+			}],
+			"description": "template_tool_decoy_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"tool_decoy_range": "template_tool_decoy_range"
+				}
+			],
+			"size": {
+				"min_width": 324
+			}
+		},
+		"tooltip_tool_tinopener": {
+			"description": "template_tool_tinopener_description",
+			"size": {
+				"min_width": 240
+			}
+		},
+		"tooltip_armor_blindfold": {
+			"icons": [
+			{
+				"text": "Дарует [Телепатию]",
+				"icon_path": "images/ui/HUD/statusfx/telepathy.png",
+				"conditional_attribute": "EFF_TELEPATHY"
+			},
+			{
+				"text": "Дарует\n[Дополнительное Действие]",
+				"icon_path": "images/ui/HUD/statusfx/freeaction.png",
+				"conditional_attribute": "EFF_FREEACTION"
+			},
+			{
+				"text": "Накладывает [Слепоту]",
+				"icon_path": "images/ui/HUD/statusfx/blind.png"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_PER_00.png",
+				"conditional_attribute": "PER"
+			}
+			],
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"equipment_stat_bonus": "template_armor_stat_bonus"
+				},
+				{
+					"EFF_FREEACTION": "template_equipment_effect_freeaction"
+				},
+				{
+					"EFF_TELEPATHY": "template_equipment_effect_telepathy"
+				}
+			],
+			"size": {
+				"max_width": 300,
+				"min_width": 286,
+				"max_header_width": 270,
+				"item_overrides": {
+					"tool_blindfold_focus": {
+						"max_header_width": 200,
+						"min_width": 270
+					}
+				}
+			}
+		},
+		"tooltip_tool_lockpick": {
+			"icons": [
+			{
+				"text": "\nИнструмент [Механики]",
+				"icon_path": "#*images/ui/SkillSheet/Icons/Tinkering01.png"
+			},
+			{
+				"text": "%s",
+				"icon_path": "images/ui/Inventory/tooltips/tooltip_icons/unbreakable.png",
+				"conditional_attribute": "EFF_UNBREAKABLE"
+			}
+			],
+			"description": "template_tool_lockpick_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"EFF_BREAKABLE": "template_lockpick_durability_chance"
+				},
+				{
+					"lockpick_text_tinkering": "template_lockpick_text_tinkering"
+				},
+				{
+					"lockpick_text_chestsdoors": "template_lockpick_text_chestsdoors"
+				},
+				{
+					"lockpick_chestsdoors_unlock_chance": "template_lockpick_chestsdoors_unlock_chance"
+				},
+				{
+					"lockpick_chests_scrap_chance": "template_lockpick_chests_scrap_chance"
+				},
+				{
+					"lockpick_text_mechanisms": "template_lockpick_text_mechanisms"
+				},
+				{
+					"lockpick_arrow_disarm": "template_lockpick_arrow_disarm"
+				},
+				{
+					"lockpick_automaton_disarm": "template_lockpick_automaton_disarm"
+				}
+			],
+			"size": {
+				"min_width": 296
+			}
+		},
+		"tooltip_tool_skeletonkey": {
+			"icons": [
+			{
+				"text": "%s",
+				"icon_path": "images/ui/Inventory/tooltips/tooltip_icons/unbreakable.png",
+				"conditional_attribute": "EFF_UNBREAKABLE"
+			}
+			],
+			"description": "template_tool_skeletonkey_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"lockpick_text_chestsdoors": "template_lockpick_text_chestsdoors"
+				},
+				{
+					"lockpick_chestsdoors_unlock_chance": "template_lockpick_skeletonkey_chestsdoors_unlock_chance"
+				},
+				{
+					"lockpick_chests_scrap_chance": "template_lockpick_skeletonkey_chests_scrap_chance"
+				},
+				{
+					"lockpick_text_mechanisms": "template_lockpick_skeletonkey_text_mechanisms"
+				},
+				{
+					"lockpick_arrow_disarm": "template_lockpick_arrow_disarm"
+				}
+			],
+			"size": {
+				"min_width": 296
+			}
+		},
+		"tooltip_tool_pickaxe": {
+			"icons": [{
+				"text": "%+d Урона",
+				"icon_path": "#*images/ui/Inventory/tooltips/HUD_Tooltip_Icon_Damage_00.png"
+			},
+			{
+				"text": "[Копание]",
+				"icon_path": "items/images/spells/dig.png"
+			}],
+			"description": "template_tool_pickaxe_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"tool_pickaxe_degrade": "template_tool_pickaxe_degrade"
+				},
+				{
+					"blank_space": [""]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				}
+			],
+			"size": {
+				"min_width": 280
+			}
+		},
+		"tooltip_ring": {
+			"icons": [
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_STR_00.png",
+				"conditional_attribute": "STR"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_DEX_00.png",
+				"conditional_attribute": "DEX"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_CON_00.png",
+				"conditional_attribute": "CON"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_INT_00.png",
+				"conditional_attribute": "INT"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_PER_00.png",
+				"conditional_attribute": "PER"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_CHA_00.png",
+				"conditional_attribute": "CHR"
+			},
+			{
+				"text": "%s",
+				"icon_path": "images/ui/Inventory/tooltips/tooltip_icons/slowdigestion.png",
+				"conditional_attribute": "EFF_SLOWDIGESTION"
+			},
+			{
+				"text": "%s",
+				"icon_path": "images/ui/HUD/statusfx/warning.png",
+				"conditional_attribute": "EFF_WARNING"
+			},
+			{
+				"text": "%s",
+				"icon_path": "items/images/spells/invisible.png",
+				"conditional_attribute": "EFF_INVISIBLE"
+			},
+			{
+				"text": "%s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_RES_00.png",
+				"conditional_attribute": "EFF_MAGICRESIST"
+			},
+			{
+				"text": "%s",
+				"icon_path": "images/ui/HUD/statusfx/conflict.png",
+				"conditional_attribute": "EFF_CONFLICT"
+			},
+			{
+				"text": "%s",
+				"icon_path": "items/images/spells/levitation.png",
+				"conditional_attribute": "EFF_LEVITATION"
+			},
+			{
+				"text": "%+d  %s",
+				"icon_path": "images/ui/HUD/statusfx/regen_hp.png",
+				"conditional_attribute": "EFF_REGENERATION"
+			},
+			{
+				"text": "%s",
+				"icon_path": "items/images/spells/teleport.png",
+				"conditional_attribute": "EFF_TELEPORTATION"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png",
+				"conditional_attribute": "AC"
+			},
+			{
+				"text": "Дарует [Толкание]",
+				"icon_path": "#*images/ui/HUD/statusfx/push.png",
+				"conditional_attribute": "PUSH"
+			}
+			],
+			"description": "",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"ring_on_cursed_sideeffect": "template_ring_curse_sideeffect"
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"EFF_WARNING": "template_equipment_effect_warning"
+				},
+				{
+					"EFF_TELEPORTATION": "template_equipment_effect_teleportation"
+				},
+				{
+					"EFF_CONFLICT": "template_equipment_effect_conflict"
+				},
+				{
+					"EFF_SLOWDIGESTION": "template_equipment_effect_slowdigestion"
+				},
+				{
+					"equipment_stat_bonus": "template_armor_stat_bonus"
+				},
+				{
+					"blank_text_if_armor_has_stats": ""
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_armor_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_armor_beatitude_ac"
+				},
+				{
+					"when_equipped": ["\nКогда экипировано:"]
+				},
+				{
+					"ring_unarmed_atk": "template_ring_unarmed_atk"
+				}
+			],
+			"size": {
+				"max_width": 290,
+				"min_width": 280,
+				"max_header_width": 290
+			}
+		},
+		"tooltip_quiver": {
+			"icons": [{
+				"text": "%+d Дальнего Урона",
+				"icon_path": "#*images/ui/SkillSheet/Icons/Ranged01.png"
+			},
+			{
+				"text": "%s",
+				"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/smite.png",
+				"conditional_attribute": "EFF_QUIVER_SILVER"
+			},
+			{
+				"text": "%s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png",
+				"conditional_attribute": "EFF_QUIVER_PIERCING"
+			},
+			{
+				"text": "%s",
+				"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/swift.png",
+				"conditional_attribute": "EFF_QUIVER_SWIFT"
+			},
+			{
+				"text": "%s",
+				"icon_path": "images/ui/HUD/statusfx/burning.png",
+				"conditional_attribute": "EFF_QUIVER_FIRE"
+			},
+			{
+				"text": "%s",
+				"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/knockback.png",
+				"conditional_attribute": "EFF_QUIVER_KNOCKBACK"
+			},
+			{
+				"text": "%s",
+				"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/hunting.png",
+				"conditional_attribute": "EFF_QUIVER_HUNTING"
+			},
+			{
+				"text": "%s",
+				"icon_path": "images/ui/HUD/statusfx/poisoned.png",
+				"conditional_attribute": "EFF_QUIVER_HUNTING2"
+			}],
+			"description": "template_quiver_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"EFF_QUIVER_SILVER": "template_quiver_silver_attributes"
+				},
+				{
+					"EFF_QUIVER_PIERCING": "template_quiver_piercing_attributes"
+				},
+				{
+					"EFF_QUIVER_SWIFT": "template_quiver_swift_attributes"
+				},
+				{
+					"EFF_QUIVER_FIRE": "template_quiver_fire_attributes"
+				},
+				{
+					"EFF_QUIVER_KNOCKBACK": "template_quiver_knockback_attributes"
+				},
+				{
+					"EFF_QUIVER_HUNTING": "template_quiver_hunting_attributes"
+				},
+				{
+					"blank_text_if_armor_has_stats": ["* Позволяет красться когда экипировано\n"]
+				},
+				{
+					"weapon_damage_text": "template_quiver_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				}
+			],
+			"size": {
+				"max_width": 316,
+				"min_width": 316,
+				"max_header_width": 300
+			}
+		},
+		"tooltip_ranged": {
+			"icons": [{
+				"text": "%+d Дальнего Урона",
+				"icon_path": "#*images/ui/SkillSheet/Icons/Ranged01.png"
+			}],
+			"description": "template_ranged_description_medium",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"weapon_ranged_rate_of_fire": "template_ranged_rate_of_fire"
+				},
+				{
+					"weapon_ranged_quiver_augment": "template_ranged_quiver_augment"
+				},
+				{
+					"blank_space": [""]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"weapon_atk_from_player_stat": "template_player_atk_stat_dex"
+				},
+				{
+					"weapon_ranged_armor_pierce": "template_ranged_armor_pierce"
+				},
+				{
+					"weapon_skill_modifier": "template_weapon_skill_modifier"
+				},
+				{
+					"weapon_durability": "template_weapon_durability"
+				},
+				{
+					"weapon_legendary_durability": "template_weapon_legendary_durability"
+				}
+			],
+			"size": {
+				"min_width": 330
+			}
+		},
+		"tooltip_ranged_artifact": {
+			"icons": [{
+				"text": "%+d Дальнего Урона",
+				"icon_path": "#*images/ui/SkillSheet/Icons/Ranged01_Gold.png"
+			},
+			{
+				"text": "Добавляет шанс при стрельбе: (%.f%%)\n+Наложить случайный эффект [Колчана]\n+Сохраняет боеприпасы экипированного колчана",
+				"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/legendary.png",
+				"conditional_attribute": "EFF_ARTIFACT_BOW"
+			}],
+			"description": ["Эффекты усиливаются со способностью Дальнее.", "Дальнее оружие средней дистанции.", "Зажмите [Атаковать] для непрерывной стрельбы."],
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"weapon_ranged_rate_of_fire": "template_ranged_rate_of_fire"
+				},
+				{
+					"weapon_ranged_quiver_augment": "template_ranged_quiver_augment"
+				},
+				{
+					"artifact_bow": ["* Неразрушимый"]
+				},
+				{
+					"blank_space": [""]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"artifact_weapon_on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"weapon_atk_from_player_stat": "template_player_atk_stat_dex"
+				},
+				{
+					"weapon_ranged_armor_pierce": "template_ranged_armor_pierce"
+				},
+				{
+					"weapon_skill_modifier": "template_weapon_skill_modifier"
+				}
+			],
+			"size": {
+				"min_width": 330
+			}
+		},
+		"tooltip_ranged_short": {
+			"icons": [{
+				"text": "%+d Дальнего Урона",
+				"icon_path": "#*images/ui/SkillSheet/Icons/Ranged01.png"
+			}],
+			"description": "template_ranged_description_short",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"weapon_ranged_rate_of_fire": "template_ranged_rate_of_fire"
+				},
+				{
+					"weapon_ranged_quiver_augment": "template_ranged_quiver_augment"
+				},
+				{
+					"blank_space": [""]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"weapon_atk_from_player_stat": "template_player_atk_stat_dex"
+				},
+				{
+					"weapon_ranged_armor_pierce": "template_ranged_armor_pierce"
+				},
+				{
+					"weapon_skill_modifier": "template_weapon_skill_modifier"
+				},
+				{
+					"weapon_durability": "template_weapon_durability"
+				},
+				{
+					"weapon_legendary_durability": "template_weapon_legendary_durability"
+				}
+			],
+			"size": {
+				"min_width": 340
+			}
+		},
+		"tooltip_ranged_long": {
+			"icons": [{
+				"text": "%+d Дальнего Урона",
+				"icon_path": "#*images/ui/SkillSheet/Icons/Ranged01.png"
+			}],
+			"description": "template_ranged_description_long",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"weapon_ranged_rate_of_fire": "template_ranged_rate_of_fire"
+				},
+				{
+					"weapon_ranged_quiver_augment": "template_ranged_quiver_augment"
+				},
+				{
+					"blank_space": [""]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"weapon_atk_from_player_stat": "template_player_atk_stat_dex"
+				},
+				{
+					"weapon_ranged_armor_pierce": "template_ranged_armor_pierce"
+				},
+				{
+					"weapon_skill_modifier": "template_weapon_skill_modifier"
+				},
+				{
+					"weapon_durability": "template_weapon_durability"
+				},
+				{
+					"weapon_legendary_durability": "template_weapon_legendary_durability"
+				}
+			],
+			"size": {
+				"min_width": 330
+			}
+		},
+		"tooltip_amulet": {
+			"icons": [{
+				"text": "%s",
+				"icon_path": "images/ui/HUD/statusfx/resist_poison.png",
+				"conditional_attribute": "EFF_POISONRESIST"
+			},
+			{
+				"text": "%s",
+				"icon_path": "images/ui/HUD/statusfx/waterbreathing.png",
+				"conditional_attribute": "EFF_WATERBREATHING"
+			},
+			{
+				"text": "%s",
+				"icon_path": "items/images/spells/reflect_magic.png",
+				"conditional_attribute": "EFF_MAGICREFLECT"
+			}],
+			"description": "template_amulet_description_generic",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"when_equipped": "template_when_equipped_text_no_leading_newline"
+				},
+				{
+					"EFF_POISONRESIST": "template_equipment_effect_poisonresist"
+				},
+				{
+					"EFF_WATERBREATHING": "template_equipment_effect_waterbreathing"
+				},
+				{
+					"EFF_MAGICREFLECT": "template_equipment_effect_magicreflect"
+				}
+			],
+			"size": {
+				"max_width": 340,
+				"min_width": 320,
+				"max_header_width": 340
+			}
+		},
+		"tooltip_amulet_sexchange": {
+			"icons": [{
+				"text": "%s",
+				"icon_path": "images/ui/Inventory/tooltips/tooltip_icons/sexchange.png",
+				"conditional_attribute": "EFF_SEXCHANGE"
+			}],
+			"description": "template_amulet_description_single_use",
+			"size": {
+				"max_width": 320,
+				"min_width": 280,
+				"max_header_width": 320
+			}
+		},
+		"tooltip_amulet_strangulation": {
+			"icons": [{
+				"text": "%s",
+				"icon_path": "images/ui/HUD/statusfx/strangulation.png",
+				"conditional_attribute": "EFF_STRANGULATION"
+			}],
+			"description": "template_amulet_description_generic",
+			"size": {
+				"max_width": 320,
+				"min_width": 300,
+				"max_header_width": 320
+			}
+		},
+		"tooltip_amulet_lifesaving": {
+			"icons": [{
+				"text": "%s",
+				"icon_path": "images/ui/Inventory/tooltips/tooltip_icons/lifesaving.png",
+				"conditional_attribute": "EFF_LIFESAVING"
+			}],
+			"description": "template_amulet_description_lifesaving",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"equipment_on_cursed_sideeffect": "template_amulet_curse_sideeffect"
+				},
+				{
+					"attributes_text": ["При активации:"]
+				},
+				{
+					"lifesaving_revival": ["* Восстанавливает +100% ОЗ", "* Лечит статус эффекты", "* Накладывает +5с [Левитации]"]
+				}
+			],
+			"size": {
+				"max_width": 320,
+				"min_width": 320,
+				"max_header_width": 320
+			}
+		},
+		"tooltip_thrown": {
+			"icons": [{
+				"text": "%+d Метательного урона",
+				"icon_path": "#*images/ui/SkillSheet/Icons/Ranged01.png"
+			}],
+			"description": "template_thrown_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"piercing": ["+50% Пробивания Брони"]
+				},
+				{
+					"unbreakable": ["* Неразрушимый"]
+				},
+				{
+					"blank_space": [""]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"thrown_atk_from_player_stat": "template_player_atk_stat_dex"
+				},
+				{
+					"fully_charged": ["+3 АТК / +25%  Пробивания Брони при полностью заряженном броске"]
+				},
+				{
+					"thrown_skill_modifier": "template_thrown_skill_modifier"
+				}
+			],
+			"size": {
+				"min_width": 304
+			}
+		},
+		"tooltip_boomerang": {
+			"icons": [{
+				"text": "%+d Метательного урона",
+				"icon_path": "#*images/ui/SkillSheet/Icons/Ranged01.png"
+			}],
+			"description": "template_thrown_description",
+			"details": [{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"returns_to_thrower": ["* Возвращается к владельцу"]
+				},
+				{
+					"powerful_when_repaired": ["* Необычайно мощен при починке"]
+				},
+				{
+					"blank_space": [""]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"thrown_atk_from_player_stat": "template_player_atk_stat_dex"
+				},
+				{
+					"fully_charged": ["+3 ATK / +25% Пробивания Брони при\n полностью заряженном броске."]
+				},
+				{
+					"thrown_skill_modifier": "template_thrown_skill_modifier"
+				}
+			],
+			"size": {
+				"min_width": 304
+			}
+		},
+		"tooltip_thrown_bouncy": {
+			"icons": [{
+				"text": "%+d Метательного урона",
+				"icon_path": "#*images/ui/SkillSheet/Icons/Ranged01.png"
+			}],
+			"description": "template_thrown_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"piercing": ["+50% Пробивания Брони"]
+				},
+				{
+					"unbreakable": ["* Неразрушимый"]
+				},
+				{
+					"bouncy": ["* Рикошетит от стен"]
+				},
+				{
+					"blank_space": [""]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"thrown_atk_from_player_stat": "template_player_atk_stat_dex"
+				},
+				{
+					"fully_charged": ["+3 ATK / +25% Пробивания Брони при\n полностью заряженном броске."]
+				},
+				{
+					"thrown_skill_modifier": "template_thrown_skill_modifier"
+				}
+			],
+			"size": {
+				"min_width": 304
+			}
+		},
+		"tooltip_armor_shield": {
+			"icons": [{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png",
+				"color": {
+					"r": 188,
+					"g": 154,
+					"b": 114,
+					"a": 255
+				}
+			},
+			{
+				"text": "[Хрупкий]",
+				"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/fragile.png",
+				"conditional_attribute": "EFF_SHIELD_BRITTLE"
+			},
+			{
+				"text": "[Хрупкий]",
+				"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/fragile.png",
+				"conditional_attribute": "FRAGILE"
+			},
+			{
+				"text": "%s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_RES_00.png",
+				"conditional_attribute": "EFF_MAGICRESIST_SHIELD"
+			}],
+			"description": "template_shield_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"EFF_MAGICRESIST_SHIELD": "template_armor_shield_resistance_bonus"
+				},
+				{
+					"equipment_stat_bonus": "template_armor_stat_bonus"
+				},
+				{
+					"equipment_fragile_durability": "template_armor_fragile_durability"
+				},
+				{
+					"blank_text_if_armor_has_stats": ""
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_armor_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_armor_beatitude_ac"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"armor_shield_bonus": "template_armor_shield_bonus"
+				},
+				{
+					"shield_durability": "template_shield_durability"
+				},
+				{
+					"shield_legendary_durability": "template_shield_legendary_durability"
+				}
+			],
+			"size": {
+				"min_width": 320,
+				"max_width": 320,
+				"max_header_width": 310
+			}
+		},
+		"tooltip_armor_mirror_shield": {
+			"icons": [{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png",
+				"color": {
+					"r": 188,
+					"g": 154,
+					"b": 114,
+					"a": 255
+				}
+			},
+			{
+				"text": "[Хрупкий]",
+				"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/fragile.png",
+				"conditional_attribute": "FRAGILE"
+			},
+			{
+				"text": "[Хрупкий]",
+				"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/fragile.png",
+				"conditional_attribute": "EFF_SHIELD_BRITTLE"
+			},
+			{
+				"text": "%s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_RES_00.png",
+				"conditional_attribute": "EFF_MAGICRESIST_SHIELD"
+			}],
+			"description": "template_mirror_shield_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"EFF_SHIELD_BRITTLE": "template_shield_brittle"
+				},
+				{
+					"EFF_MAGICRESIST_SHIELD": "template_armor_shield_resistance_bonus"
+				},
+				{
+					"equipment_stat_bonus": "template_armor_stat_bonus"
+				},
+				{
+					"equipment_fragile_durability": "template_armor_fragile_durability"
+				},
+				{
+					"blank_text_if_armor_has_stats": ""
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_armor_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_armor_beatitude_ac"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"armor_shield_bonus": "template_armor_shield_bonus"
+				},
+				{
+					"shield_durability": "template_shield_durability"
+				},
+				{
+					"shield_legendary_durability": "template_shield_legendary_durability"
+				}
+			],
+			"size": {
+				"min_width": 320,
+				"max_width": 320,
+				"max_header_width": 310
+			}
+		},
+		"tooltip_offhand_torch": {
+			"icons": [{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png"
+			},
+			{
+				"text": "Создает [Свет]",
+				"icon_path": "items/images/spells/light.png"
+			}],
+			"description": "template_torch_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"EFF_LIGHT": ["+7 интенсивность света", "* Ухудшается каждые 2.5 минуты"]
+				},
+				{
+					"blank_text_if_armor_has_stats": ""
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_armor_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_armor_beatitude_ac"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"armor_shield_bonus": "template_tool_shield_bonus"
+				},
+				{
+					"shield_durability": "template_shield_durability"
+				},
+				{
+					"shield_legendary_durability": "template_shield_legendary_durability"
+				}
+			],
+			"size": {
+				"min_width": 300
+			}
+		},
+		"tooltip_offhand_lantern": {
+			"icons": [{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png"
+			},
+			{
+				"text": "Создает [Свет]",
+				"icon_path": "items/images/spells/light.png"
+			}],
+			"description": "template_torch_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"EFF_LIGHT": ["+10 интенсивность света", "* Ухудшается каждые 3.5 минуты"]
+				},
+				{
+					"blank_text_if_armor_has_stats": ""
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_armor_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_armor_beatitude_ac"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"armor_shield_bonus": "template_tool_shield_bonus"
+				},
+				{
+					"shield_durability": "template_shield_durability"
+				},
+				{
+					"shield_legendary_durability": "template_shield_legendary_durability"
+				}
+			],
+			"size": {
+				"min_width": 300
+			}
+		},
+		"tooltip_offhand_shard": {
+			"icons": [{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png"
+			},
+			{
+				"text": "Создает [Свет]",
+				"icon_path": "items/images/spells/light.png"
+			},
+			{
+				"text": "[Хрупкий]",
+				"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/fragile.png",
+				"conditional_attribute": "EFF_SHIELD_BRITTLE"
+			}],
+			"description": "template_shard_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"EFF_LIGHT": ["+5 интенсивность света"]
+				},
+				{
+					"EFF_SHIELD_BRITTLE": "template_shield_brittle"
+				},
+				{
+					"blank_text_if_armor_has_stats": ""
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_armor_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_armor_beatitude_ac"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"armor_shield_bonus": "template_tool_shield_bonus"
+				},
+				{
+					"shield_durability": "template_shield_durability"
+				},
+				{
+					"shield_legendary_durability": "template_shield_legendary_durability"
+				}
+			],
+			"size": {
+				"min_width": 316
+			}
+		},
+		"tooltip_armor_helm": {
+			"icons": [{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png"
+			},
+			{
+				"text": "[Хрупкий]",
+				"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/fragile.png",
+				"conditional_attribute": "FRAGILE"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_STR_00.png",
+				"conditional_attribute": "STR"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_DEX_00.png",
+				"conditional_attribute": "DEX"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_CON_00.png",
+				"conditional_attribute": "CON"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_INT_00.png",
+				"conditional_attribute": "INT"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_PER_00.png",
+				"conditional_attribute": "PER"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_CHA_00.png",
+				"conditional_attribute": "CHR"
+			}],
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"EFF_UNBREAKABLE": ["* Неразрушимый", ""]
+				},
+				{
+					"equipment_stat_bonus": "template_armor_stat_bonus"
+				},
+				{
+					"equipment_fragile_durability": "template_armor_fragile_durability"
+				},
+				{
+					"blank_text_if_armor_has_stats": ""
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_armor_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_armor_beatitude_ac"
+				},
+				{
+					"artifact_armor_on_degraded": "template_armor_on_degraded_ac"
+				}
+			],
+			"size": {
+				"min_width": 220,
+				"item_overrides": {
+					"crystal_helm": {
+						"min_width": 240
+					},
+					"artifact_helm": {
+						"min_width": 260
+					}
+				}
+			}
+		},
+		"tooltip_armor_cloak": {
+			"icons": [{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png"
+			},
+			{
+				"text": "%s",
+				"icon_path": "items/images/spells/invisible.png",
+				"conditional_attribute": "EFF_INVISIBLE"
+			},
+			{
+				"text": "%s",
+				"icon_path": "items/images/spells/reflect_magic.png",
+				"conditional_attribute": "EFF_MAGICREFLECT"
+			},
+			{
+				"text": "%s",
+				"icon_path": "items/images/spells/levitation.png",
+				"conditional_attribute": "EFF_LEVITATION"
+			},
+			{
+				"text": "%+d  %s",
+				"icon_path": "images/ui/HUD/statusfx/regen_mp.png",
+				"conditional_attribute": "EFF_MP_REGENERATION"
+			}],
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"EFF_UNBREAKABLE": ["* Сопротивление Огню", "* Неразрушимый"]
+				},
+				{
+					"EFF_MAGICREFLECT": "template_equipment_effect_magicreflect"
+				},
+				{
+					"equipment_stat_bonus": "template_armor_stat_bonus"
+				},
+				{
+					"equipment_fragile_durability": "template_armor_fragile_durability"
+				},
+				{
+					"blank_text_if_armor_has_stats": ""
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_armor_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_armor_beatitude_ac"
+				}
+			],
+			"size": {
+				"min_width": 220,
+				"max_header_width": 300,
+				"item_overrides": {
+					"cloak_magicreflection": {
+						"min_width": 260
+					}
+				}
+			}
+		},
+		"tooltip_armor_cloak_backpack": {
+			"icons": [{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png"
+			}],
+			"description": "template_armor_cloak_backpack_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"equipment_stat_bonus": "template_armor_stat_bonus"
+				},
+				{
+					"equipment_fragile_durability": "template_armor_fragile_durability"
+				},
+				{
+					"blank_text_if_armor_has_stats": ""
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_armor_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_armor_beatitude_ac"
+				}
+			],
+			"size": {
+				"min_width": 250,
+				"max_header_width": 280
+			}
+		},
+		"tooltip_armor_hat_fez": {
+			"icons": [{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png"
+			}],
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"equipment_stat_bonus": "template_armor_stat_bonus"
+				},
+				{
+					"blank_text_if_armor_has_stats": ""
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_armor_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_armor_beatitude_ac"
+				}
+			],
+			"size": {
+				"min_width": 220
+			}
+		},
+		"tooltip_armor_hat": {
+			"icons": [{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_STR_00.png",
+				"conditional_attribute": "STR"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_DEX_00.png",
+				"conditional_attribute": "DEX"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_CON_00.png",
+				"conditional_attribute": "CON"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_INT_00.png",
+				"conditional_attribute": "INT"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_PER_00.png",
+				"conditional_attribute": "PER"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_CHA_00.png",
+				"conditional_attribute": "CHR"
+			},
+			{
+				"text": "%s",
+				"icon_path": "images/ui/HUD/statusfx/regen_mp.png",
+				"conditional_attribute": "EFF_BLEED_ENERGIZE"
+			}],
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"equipment_stat_bonus": "template_armor_stat_bonus"
+				},
+				{
+					"EFF_BLEED_ENERGIZE": ["+5с [Реген. ОМ] при наложении [Кровотечение]"]
+				},
+				{
+					"equipment_fragile_durability": "template_armor_fragile_durability"
+				},
+				{
+					"blank_text_if_armor_has_stats": ""
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_armor_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_armor_beatitude_ac"
+				}
+			],
+			"size": {
+				"min_width": 220,
+				"item_overrides": {
+					"punisher_hood": {
+						"min_width": 300
+					}
+				}
+			}
+		},
+		"tooltip_armor_monocle": {
+			"icons": [
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_PER_00.png",
+				"conditional_attribute": "PER"
+			},
+			{
+				"text": "%d%% скорости опознания камней",
+				"icon_path": "images/ui/SkillSheet/Icons/Appraisal01.png",
+				"conditional_attribute": "EFF_MONOCLE_APPRAISE"
+			}],
+			"description": "template_armor_monocle_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"armor_on_cursed_sideeffect": "template_monocle_curse_sideeffect"
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"monocle_hostility_effect": ["* Нет эффекта союзности", "при статусе [В Розыске!] в вашей текущей форме"]
+				},
+				{
+					"equipment_stat_bonus": "template_armor_stat_bonus"
+				}
+			],
+			"size": {
+				"min_width": 220,
+				"max_header_width": 220,
+				"item_overrides": {
+					"mask_shaman": {
+						"min_width": 270,
+						"max_header_width": 270
+					},
+					"monocle": {
+						"min_width": 270,
+						"max_header_width": 270
+					},
+					"tool_glasses": {
+						"min_width": 220,
+						"max_header_width": 300
+					}
+				}
+			}
+		},
+		"tooltip_armor_mask": {
+			"icons": [
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_STR_00.png",
+				"conditional_attribute": "STR"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_DEX_00.png",
+				"conditional_attribute": "DEX"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_CON_00.png",
+				"conditional_attribute": "CON"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_INT_00.png",
+				"conditional_attribute": "INT"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_PER_00.png",
+				"conditional_attribute": "PER"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_CHA_00.png",
+				"conditional_attribute": "CHR"
+			},
+			{
+				"text": "Дарует +1  [Реген. ОМ]\nпока [Обращен]",
+				"icon_path": "images/ui/HUD/statusfx/regen_mp.png",
+				"conditional_attribute": "EFF_MP_SHAMAN_MASK"
+			}],
+			"details": [{
+					"default": [""]
+				},
+				{
+					"armor_on_cursed_sideeffect": "template_shamanmask_curse_sideeffect"
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"equipment_stat_bonus": "template_armor_stat_bonus"
+				},
+				{
+					"equipment_fragile_durability": "template_armor_fragile_durability"
+				}
+			],
+			"size": {
+				"min_width": 220,
+				"max_header_width": 220,
+				"item_overrides": {
+					"mask_shaman": {
+						"min_width": 270,
+						"max_header_width": 270
+					},
+					"tool_glasses": {
+						"min_width": 220,
+						"max_header_width": 300
+					}
+				}
+			}
+		},
+		"tooltip_armor_boots": {
+			"icons": [{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png"
+			},
+			{
+				"text": "[Хрупкий]",
+				"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/fragile.png",
+				"conditional_attribute": "FRAGILE"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_STR_00.png",
+				"conditional_attribute": "STR"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_DEX_00.png",
+				"conditional_attribute": "DEX"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_CON_00.png",
+				"conditional_attribute": "CON"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_INT_00.png",
+				"conditional_attribute": "INT"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_PER_00.png",
+				"conditional_attribute": "PER"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_CHA_00.png",
+				"conditional_attribute": "CHR"
+			},
+			{
+				"text": "%s",
+				"icon_path": "images/ui/Inventory/tooltips/tooltip_icons/feather.png",
+				"conditional_attribute": "EFF_FEATHER"
+			},
+			{
+				"text": "%s",
+				"icon_path": "items/images/spells/levitation.png",
+				"conditional_attribute": "EFF_LEVITATION"
+			},
+			{
+				"text": "%s",
+				"icon_path": "images/ui/HUD/statusfx/waterwalking.png",
+				"conditional_attribute": "EFF_WATERWALKING"
+			},
+			{
+				"text": "%s",
+				"icon_path": "images/ui/HUD/statusfx/lesserwarning.png",
+				"conditional_attribute": "EFF_FOOTSTEP_WARNING"
+			}],
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"EFF_FOOTSTEP_WARNING": "template_equipment_effect_footstep_warning"
+				},
+				{
+					"EFF_UNBREAKABLE": ["* Неразрушимый"]
+				},
+				{
+					"equipment_stat_bonus": "template_armor_stat_bonus"
+				},
+				{
+					"equipment_fragile_durability": "template_armor_fragile_durability"
+				},
+				{
+					"EFF_FEATHER": "template_equipment_effect_feather"
+				},
+				{
+					"EFF_WATERWALKING": "template_equipment_effect_waterwalking"
+				},
+				{
+					"blank_text_if_armor_has_stats": ""
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_armor_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_armor_beatitude_ac"
+				},
+				{
+					"artifact_armor_on_degraded": "template_armor_on_degraded_ac"
+				}
+			],
+			"size": {
+				"max_width": 260,
+				"min_width": 240,
+				"max_header_width": 260,
+				"item_overrides": {
+					"artifact_boots": {
+						"min_width": 300,
+						"max_width": 320,
+						"max_header_width": 320
+					}
+				}
+			}
+		},
+		"tooltip_armor_breastpiece": {
+			"icons": [{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png"
+			},
+			{
+				"text": "[Хрупкий]",
+				"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/fragile.png",
+				"conditional_attribute": "FRAGILE"
+			},
+			{
+				"text": "%+d  %s",
+				"icon_path": "images/ui/HUD/statusfx/regen_mp.png",
+				"conditional_attribute": "EFF_MP_REGENERATION"
+			},
+			{
+				"text": "%s",
+				"icon_path": "images/ui/HUD/statusfx/regen_hpoff.png",
+				"conditional_attribute": "EFF_DISABLE_REGENERATION"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_STR_00.png",
+				"conditional_attribute": "STR"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_DEX_00.png",
+				"conditional_attribute": "DEX"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_CON_00.png",
+				"conditional_attribute": "CON"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_INT_00.png",
+				"conditional_attribute": "INT"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_PER_00.png",
+				"conditional_attribute": "PER"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_CHA_00.png",
+				"conditional_attribute": "CHR"
+			},
+			{
+				"text": "%+d  %s",
+				"icon_path": "images/ui/HUD/statusfx/regen_hp.png",
+				"conditional_attribute": "EFF_REGENERATION"
+			},
+			{
+				"text": "%s",
+				"icon_path": "images/ui/HUD/statusfx/resist_fire.png",
+				"conditional_attribute": "EFF_FIRERESIST"
+			}],
+			"details": [{
+					"default": [""]
+				},
+				{
+					"armor_on_cursed_sideeffect": "template_doublet_curse_sideeffect"
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"EFF_UNBREAKABLE": ["* Неразрушимый"]
+				},
+				{
+					"equipment_stat_bonus": "template_armor_stat_bonus"
+				},
+				{
+					"equipment_fragile_durability": "template_armor_fragile_durability"
+				},
+				{
+					"blank_text_if_armor_has_stats": ""
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_armor_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_armor_beatitude_ac"
+				},
+				{
+					"artifact_armor_on_degraded": "template_armor_on_degraded_ac"
+				}
+			],
+			"size": {
+				"max_width": 320,
+				"min_width": 240,
+				"max_header_width": 320,
+				"item_overrides": {
+					"artifact_breastpiece": {
+						"min_width": 260,
+						"max_width": 320,
+						"max_header_width": 320
+					},
+					"machinist_apron": {
+						"min_width": 260,
+						"max_width": 320,
+						"max_header_width": 320
+					}
+				}
+			}
+		},
+		"tooltip_armor_gloves": {
+			"icons": [{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png"
+			},
+			{
+				"text": "[Хрупкий]",
+				"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/fragile.png",
+				"conditional_attribute": "FRAGILE"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_STR_00.png",
+				"conditional_attribute": "STR"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_DEX_00.png",
+				"conditional_attribute": "DEX"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_CON_00.png",
+				"conditional_attribute": "CON"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_INT_00.png",
+				"conditional_attribute": "INT"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_PER_00.png",
+				"conditional_attribute": "PER"
+			},
+			{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_CHA_00.png",
+				"conditional_attribute": "CHR"
+			},
+			{
+				"text": "%s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_RES_00.png",
+				"conditional_attribute": "EFF_MAGICRESIST"
+			},
+			{
+				"text": "Дарует [Толкание]",
+				"icon_path": "#*images/ui/HUD/statusfx/push.png",
+				"conditional_attribute": "PUSH"
+			}],
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text_if_armor_has_stats": "template_attributes_text"
+				},
+				{
+					"EFF_UNBREAKABLE": ["* Неразрушимый"]
+				},
+				{
+					"equipment_stat_bonus": "template_armor_stat_bonus"
+				},
+				{
+					"equipment_fragile_durability": "template_armor_fragile_durability"
+				},
+				{
+					"blank_text_if_armor_has_stats": ""
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_armor_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_armor_beatitude_ac"
+				},
+				{
+					"artifact_armor_on_degraded": "template_armor_on_degraded_ac"
+				}
+			],
+			"size": {
+				"max_width": 280,
+				"min_width": 260,
+				"max_header_width": 280,
+				"item_overrides": {
+					"artifact_gloves": {
+						"min_width": 260,
+						"max_width": 320,
+						"max_header_width": 320
+					}
+				}
+			}
+		},
+		"tooltip_armor_knuckles": {
+			"icons": [{
+				"text": "%+d %s",
+				"icon_path": "#*images/ui/HUD/HUD_CharSheet_AC_00.png"
+			},
+			{
+				"text": "%+d Безоружн. АТК",
+				"icon_path": "#*images/ui/SkillSheet/Icons/Unarmed01.png"
+			}
+			],
+			"description": "template_knuckles_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"armor_ac_text": "template_armor_ac_text"
+				},
+				{
+					"armor_base_ac": "template_knuckles_base_ac"
+				},
+				{
+					"on_bless_or_curse": "template_knuckles_beatitude_ac"
+				},
+				{
+					"when_equipped": ["\nКогда экипировано: (Пустой слот Основной Руки)"]
+				},
+				{
+					"weapon_atk_from_player_stat": "template_player_unarmed_atk_stat_str"
+				},
+				{
+					"knuckle_skill_modifier": "template_knuckle_skill_modifier"
+				},
+				{
+					"weapon_durability": "template_weapon_durability"
+				},
+				{
+					"weapon_legendary_durability": "template_weapon_legendary_durability"
+				},
+				{
+					"knuckle_knockback_modifier": "template_knuckle_knockback_modifier"
+				}
+			],
+			"size": {
+				"min_width": 328
+			}
+		},
+		"tooltip_mace": {
+			"icons": [{
+				"text": "%+d Урон Палиц",
+				"icon_path": "#*images/ui/SkillSheet/Icons/Maces01.png"
+			},
+			{
+				"text": "[Хрупкий]",
+				"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/fragile.png",
+				"conditional_attribute": "FRAGILE"
+			}],
+			"description": "template_weapon_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"weapon_base_effects": "template_weapon_mace_effects"
+				},
+				{
+					"weapon_bonus_exp": "template_weapon_bonus_exp"
+				},
+				{
+					"equipment_fragile_durability": "template_equipment_fragile_durability"
+				},
+				{
+					"blank_space": [""]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"artifact_weapon_on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"weapon_atk_from_player_stat": "template_player_atk_stat_str"
+				},
+				{
+					"weapon_skill_modifier": "template_weapon_skill_modifier"
+				},
+				{
+					"weapon_durability": "template_weapon_durability"
+				},
+				{
+					"weapon_legendary_durability": "template_weapon_legendary_durability"
+				}
+			],
+			"size": {
+				"min_width": 296
+			}
+		},
+		"tooltip_mace_artifact": {
+			"icons": [{
+				"text": "%+d Урон Палиц",
+				"icon_path": "#*images/ui/SkillSheet/Icons/Maces01_Gold.png"
+			},
+			{
+				"text": "Когда экипировано:\n+Усиливает базовую [Реген. ОМ]\n+Много болтает",
+				"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/legendary.png",
+				"conditional_attribute": "EFF_ARTIFACT_MACE"
+			}],
+			"description": ["Эффекты усиливаются со способностью Палицы.", "Зажмите [Атаковать] чтобы совершить критическую атаку."],
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"weapon_base_effects": "template_weapon_mace_effects"
+				},
+				{
+					"artifact_mace": ["* Неразрушимый"]
+				},
+				{
+					"blank_space": [""]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"artifact_weapon_on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"weapon_atk_from_player_stat": "template_player_atk_stat_str"
+				},
+				{
+					"weapon_skill_modifier": "template_weapon_skill_modifier"
+				}
+			],
+			"size": {
+				"min_width": 310
+			}
+		},
+		"tooltip_sword": {
+			"icons": [{
+				"text": "%+d Урон Мечей",
+				"icon_path": "#*images/ui/SkillSheet/Icons/Swords01.png"
+			},
+			{
+				"text": "[Хрупкий]",
+				"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/fragile.png",
+				"conditional_attribute": "FRAGILE"
+			}],
+			"description": "template_weapon_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"weapon_base_effects": "template_weapon_sword_effects"
+				},
+				{
+					"weapon_bonus_exp": "template_weapon_bonus_exp"
+				},
+				{
+					"equipment_fragile_durability": "template_equipment_fragile_durability"
+				},
+				{
+					"blank_space": [""]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"artifact_weapon_on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"weapon_atk_from_player_stat": "template_player_atk_stat_str"
+				},
+				{
+					"weapon_skill_modifier": "template_weapon_skill_modifier"
+				},
+				{
+					"weapon_durability": "template_weapon_durability"
+				},
+				{
+					"weapon_legendary_durability": "template_weapon_legendary_durability"
+				}
+			],
+			"size": {
+				"min_width": 304
+			}
+		},
+		"tooltip_sword_artifact": {
+			"icons": [{
+				"text": "%+d Урон Мечей",
+				"icon_path": "#*images/ui/SkillSheet/Icons/Swords01_Gold.png"
+			},
+			{
+				"text": "Добавляет шанс при ударе: (%.f%%)\n+Наложить [Горение]\n+%.f%% [Сокрушающий] урон",
+				"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/legendary.png",
+				"conditional_attribute": "EFF_ARTIFACT_SWORD"
+			}],
+			"description": ["Эффекты усиливаются со способностью Мечи.", "Зажмите [Атаковать] чтобы совершить критическую атаку."],
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"weapon_base_effects": "template_weapon_sword_effects"
+				},
+				{
+					"artifact_sword": ["* Наносит бонусный урон нежити и демонам при наложении [Сокрушающего] урона", "* Неразрушимый"]
+				},
+				{
+					"blank_space": [""]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"artifact_weapon_on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"weapon_atk_from_player_stat": "template_player_atk_stat_str"
+				},
+				{
+					"weapon_skill_modifier": "template_weapon_skill_modifier"
+				}
+			],
+			"size": {
+				"min_width": 320
+			}
+		},
+		"tooltip_axe": {
+			"icons": [{
+				"text": "%+d Урон Топоров",
+				"icon_path": "#*images/ui/SkillSheet/Icons/Axes01.png"
+			},
+			{
+				"text": "[Хрупкий]",
+				"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/fragile.png",
+				"conditional_attribute": "FRAGILE"
+			}],
+			"description": "template_weapon_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"weapon_base_effects": "template_weapon_axe_effects"
+				},
+				{
+					"weapon_bonus_exp": "template_weapon_bonus_exp"
+				},
+				{
+					"equipment_fragile_durability": "template_equipment_fragile_durability"
+				},
+				{
+					"blank_space": [""]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"artifact_weapon_on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"weapon_atk_from_player_stat": "template_player_atk_stat_str"
+				},
+				{
+					"weapon_skill_modifier": "template_weapon_skill_modifier"
+				},
+				{
+					"weapon_durability": "template_weapon_durability"
+				},
+				{
+					"weapon_legendary_durability": "template_weapon_legendary_durability"
+				}
+			],
+			"size": {
+				"min_width": 296
+			}
+		},
+		"tooltip_axe_artifact": {
+			"icons": [{
+				"text": "%+d Урон Топоров",
+				"icon_path": "#*images/ui/SkillSheet/Icons/Axes01_Gold.png"
+			},
+			{
+				"text": "Добавляет шанс при ударе: (%.f%%)\n+%.f%% бонусного урона\n+Наложить [Замедление]",
+				"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/legendary.png",
+				"conditional_attribute": "EFF_ARTIFACT_AXE"
+			}],
+			"description": ["Эффекты усиливаются со способностью Топоры.", "Зажмите [Атаковать] чтобы совершить критическую атаку."],
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"weapon_base_effects": "template_weapon_axe_effects"
+				},
+				{
+					"artifact_axe": ["* Неразрушимый"]
+				},
+				{
+					"blank_space": [""]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"artifact_weapon_on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"weapon_atk_from_player_stat": "template_player_atk_stat_str"
+				},
+				{
+					"weapon_skill_modifier": "template_weapon_skill_modifier"
+				}
+			],
+			"size": {
+				"min_width": 296
+			}
+		},
+		"tooltip_whip": {
+			"icons": [{
+				"text": "%+d Дальнего Урона",
+				"icon_path": "#*images/ui/SkillSheet/Icons/Ranged01.png"
+			},
+			{
+				"text": "%s",
+				"icon_path": "items/images/spells/identify.png",
+				"conditional_attribute": "EFF_DISARMING"
+			}
+			],
+			"description": "template_whip_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"weapon_base_effects": ["+50% дальности атаки", "+20% шанс на [Кровотечение] при ударах с фланга", "+100% шанс на [Кровотечение] при обезоруживающих атаках", "* Неразрушимый"]
+				},
+				{
+					"whip_disarm": ["", "Шансы обезоруживания:", "+33% шанс на [Пьяных] или противников в [Смятении] ", "+100% шанс на [Обездвиженных] или [Дизориентированных] противниках"]
+				},
+				{
+					"weapon_bonus_exp": "template_weapon_bonus_exp"
+				},
+				{
+					"equipment_fragile_durability": "template_equipment_fragile_durability"
+				},
+				{
+					"blank_space": [""]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"artifact_weapon_on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"weapon_atk_from_player_stat": "template_player_atk_stat_whip"
+				},
+				{
+					"weapon_skill_modifier": "template_weapon_skill_modifier"
+				}
+			],
+			"size": {
+				"min_width": 360
+			}
+		},
+		"tooltip_polearm": {
+			"icons": [{
+				"text": "%+d Урон Древковых",
+				"icon_path": "#*images/ui/SkillSheet/Icons/Polearms01.png"
+			},
+			{
+				"text": "[Хрупкий]",
+				"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/fragile.png",
+				"conditional_attribute": "FRAGILE"
+			}],
+			"description": "template_weapon_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"weapon_base_effects": "template_weapon_polearm_effects"
+				},
+				{
+					"weapon_bonus_exp": "template_weapon_bonus_exp"
+				},
+				{
+					"equipment_fragile_durability": "template_equipment_fragile_durability"
+				},
+				{
+					"blank_space": [""]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"artifact_weapon_on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"weapon_atk_from_player_stat": "template_player_atk_stat_str"
+				},
+				{
+					"weapon_skill_modifier": "template_weapon_skill_modifier"
+				},
+				{
+					"weapon_durability": "template_weapon_durability"
+				},
+				{
+					"weapon_legendary_durability": "template_weapon_legendary_durability"
+				}
+			],
+			"size": {
+				"min_width": 316
+			}
+		},
+		"tooltip_polearm_artifact": {
+			"icons": [{
+				"text": "%+d Урон Древковых",
+				"icon_path": "#*images/ui/SkillSheet/Icons/Polearms01_Gold.png"
+			},
+			{
+				"text": "Добавляет шанс при ударе: (%.f%%)\n+%.f%% [Пробитие Брони]",
+				"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/legendary.png",
+				"conditional_attribute": "EFF_ARTIFACT_SPEAR"
+			}],
+			"description": ["Эффекты усиливаются со способностью Посохи.", "Зажмите [Атаковать] чтобы совершить критическую атаку."],
+			"details": [{
+					"default": [""]
+				},
+				{
+					"attributes_text": "template_attributes_text"
+				},
+				{
+					"weapon_base_effects": "template_weapon_legendary_polearm_effects"
+				},
+				{
+					"artifact_spear": ["* [Пробивание Брони] проходит через 50% ПБ цели", "* Неразрушимый"]
+				},
+				{
+					"blank_space": [""]
+				},
+				{
+					"weapon_damage_text": "template_weapon_damage_text"
+				},
+				{
+					"weapon_base_atk": "template_weapon_base_atk"
+				},
+				{
+					"on_bless_or_curse": "template_weapon_beatitude_atk"
+				},
+				{
+					"on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"artifact_weapon_on_degraded": "template_weapon_on_degraded_atk"
+				},
+				{
+					"when_equipped": "template_when_equipped_text"
+				},
+				{
+					"weapon_atk_from_player_stat": "template_player_atk_stat_str"
+				}
+			],
+			"size": {
+				"min_width": 330
+			}
+		},
+		"tooltip_food_small": {
+			"description": ["Немного утоляет голод."],
+			"details" : [{
+					"default": [""]
+				},
+				{
+					"food_on_cursed_sideeffect": "template_food_curse_sideeffect"
+				},
+				{
+					"food_quality": "template_food_on_eating"
+				},
+				{
+					"food_puke_chance": "template_food_puke_chance"
+				}
+			],
+			"size": {
+				"min_width": 300
+			}
+		},
+		"tooltip_food_large": {
+			"description": ["Хорошо утоляет голод."],
+			"details" : [{
+					"default": [""]
+				},
+				{
+					"food_on_cursed_sideeffect": "template_food_curse_sideeffect"
+				},
+				{
+					"food_quality": "template_food_on_eating"
+				},
+				{
+					"food_puke_chance": "template_food_puke_chance"
+				}
+			],
+			"size": {
+				"min_width": 300
+			}
+		},
+		"tooltip_food_med": {
+			"description": ["Средне утоляет голод."],
+			"details" : [{
+					"default": [""]
+				},
+				{
+					"food_on_cursed_sideeffect": "template_food_curse_sideeffect"
+				},
+				{
+					"food_quality": "template_food_on_eating"
+				},
+				{
+					"food_puke_chance": "template_food_puke_chance"
+				}
+			],
+			"size": {
+				"min_width": 310
+			}
+		},
+		"tooltip_food_creampie": {
+			"icons": [{
+				"text": "[Метательное]",
+				"icon_path": "#*images/ui/Inventory/tooltips/tooltip_icons/ammo.png"
+			}],
+			"description": ["Средне утоляет голод когда съедено."],
+			"details" : [{
+					"default": [""]
+				},
+				{
+					"food_on_cursed_sideeffect": "template_food_curse_sideeffect"
+				},
+				{
+					"food_quality": "template_food_on_eating"
+				},
+				{
+					"food_puke_chance": "template_food_puke_chance"
+				}
+			],
+			"size": {
+				"min_width": 280
+			}
+		},
+		"tooltip_food_tin": {
+			"icons": [{
+				"text": "Пахнет как...%s",
+				"icon_path": "items/images/spells/sensefood.png"
+			}],
+			"description": "template_food_tin_description",
+			"details" : [{
+					"default": [""]
+				},
+				{
+					"food_on_cursed_sideeffect": "template_food_curse_sideeffect"
+				},
+				{
+					"attributes_text": ["Атрибуты:"]
+				},
+				{
+					"food_tin_regen": ["* Может дать [Реген. ОЗ/ОМ]"]
+				},
+				{
+					"food_tin_greasy": ["* Может сделать руки [Склизскими]"]
+				},
+				{
+					"blank_space": [""]
+				},
+				{
+					"food_quality": "template_food_on_eating"
+				},
+				{
+					"food_puke_chance": "template_food_puke_chance"
+				}
+			],
+			"size": {
+				"min_width": 300,
+				"max_width": 300,
+				"max_header_width": 260
+			}
+		},
+		"tooltip_food_blood": {
+			"description": ["\"Кровь - это жизнь...\nи она будет моей!\"", "-Дракула"]
+		},
+		"tooltip_potion_empty": {
+			"description": "template_potion_empty_description",
+			"size": {
+				"min_width": 290
+			}
+		},
+		"tooltip_potion_water": {
+			"icons": [{
+				"text": "%+d [Восстановление ОЗ]",
+				"icon_path": "items/images/spells/healing.png"
+			}],
+			"description": "template_potion_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"potion_on_blessed": ["* %+d Урона Зелий по Нежити\n от %s"]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 290
+			}
+		},
+		"tooltip_potion_booze": {
+			"icons": [{
+					"text": "%+d [Восстановление ОЗ]",
+					"icon_path": "items/images/spells/healing.png"
+				},
+				{
+					"text": "Накладывает [Опьянение]\nДлительность: [%d-%dс]",
+					"icon_path": "#*images/ui/HUD/statusfx/drunk.png"
+				}
+			],
+			"description": "template_potion_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"potion_additional_effects": ["* Немного утоляет голод", "* Избавляет от похмелья"]
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 310
+			}
+		},
+		"tooltip_potion_juice": {
+			"icons": [{
+				"text": "%+d [Восстановление ОЗ]",
+				"icon_path": "items/images/spells/healing.png"
+			}],
+			"description": "template_potion_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"potion_additional_effects": ["* Немного утоляет голод"]
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 268
+			}
+		},
+		"tooltip_potion_sickness": {
+			"icons": [{
+					"text": "%+d Урона Зелий",
+					"icon_path": "images/ui/SkillSheet/Icons/Alchemy01.png"
+				},
+				{
+					"text": "Накладывает [Отравление]",
+					"icon_path": "images/ui/HUD/statusfx/poisoned.png"
+				}
+			],
+			"description": "template_potion_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 284
+			}
+		},
+		"tooltip_potion_confusion": {
+			"icons": [{
+				"text": "Накладывает [Смятение]\nДлительность: [%dс]",
+				"icon_path": "items/images/spells/confuse.png"
+			}],
+			"description": "template_potion_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 284
+			}
+		},
+		"tooltip_potion_extrahealing": {
+			"icons": [{
+				"text": "+%d [Восстановление ОЗ]",
+				"icon_path": "items/images/spells/extrahealing.png"
+			}],
+			"description": "template_potion_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"potion_extrahealing_bonus": ["* %+d Восстановление ОЗ от ТЕЛ"]
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 310
+			}
+		},
+		"tooltip_potion_healing": {
+			"icons": [{
+				"text": "+%d [Восстановление ОЗ]",
+				"icon_path": "items/images/spells/healing.png"
+			}],
+			"description": "template_potion_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"potion_healing_bonus": ["* %+d Восстановление ОЗ от ТЕЛ"]
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 300
+			}
+		},
+		"tooltip_potion_cureailment": {
+			"icons": [{
+				"text": "[Лечит] статус эффекты",
+				"icon_path": "items/images/spells/cureailment.png"
+			}],
+			"description": "template_potion_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"potion_on_blessed": ["* %+dс [Реген. ОЗ/ОМ] от %s"]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 308
+			}
+		},
+		"tooltip_potion_blindness": {
+			"icons": [{
+				"text": "Накладывает [Слепоту]\nДлительность: [%d-%dс]",
+				"icon_path": "images/ui/HUD/statusfx/blind.png"
+			}],
+			"description": "template_potion_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 284
+			}
+		},
+		"tooltip_potion_restoremagic": {
+			"icons": [{
+				"text": "+%d [Восстановление ОМ]",
+				"icon_path": "images/ui/HUD/statusfx/regen_mp.png"
+			}],
+			"description": "template_potion_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"potion_restoremagic_bonus": ["* %+d Восстановления ОМ от ИНТ"]
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 310
+			}
+		},
+		"tooltip_potion_invisibility": {
+			"icons": [{
+				"text": "Накладывает [Невидимость]\nДлительность: [%d-%dс]",
+				"icon_path": "items/images/spells/invisible.png"
+			}],
+			"description": "template_potion_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 300
+			}
+		},
+		"tooltip_potion_levitation": {
+			"icons": [{
+				"text": "Накладывает [Левитацию]\nДлительность: [%d-%dс]",
+				"icon_path": "items/images/spells/levitation.png"
+			}],
+			"description": "template_potion_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 300
+			}
+		},
+		"tooltip_potion_speed": {
+			"icons": [{
+				"text": "Накладывает [Скорость]\nДлительность: [%dс]",
+				"icon_path": "items/images/spells/speed.png"
+			}],
+			"description": "template_potion_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 268
+			}
+		},
+		"tooltip_potion_acid": {
+			"icons": [{
+				"text": "%+d Урона Зелий",
+				"icon_path": "images/ui/SkillSheet/Icons/Alchemy01.png"
+			}],
+			"description": "template_potion_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 284
+			}
+		},
+		"tooltip_potion_paralysis": {
+			"icons": [{
+				"text": "Накладывает [Паралич]\nДлительность: [%d-%dс]",
+				"icon_path": "images/ui/HUD/statusfx/paralyze.png"
+			}],
+			"description": "template_potion_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 284
+			}
+		},
+		"tooltip_potion_polymorph": {
+			"icons": [{
+				"text": "Накладывает\n[Полиморфирование]",
+				"icon_path": "items/images/spells/polymorph.png"
+			}],
+			"description": "template_potion_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"potion_polymorph_duration": ["* На монстров работает бессрочно\n\nЭффекты [Полиморфирования] игрока:\n* Длительность: [%d-%d минуты]\n* Эффект [Полиморфирован] пропадает при прикосновении к воде или ее потреблении"]
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 284
+			}
+		},
+		"tooltip_potion_firestorm": {
+			"icons": [{
+					"text": "%+d Урона Зелий",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Alchemy01.png"
+				},
+				{
+					"text": "Разрывается на 3x заклинания [Огненный Шар]",
+					"icon_path": "items/images/spells/fireball.png"
+				}
+			],
+			"description": "template_potion_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 284
+			}
+		},
+		"tooltip_potion_icestorm": {
+			"icons": [{
+					"text": "%+d Урона Зелий",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Alchemy01.png"
+				},
+				{
+					"text": "Разрывается на 3x заклинания [Холод]",
+					"icon_path": "items/images/spells/cold.png"
+				}
+			],
+			"description": "template_potion_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 284
+			}
+		},
+		"tooltip_potion_thunderstorm": {
+			"icons": [{
+					"text": "%+d Урона Зелий",
+					"icon_path": "#*images/ui/SkillSheet/Icons/Alchemy01.png"
+				},
+				{
+					"text": "Разрывается на 3x заклинания [Молния]",
+					"icon_path": "items/images/spells/lightning.png"
+				}
+			],
+			"description": "template_potion_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 292
+			}
+		},
+		"tooltip_potion_strength": {
+			"icons": [{
+				"text": "Накладывает\n[Сила] [Толкание]\nДлительность: [%dс]",
+				"icon_path": "images/ui/HUD/statusfx/strengthbuff.png"
+			}],
+			"description": "template_potion_description",
+			"details": [{
+					"default": [""]
+				},
+				{
+					"potion_on_cursed": "template_potion_curse_sideeffect"
+				},
+				{
+					"alchemy_details": "template_alchemy_type"
+				},
+				{
+					"potion_damage": "template_potion_base_damage"
+				},
+				{
+					"on_bless_or_curse": "template_potion_beatitude"
+				},
+				{
+					"potion_multiplier": "template_potion_alchemy_damage"
+				}
+			],
+			"size": {
+				"min_width": 334
+			}
+		},
+		"tooltip_loot_bag": {
+			"icons": [{
+				"text": "[Тяжелый]",
+				"icon_path": "images/ui/HUD/HUD_CharSheet_WGT_00.png"
+			}],
+			"description": ["Содержит предметы павшего члена группы."],
+			"size": {
+				"min_width": 260
+			}
+		},
+		"tooltip_default": {
+			"description": ["This is a default tooltip", "This item does not have a tooltip yet!"]
+		},
+		"tooltip_unidentified": {
+			"icons": [{
+				"text": "\n[Неизвестный эффект]",
+				"icon_path": "items/images/spells/identify.png"
+			}],
+			"description": ["Опознайте этот предмет чтобы узнать больше."],
+			"size": {
+				"min_width": 260
+			}
+		}
+	}
+}

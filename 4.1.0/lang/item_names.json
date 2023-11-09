@@ -1,0 +1,1328 @@
+{
+    "version": 1,
+    "items": {
+        "wooden_shield": {
+            "name_identified": "деревянный щит",
+            "name_unidentified": "деревянный щит"
+        },
+        "quarterstaff": {
+            "name_identified": "боевой посох",
+            "name_unidentified": "боевой посох"
+        },
+        "bronze_sword": {
+            "name_identified": "бронзовый меч",
+            "name_unidentified": "бронзовый меч"
+        },
+        "bronze_mace": {
+            "name_identified": "бронзовая палица",
+            "name_unidentified": "бронзовая палица"
+        },
+        "bronze_axe": {
+            "name_identified": "бронзовый топор",
+            "name_unidentified": "бронзовый топор"
+        },
+        "bronze_shield": {
+            "name_identified": "бронзовый щит",
+            "name_unidentified": "бронзовый щит"
+        },
+        "sling": {
+            "name_identified": "рогатка",
+            "name_unidentified": "рогатка"
+        },
+        "iron_spear": {
+            "name_identified": "железное копье",
+            "name_unidentified": "железное копье"
+        },
+        "iron_sword": {
+            "name_identified": "железный меч",
+            "name_unidentified": "железный меч"
+        },
+        "iron_mace": {
+            "name_identified": "железная палица",
+            "name_unidentified": "железная палица"
+        },
+        "iron_axe": {
+            "name_identified": "железный топор",
+            "name_unidentified": "железный топор"
+        },
+        "iron_shield": {
+            "name_identified": "железный щит",
+            "name_unidentified": "железный щит"
+        },
+        "shortbow": {
+            "name_identified": "короткий лук",
+            "name_unidentified": "короткий лук"
+        },
+        "steel_halberd": {
+            "name_identified": "стальная алебарда",
+            "name_unidentified": "стальная алебарда"
+        },
+        "steel_sword": {
+            "name_identified": "стальной меч",
+            "name_unidentified": "стальной меч"
+        },
+        "steel_mace": {
+            "name_identified": "стальная палица",
+            "name_unidentified": "стальная палица"
+        },
+        "steel_axe": {
+            "name_identified": "стальной топор",
+            "name_unidentified": "стальной топор"
+        },
+        "steel_shield": {
+            "name_identified": "стальной щит",
+            "name_unidentified": "стальной щит"
+        },
+        "steel_shield_resistance": {
+            "name_identified": "стальной щит магического сопротивления",
+            "name_unidentified": "стальной щит"
+        },
+        "crossbow": {
+            "name_identified": "арбалет",
+            "name_unidentified": "арбалет"
+        },
+        "gloves": {
+            "name_identified": "кожаные перчатки",
+            "name_unidentified": "перчатки"
+        },
+        "gloves_dexterity": {
+            "name_identified": "кожаные перчатки ловкости",
+            "name_unidentified": "перчатки"
+        },
+        "bracers": {
+            "name_identified": "железные наручи",
+            "name_unidentified": "наручи"
+        },
+        "bracers_constitution": {
+            "name_identified": "железные наручи телосложения",
+            "name_unidentified": "наручи"
+        },
+        "gauntlets": {
+            "name_identified": "стальные рукавицы",
+            "name_unidentified": "рукавицы"
+        },
+        "gauntlets_strength": {
+            "name_identified": "стальные рукавицы мощи",
+            "name_unidentified": "рукавицы"
+        },
+        "cloak": {
+            "name_identified": "плащ",
+            "name_unidentified": "плащ"
+        },
+        "cloak_magicreflection": {
+            "name_identified": "плащ отражения магии",
+            "name_unidentified": "плащ"
+        },
+        "cloak_invisibility": {
+            "name_identified": "плащ-невидимка",
+            "name_unidentified": "плащ"
+        },
+        "cloak_protection": {
+            "name_identified": "плащ защиты",
+            "name_unidentified": "плащ"
+        },
+        "leather_boots": {
+            "name_identified": "кожаные ботинки",
+            "name_unidentified": "кожаные ботинки"
+        },
+        "leather_boots_speed": {
+            "name_identified": "кожаные ботинки скорости",
+            "name_unidentified": "кожаные ботинки"
+        },
+        "iron_boots": {
+            "name_identified": "железные ботинки",
+            "name_unidentified": "железные ботинки"
+        },
+        "iron_boots_waterwalking": {
+            "name_identified": "железные ботинки хождения по воде",
+            "name_unidentified": "железные ботинки"
+        },
+        "steel_boots": {
+            "name_identified": "стальные ботинки",
+            "name_unidentified": "стальные ботинки"
+        },
+        "steel_boots_levitation": {
+            "name_identified": "стальные ботинки левитации",
+            "name_unidentified": "стальные ботинки"
+        },
+        "steel_boots_feather": {
+            "name_identified": "стальные ботинки пера",
+            "name_unidentified": "стальные ботинки"
+        },
+        "leather_breastpiece": {
+            "name_identified": "кожаный нагрудник",
+            "name_unidentified": "кожаный нагрудник"
+        },
+        "iron_breastpiece": {
+            "name_identified": "железный нагрудник",
+            "name_unidentified": "железный нагрудник"
+        },
+        "steel_breastpiece": {
+            "name_identified": "стальной нагрудник",
+            "name_unidentified": "стальной нагрудник"
+        },
+        "hat_phrygian": {
+            "name_identified": "фригийская шляпа",
+            "name_unidentified": "фригийская шляпа"
+        },
+        "hat_hood": {
+            "name_identified": "капюшон",
+            "name_unidentified": "капюшон"
+        },
+        "hat_wizard": {
+            "name_identified": "шляпа волшебника",
+            "name_unidentified": "шляпа волшебника"
+        },
+        "hat_jester": {
+            "name_identified": "шутовская шляпа",
+            "name_unidentified": "шутовская шляпа"
+        },
+        "leather_helm": {
+            "name_identified": "кожаный шлем",
+            "name_unidentified": "кожаный шлем"
+        },
+        "iron_helm": {
+            "name_identified": "железный шлем",
+            "name_unidentified": "железный шлем"
+        },
+        "steel_helm": {
+            "name_identified": "стальной шлем",
+            "name_unidentified": "стальной шлем"
+        },
+        "amulet_sexchange": {
+            "name_identified": "амулет смены пола",
+            "name_unidentified": "амулет"
+        },
+        "amulet_lifesaving": {
+            "name_identified": "амулет сохранения жизни",
+            "name_unidentified": "амулет"
+        },
+        "amulet_waterbreathing": {
+            "name_identified": "амулет олимпийского плавания",
+            "name_unidentified": "амулет"
+        },
+        "amulet_magicreflection": {
+            "name_identified": "амулет магического отражения",
+            "name_unidentified": "амулет"
+        },
+        "amulet_strangulation": {
+            "name_identified": "амулет удушения",
+            "name_unidentified": "амулет"
+        },
+        "amulet_poisonresistance": {
+            "name_identified": "амулет сопротивления яду",
+            "name_unidentified": "амулет"
+        },
+        "potion_water": {
+            "name_identified": "бутылка воды",
+            "name_unidentified": "зелье"
+        },
+        "potion_booze": {
+            "name_identified": "бутылка выпивки",
+            "name_unidentified": "зелье"
+        },
+        "potion_juice": {
+            "name_identified": "бутылка фруктового сока",
+            "name_unidentified": "зелье"
+        },
+        "potion_sickness": {
+            "name_identified": "зелье болезни",
+            "name_unidentified": "зелье"
+        },
+        "potion_confusion": {
+            "name_identified": "зелье смятения",
+            "name_unidentified": "зелье"
+        },
+        "potion_extrahealing": {
+            "name_identified": "зелье особого исцеления",
+            "name_unidentified": "зелье"
+        },
+        "potion_healing": {
+            "name_identified": "зелье исцеления",
+            "name_unidentified": "зелье"
+        },
+        "potion_cureailment": {
+            "name_identified": "зелье лечения болезней",
+            "name_unidentified": "зелье"
+        },
+        "potion_blindness": {
+            "name_identified": "зелье слепоты",
+            "name_unidentified": "зелье"
+        },
+        "potion_restoremagic": {
+            "name_identified": "зелье восстановления магии",
+            "name_unidentified": "зелье"
+        },
+        "potion_invisibility": {
+            "name_identified": "зелье невидимости",
+            "name_unidentified": "зелье"
+        },
+        "potion_levitation": {
+            "name_identified": "зелье левитации",
+            "name_unidentified": "зелье"
+        },
+        "potion_speed": {
+            "name_identified": "зелье скорости",
+            "name_unidentified": "зелье"
+        },
+        "potion_acid": {
+            "name_identified": "зелье кислоты",
+            "name_unidentified": "зелье"
+        },
+        "potion_paralysis": {
+            "name_identified": "зелье паралича",
+            "name_unidentified": "зелье"
+        },
+        "scroll_mail": {
+            "name_identified": "письмо",
+            "name_unidentified": "свиток с печатью"
+        },
+        "scroll_identify": {
+            "name_identified": "свиток идентификации",
+            "name_unidentified": "свиток"
+        },
+        "scroll_light": {
+            "name_identified": "свиток света",
+            "name_unidentified": "свиток"
+        },
+        "scroll_blank": {
+            "name_identified": "пустой свиток",
+            "name_unidentified": "свиток"
+        },
+        "scroll_enchantweapon": {
+            "name_identified": "свиток зачарования оружия",
+            "name_unidentified": "свиток"
+        },
+        "scroll_enchantarmor": {
+            "name_identified": "свиток зачарования брони",
+            "name_unidentified": "свиток"
+        },
+        "scroll_removecurse": {
+            "name_identified": "свиток снятия проклятия",
+            "name_unidentified": "свиток"
+        },
+        "scroll_fire": {
+            "name_identified": "свиток огня",
+            "name_unidentified": "свиток"
+        },
+        "scroll_food": {
+            "name_identified": "свиток еды",
+            "name_unidentified": "свиток"
+        },
+        "scroll_magicmapping": {
+            "name_identified": "свиток of магической карты",
+            "name_unidentified": "свиток"
+        },
+        "scroll_repair": {
+            "name_identified": "свиток починки",
+            "name_unidentified": "свиток"
+        },
+        "scroll_destroyarmor": {
+            "name_identified": "свиток уничтожения брони",
+            "name_unidentified": "свиток"
+        },
+        "scroll_teleportation": {
+            "name_identified": "свиток телепортации",
+            "name_unidentified": "свиток"
+        },
+        "scroll_summon": {
+            "name_identified": "свиток призыва",
+            "name_unidentified": "свиток"
+        },
+        "magicstaff_light": {
+            "name_identified": "магический посох света",
+            "name_unidentified": "магический посох"
+        },
+        "magicstaff_digging": {
+            "name_identified": "магический посох копания",
+            "name_unidentified": "магический посох"
+        },
+        "magicstaff_locking": {
+            "name_identified": "магический посох запирания",
+            "name_unidentified": "магический посох"
+        },
+        "magicstaff_magicmissile": {
+            "name_identified": "магический посох магического снаряда",
+            "name_unidentified": "магический посох"
+        },
+        "magicstaff_opening": {
+            "name_identified": "магический посох отпирания",
+            "name_unidentified": "магический посох"
+        },
+        "magicstaff_slow": {
+            "name_identified": "магический посох замедления",
+            "name_unidentified": "магический посох"
+        },
+        "magicstaff_cold": {
+            "name_identified": "магический посох холода",
+            "name_unidentified": "магический посох"
+        },
+        "magicstaff_fire": {
+            "name_identified": "магический посох огня",
+            "name_unidentified": "магический посох"
+        },
+        "magicstaff_lightning": {
+            "name_identified": "магический посох молнии",
+            "name_unidentified": "магический посох"
+        },
+        "magicstaff_sleep": {
+            "name_identified": "магический посох сна",
+            "name_unidentified": "магический посох"
+        },
+        "ring_adornment": {
+            "name_identified": "кольцо красоты",
+            "name_unidentified": "кольцо"
+        },
+        "ring_slowdigestion": {
+            "name_identified": "кольцо медленного переваривания",
+            "name_unidentified": "кольцо"
+        },
+        "ring_protection": {
+            "name_identified": "кольцо защиты",
+            "name_unidentified": "кольцо"
+        },
+        "ring_warning": {
+            "name_identified": "кольцо предупреждения",
+            "name_unidentified": "кольцо"
+        },
+        "ring_strength": {
+            "name_identified": "кольцо мощи",
+            "name_unidentified": "кольцо"
+        },
+        "ring_constitution": {
+            "name_identified": "кольцо телосложения",
+            "name_unidentified": "кольцо"
+        },
+        "ring_invisibility": {
+            "name_identified": "кольцо невидимости",
+            "name_unidentified": "кольцо"
+        },
+        "ring_magicresistance": {
+            "name_identified": "кольцо магического сопротивления",
+            "name_unidentified": "кольцо"
+        },
+        "ring_conflict": {
+            "name_identified": "кольцо конфликта",
+            "name_unidentified": "кольцо"
+        },
+        "ring_levitation": {
+            "name_identified": "кольцо левитации",
+            "name_unidentified": "кольцо"
+        },
+        "ring_regeneration": {
+            "name_identified": "кольцо регенерации",
+            "name_unidentified": "кольцо"
+        },
+        "ring_teleportation": {
+            "name_identified": "кольцо телепортации",
+            "name_unidentified": "кольцо"
+        },
+        "spellbook_forcebolt": {
+            "name_identified": "книга силового снаряда",
+            "name_unidentified": "книга"
+        },
+        "spellbook_magicmissile": {
+            "name_identified": "книга магического снаряда",
+            "name_unidentified": "книга"
+        },
+        "spellbook_cold": {
+            "name_identified": "книга холода",
+            "name_unidentified": "книга"
+        },
+        "spellbook_fireball": {
+            "name_identified": "книга огненного шара",
+            "name_unidentified": "книга"
+        },
+        "spellbook_light": {
+            "name_identified": "книга света",
+            "name_unidentified": "книга"
+        },
+        "spellbook_removecurse": {
+            "name_identified": "книга снятия проклятия",
+            "name_unidentified": "книга"
+        },
+        "spellbook_lightning": {
+            "name_identified": "книга молнии",
+            "name_unidentified": "книга"
+        },
+        "spellbook_identify": {
+            "name_identified": "книга идентификации",
+            "name_unidentified": "книга"
+        },
+        "spellbook_magicmapping": {
+            "name_identified": "книга магической карты",
+            "name_unidentified": "книга"
+        },
+        "spellbook_sleep": {
+            "name_identified": "книга сна",
+            "name_unidentified": "книга"
+        },
+        "spellbook_confuse": {
+            "name_identified": "книга смятения",
+            "name_unidentified": "книга"
+        },
+        "spellbook_slow": {
+            "name_identified": "книга замедления",
+            "name_unidentified": "книга"
+        },
+        "spellbook_opening": {
+            "name_identified": "книга отпирания",
+            "name_unidentified": "книга"
+        },
+        "spellbook_locking": {
+            "name_identified": "книга запирания",
+            "name_unidentified": "книга"
+        },
+        "spellbook_levitation": {
+            "name_identified": "книга левитации",
+            "name_unidentified": "книга"
+        },
+        "spellbook_invisibility": {
+            "name_identified": "книга невидимости",
+            "name_unidentified": "книга"
+        },
+        "spellbook_teleportation": {
+            "name_identified": "книга телепортации",
+            "name_unidentified": "книга"
+        },
+        "spellbook_healing": {
+            "name_identified": "книга исцеления",
+            "name_unidentified": "книга"
+        },
+        "spellbook_extrahealing": {
+            "name_identified": "книга особого исцеления",
+            "name_unidentified": "книга"
+        },
+        "spellbook_cureailment": {
+            "name_identified": "книга лечения болезней",
+            "name_unidentified": "книга"
+        },
+        "spellbook_dig": {
+            "name_identified": "книга копания",
+            "name_unidentified": "книга"
+        },
+        "gem_rock": {
+            "name_identified": "камень",
+            "name_unidentified": "камень"
+        },
+        "gem_luck": {
+            "name_identified": "камень удачи",
+            "name_unidentified": "камень"
+        },
+        "gem_garnet": {
+            "name_identified": "гранат",
+            "name_unidentified": "самоцвет"
+        },
+        "gem_ruby": {
+            "name_identified": "рубин",
+            "name_unidentified": "самоцвет"
+        },
+        "gem_jacinth": {
+            "name_identified": "гиацинт",
+            "name_unidentified": "самоцвет"
+        },
+        "gem_amber": {
+            "name_identified": "янтарь",
+            "name_unidentified": "самоцвет"
+        },
+        "gem_citrine": {
+            "name_identified": "цитрин",
+            "name_unidentified": "самоцвет"
+        },
+        "gem_jade": {
+            "name_identified": "нефрит",
+            "name_unidentified": "самоцвет"
+        },
+        "gem_emerald": {
+            "name_identified": "изумруд",
+            "name_unidentified": "самоцвет"
+        },
+        "gem_sapphire": {
+            "name_identified": "сапфир",
+            "name_unidentified": "самоцвет"
+        },
+        "gem_aquamarine": {
+            "name_identified": "аквамарин",
+            "name_unidentified": "самоцвет"
+        },
+        "gem_amethyst": {
+            "name_identified": "аметист",
+            "name_unidentified": "самоцвет"
+        },
+        "gem_fluorite": {
+            "name_identified": "флюорит",
+            "name_unidentified": "самоцвет"
+        },
+        "gem_opal": {
+            "name_identified": "опал",
+            "name_unidentified": "самоцвет"
+        },
+        "gem_diamond": {
+            "name_identified": "бриллиант",
+            "name_unidentified": "самоцвет"
+        },
+        "gem_jetstone": {
+            "name_identified": "гагат",
+            "name_unidentified": "самоцвет"
+        },
+        "gem_obsidian": {
+            "name_identified": "обсидиан",
+            "name_unidentified": "самоцвет"
+        },
+        "gem_glass": {
+            "name_identified": "никчемная стекляшка",
+            "name_unidentified": "самоцвет"
+        },
+        "tool_pickaxe": {
+            "name_identified": "кирка",
+            "name_unidentified": "кирка"
+        },
+        "tool_tinopener": {
+            "name_identified": "открывашка",
+            "name_unidentified": "открывашка"
+        },
+        "tool_mirror": {
+            "name_identified": "зеркало",
+            "name_unidentified": "зеркало"
+        },
+        "tool_lockpick": {
+            "name_identified": "отмычка",
+            "name_unidentified": "отмычка"
+        },
+        "tool_skeletonkey": {
+            "name_identified": "скелетный ключ",
+            "name_unidentified": "ключ"
+        },
+        "tool_torch": {
+            "name_identified": "факел",
+            "name_unidentified": "факел"
+        },
+        "tool_lantern": {
+            "name_identified": "лампа",
+            "name_unidentified": "лампа"
+        },
+        "tool_blindfold": {
+            "name_identified": "повязка на глаза",
+            "name_unidentified": "повязка на глаза"
+        },
+        "tool_towel": {
+            "name_identified": "полотенце",
+            "name_unidentified": "полотенце"
+        },
+        "tool_glasses": {
+            "name_identified": "очки",
+            "name_unidentified": "очки"
+        },
+        "tool_beartrap": {
+            "name_identified": "капкан",
+            "name_unidentified": "капкан"
+        },
+        "food_bread": {
+            "name_identified": "хлеб",
+            "name_unidentified": "хлеб"
+        },
+        "food_creampie": {
+            "name_identified": "кремовый пирог",
+            "name_unidentified": "кремовый пирог"
+        },
+        "food_cheese": {
+            "name_identified": "сыр",
+            "name_unidentified": "сыр"
+        },
+        "food_apple": {
+            "name_identified": "яблоко",
+            "name_unidentified": "яблоко"
+        },
+        "food_meat": {
+            "name_identified": "мясо",
+            "name_unidentified": "мясо"
+        },
+        "food_fish": {
+            "name_identified": "рыба",
+            "name_unidentified": "рыба"
+        },
+        "food_tin": {
+            "name_identified": "консерва",
+            "name_unidentified": "консерва"
+        },
+        "readable_book": {
+            "name_identified": "книга",
+            "name_unidentified": "читаемая книга"
+        },
+        "spell_item": {
+            "name_identified": "заклинание",
+            "name_unidentified": "заклинание"
+        },
+        "artifact_sword": {
+            "name_identified": "Dyrnwyn",
+            "name_unidentified": "магический меч"
+        },
+        "artifact_mace": {
+            "name_identified": "Sharur",
+            "name_unidentified": "магическая палица"
+        },
+        "artifact_spear": {
+            "name_identified": "Gungnir",
+            "name_unidentified": "магическое копье"
+        },
+        "artifact_axe": {
+            "name_identified": "Parashu",
+            "name_unidentified": "магический топор"
+        },
+        "artifact_bow": {
+            "name_identified": "Khryselakatos",
+            "name_unidentified": "магический лук"
+        },
+        "artifact_breastpiece": {
+            "name_identified": "Драконья Кольчуга",
+            "name_unidentified": "артефактный нагрудник"
+        },
+        "artifact_helm": {
+            "name_identified": "Вуаль Сфинкса",
+            "name_unidentified": "артефактный шлем"
+        },
+        "artifact_boots": {
+            "name_identified": "Сандалии Оракула",
+            "name_unidentified": "артефактные ботинки"
+        },
+        "artifact_cloak": {
+            "name_identified": "Мантия Призрака",
+            "name_unidentified": "артефактный плащ"
+        },
+        "artifact_gloves": {
+            "name_identified": "Наручи Джина",
+            "name_unidentified": "артефактные перчатки"
+        },
+        "crystal_breastpiece": {
+            "name_identified": "кристальный нагрудник",
+            "name_unidentified": "кристальный нагрудник"
+        },
+        "crystal_helm": {
+            "name_identified": "кристальный шлем",
+            "name_unidentified": "кристальный шлем"
+        },
+        "crystal_boots": {
+            "name_identified": "кристальные ботинки",
+            "name_unidentified": "кристальные ботинки"
+        },
+        "crystal_shield": {
+            "name_identified": "кристальный щит",
+            "name_unidentified": "кристальный щит"
+        },
+        "crystal_gloves": {
+            "name_identified": "кристальные рукавицы",
+            "name_unidentified": "кристальные рукавицы"
+        },
+        "vampire_doublet": {
+            "name_identified": "вампирский камзол",
+            "name_unidentified": "камзол"
+        },
+        "wizard_doublet": {
+            "name_identified": "камзол волшебника",
+            "name_unidentified": "камзол"
+        },
+        "healer_doublet": {
+            "name_identified": "камзол лекаря",
+            "name_unidentified": "камзол"
+        },
+        "mirror_shield": {
+            "name_identified": "зеркальный щит",
+            "name_unidentified": "зеркальный щит"
+        },
+        "brass_knuckles": {
+            "name_identified": "латунные кастеты",
+            "name_unidentified": "кастеты"
+        },
+        "iron_knuckles": {
+            "name_identified": "железные кастеты",
+            "name_unidentified": "кастеты"
+        },
+        "spiked_gauntlets": {
+            "name_identified": "шипастые рукавицы",
+            "name_unidentified": "кастеты"
+        },
+        "food_tomalley": {
+            "name_identified": "томалли",
+            "name_unidentified": "томалли"
+        },
+        "tool_crystalshard": {
+            "name_identified": "осколок кристалла",
+            "name_unidentified": "осколок кристалла"
+        },
+        "crystal_sword": {
+            "name_identified": "кристальный меч",
+            "name_unidentified": "кристальный меч"
+        },
+        "crystal_spear": {
+            "name_identified": "кристальное копье",
+            "name_unidentified": "кристальное копье"
+        },
+        "crystal_battleaxe": {
+            "name_identified": "кристальный топор",
+            "name_unidentified": "кристальный топор"
+        },
+        "crystal_mace": {
+            "name_identified": "кристальная палица",
+            "name_unidentified": "кристальная палица"
+        },
+        "bronze_tomahawk": {
+            "name_identified": "бронзовый томагавк",
+            "name_unidentified": "бронзовый томагавк"
+        },
+        "iron_dagger": {
+            "name_identified": "железный кинжал",
+            "name_unidentified": "железный кинжал"
+        },
+        "steel_chakram": {
+            "name_identified": "стальной чакрам",
+            "name_unidentified": "стальной чакрам"
+        },
+        "crystal_shuriken": {
+            "name_identified": "кристальный сюрикен",
+            "name_unidentified": "кристальный сюрикен"
+        },
+        "cloak_black": {
+            "name_identified": "черный плащ",
+            "name_unidentified": "черный плащ"
+        },
+        "magicstaff_stoneblood": {
+            "name_identified": "магический посох каменной крови",
+            "name_unidentified": "магический посох"
+        },
+        "magicstaff_bleed": {
+            "name_identified": "магический посох кровопускания",
+            "name_unidentified": "магический посох"
+        },
+        "magicstaff_summon": {
+            "name_identified": "магический посох призыва скелета",
+            "name_unidentified": "магический посох"
+        },
+        "tool_blindfold_focus": {
+            "name_identified": "повязка дополнительного действия",
+            "name_unidentified": "повязка на глаза"
+        },
+        "tool_blindfold_telepathy": {
+            "name_identified": "повязка телепатии",
+            "name_unidentified": "повязка на глаза"
+        },
+        "spellbook_summon": {
+            "name_identified": "книга призыва скелета",
+            "name_unidentified": "книга"
+        },
+        "spellbook_stoneblood": {
+            "name_identified": "книга каменной крови",
+            "name_unidentified": "книга"
+        },
+        "spellbook_bleed": {
+            "name_identified": "книга кровопускания",
+            "name_unidentified": "книга"
+        },
+        "spellbook_reflect_magic": {
+            "name_identified": "книга отражения магии",
+            "name_unidentified": "книга"
+        },
+        "spellbook_acid_spray": {
+            "name_identified": "книга разбрызгивания кислоты",
+            "name_unidentified": "книга"
+        },
+        "spellbook_steal_weapon": {
+            "name_identified": "книга кражи оружия",
+            "name_unidentified": "книга"
+        },
+        "spellbook_drain_soul": {
+            "name_identified": "книга похищения души",
+            "name_unidentified": "книга"
+        },
+        "spellbook_vampiric_aura": {
+            "name_identified": "книга вампирской ауры",
+            "name_unidentified": "книга"
+        },
+        "spellbook_charm": {
+            "name_identified": "книга очарования монстра",
+            "name_unidentified": "книга"
+        },
+        "potion_empty": {
+            "name_identified": "пустая бутылка",
+            "name_unidentified": "пустая бутылка"
+        },
+        "artifact_orb_blue": {
+            "name_identified": "таинственная синяя сфера",
+            "name_unidentified": "таинственная синяя сфера"
+        },
+        "artifact_orb_red": {
+            "name_identified": "таинственная красная сфера",
+            "name_unidentified": "таинственная красная сфера"
+        },
+        "artifact_orb_purple": {
+            "name_identified": "таинственная фиолетовая сфера",
+            "name_unidentified": "таинственная фиолетовая сфера"
+        },
+        "artifact_orb_green": {
+            "name_identified": "таинственная зеленая сфера",
+            "name_unidentified": "таинственная зеленая сфера"
+        },
+        "tunic": {
+            "name_identified": "туника",
+            "name_unidentified": "туника"
+        },
+        "hat_fez": {
+            "name_identified": "феска",
+            "name_unidentified": "феска"
+        },
+        "magicstaff_charm": {
+            "name_identified": "магический посох очарования монстра",
+            "name_unidentified": "магический посох"
+        },
+        "potion_polymorph": {
+            "name_identified": "зелье полиморфа",
+            "name_unidentified": "зелье"
+        },
+        "food_blood": {
+            "name_identified": "флакон крови",
+            "name_unidentified": "зелье"
+        },
+        "cloak_backpack": {
+            "name_identified": "рюкзак",
+            "name_unidentified": "рюкзак"
+        },
+        "tool_alembic": {
+            "name_identified": "перегонный куб",
+            "name_unidentified": "перегонный куб"
+        },
+        "potion_firestorm": {
+            "name_identified": "зелье огненного шторма",
+            "name_unidentified": "нестабильное зелье"
+        },
+        "potion_icestorm": {
+            "name_identified": "зелье ледяного шторма",
+            "name_unidentified": "нестабильное зелье"
+        },
+        "potion_thunderstorm": {
+            "name_identified": "зелье грозы",
+            "name_unidentified": "нестабильное зелье"
+        },
+        "potion_strength": {
+            "name_identified": "зелье силы",
+            "name_unidentified": "зелье"
+        },
+        "suede_boots": {
+            "name_identified": "замшевые ботинки",
+            "name_unidentified": "замшевые ботинки"
+        },
+        "suede_gloves": {
+            "name_identified": "замшевые перчатки",
+            "name_unidentified": "замшевые перчатки"
+        },
+        "cloak_silver": {
+            "name_identified": "серебрянный плащ",
+            "name_unidentified": "серебрянный плащ"
+        },
+        "hat_hood_silver": {
+            "name_identified": "серебрянный капюшон",
+            "name_unidentified": "серебрянный капюшон"
+        },
+        "hat_hood_red": {
+            "name_identified": "красный капюшон",
+            "name_unidentified": "красный капюшон"
+        },
+        "silver_doublet": {
+            "name_identified": "серебрянный камзол",
+            "name_unidentified": "серебрянный камзол"
+        },
+        "spellbook_revert_form": {
+            "name_identified": "книга возвращения формы",
+            "name_unidentified": "книга"
+        },
+        "spellbook_rat_form": {
+            "name_identified": "книга формы крысы",
+            "name_unidentified": "книга"
+        },
+        "spellbook_spider_form": {
+            "name_identified": "книга формы членистоногого",
+            "name_unidentified": "книга"
+        },
+        "spellbook_troll_form": {
+            "name_identified": "книга формы тролля",
+            "name_unidentified": "книга"
+        },
+        "spellbook_imp_form": {
+            "name_identified": "книга формы беса",
+            "name_unidentified": "книга"
+        },
+        "spellbook_spray_web": {
+            "name_identified": "книга разбрызгивания паутины",
+            "name_unidentified": "книга"
+        },
+        "spellbook_poison": {
+            "name_identified": "книга яда",
+            "name_unidentified": "книга"
+        },
+        "spellbook_speed": {
+            "name_identified": "книга скорости",
+            "name_unidentified": "книга"
+        },
+        "spellbook_fear": {
+            "name_identified": "книга страха",
+            "name_unidentified": "книга"
+        },
+        "spellbook_strike": {
+            "name_identified": "книга мощного удара",
+            "name_unidentified": "книга"
+        },
+        "spellbook_detect_food": {
+            "name_identified": "книга обнаружения еды",
+            "name_unidentified": "книга"
+        },
+        "spellbook_weakness": {
+            "name_identified": "книга слабости",
+            "name_unidentified": "книга"
+        },
+        "mask_shaman": {
+            "name_identified": "маска шамана",
+            "name_unidentified": "маска шамана"
+        },
+        "spellbook_amplify_magic": {
+            "name_identified": "книга усиления магии",
+            "name_unidentified": "книга"
+        },
+        "spellbook_shadow_tag": {
+            "name_identified": "книга метки чар",
+            "name_unidentified": "книга"
+        },
+        "spellbook_telepull": {
+            "name_identified": "книга телепортации других",
+            "name_unidentified": "книга"
+        },
+        "spellbook_demon_illu": {
+            "name_identified": "книга внутреннего демона",
+            "name_unidentified": "книга"
+        },
+        "spellbook_trolls_blood": {
+            "name_identified": "книга крови тролля",
+            "name_unidentified": "книга"
+        },
+        "spellbook_salvage": {
+            "name_identified": "книга разбора",
+            "name_unidentified": "книга"
+        },
+        "tool_whip": {
+            "name_identified": "хлыст",
+            "name_unidentified": "хлыст"
+        },
+        "spellbook_flutter": {
+            "name_identified": "книга порхания",
+            "name_unidentified": "книга"
+        },
+        "spellbook_dash": {
+            "name_identified": "книга рывка",
+            "name_unidentified": "книга"
+        },
+        "spellbook_self_polymorph": {
+            "name_identified": "книга полиморфа",
+            "name_unidentified": "книга"
+        },
+        "spellbook_9": {
+            "name_identified": "book of 9",
+            "name_unidentified": "book"
+        },
+        "spellbook_10": {
+            "name_identified": "book of 10",
+            "name_unidentified": "book"
+        },
+        "magicstaff_poison": {
+            "name_identified": "магический посох яда",
+            "name_unidentified": "магический посох"
+        },
+        "tool_metal_scrap": {
+            "name_identified": "метал. хлам",
+            "name_unidentified": "хлам"
+        },
+        "tool_magic_scrap": {
+            "name_identified": "магич. хлам",
+            "name_unidentified": "хлам"
+        },
+        "tool_tinkering_kit": {
+            "name_identified": "ремесленный набор",
+            "name_unidentified": "ремесленный набор"
+        },
+        "tool_sentrybot": {
+            "name_identified": "охранобот",
+            "name_unidentified": "охранобот"
+        },
+        "tool_detonated_charge": {
+            "name_identified": "детонатор",
+            "name_unidentified": "детонатор"
+        },
+        "tool_fire_bomb": {
+            "name_identified": "огненная ловушка",
+            "name_unidentified": "ловушка"
+        },
+        "tool_sleep_bomb": {
+            "name_identified": "усыпляющая ловушка",
+            "name_unidentified": "ловушка"
+        },
+        "tool_freeze_bomb": {
+            "name_identified": "ледяная ловушка",
+            "name_unidentified": "ловушка"
+        },
+        "tool_teleport_bomb": {
+            "name_identified": "телепортирующая ловушка",
+            "name_unidentified": "ловушка"
+        },
+        "tool_gyrobot": {
+            "name_identified": "гиробот",
+            "name_unidentified": "гиробот"
+        },
+        "tool_spellbot": {
+            "name_identified": "волшебот",
+            "name_unidentified": "волшебот"
+        },
+        "tool_decoy": {
+            "name_identified": "трещетка",
+            "name_unidentified": "трещетка"
+        },
+        "tool_dummybot": {
+            "name_identified": "куклобот",
+            "name_unidentified": "куклобот"
+        },
+        "machinist_apron": {
+            "name_identified": "кожаный фартук",
+            "name_unidentified": "фартук"
+        },
+        "enchanted_feather": {
+            "name_identified": "зачарованное перо",
+            "name_unidentified": "перо"
+        },
+        "punisher_hood": {
+            "name_identified": "капюшон палача",
+            "name_unidentified": "капюшон"
+        },
+        "scroll_charging": {
+            "name_identified": "свиток зарядки",
+            "name_unidentified": "свиток"
+        },
+        "quiver_silver": {
+            "name_identified": "колчан серебрянных стрел",
+            "name_unidentified": "колчан"
+        },
+        "quiver_pierce": {
+            "name_identified": "колчан прошивающих стрел",
+            "name_unidentified": "колчан"
+        },
+        "quiver_lightweight": {
+            "name_identified": "колчан быстрых стрел",
+            "name_unidentified": "колчан"
+        },
+        "quiver_fire": {
+            "name_identified": "колчан огненных стрел",
+            "name_unidentified": "колчан"
+        },
+        "quiver_heavy": {
+            "name_identified": "колчан пружинных стрел",
+            "name_unidentified": "колчан"
+        },
+        "quiver_crystal": {
+            "name_identified": "колчан кристальных стрел",
+            "name_unidentified": "колчан"
+        },
+        "quiver_hunting": {
+            "name_identified": "колчан охотничих стрел",
+            "name_unidentified": "колчан"
+        },
+        "longbow": {
+            "name_identified": "длинный лук",
+            "name_unidentified": "длинный лук"
+        },
+        "compound_bow": {
+            "name_identified": "составной лук",
+            "name_unidentified": "составной лук"
+        },
+        "heavy_crossbow": {
+            "name_identified": "баллиста",
+            "name_unidentified": "баллиста"
+        },
+        "boomerang": {
+            "name_identified": "бумеранг",
+            "name_unidentified": "бумеранг"
+        },
+        "scroll_conjurearrow": {
+            "name_identified": "свиток призыва стрел",
+            "name_unidentified": "свиток"
+        },
+        "monocle": {
+            "name_identified": "монокль",
+            "name_unidentified": "монокль"
+        },
+		"tool_player_loot_bag": {
+            "name_identified": "посмертный короб",
+            "name_unidentified": "посмертный короб"
+        }
+    },
+	"spell_names": {
+        "spell_forcebolt": {
+            "name": "Силовой Снаряд"
+        },
+        "spell_magicmissile": {
+            "name": "Магический Снаряд"
+        },
+        "spell_cold": {
+            "name": "Холод"
+        },
+        "spell_fireball": {
+            "name": "Огненный шар"
+        },
+        "spell_lightning": {
+            "name": "Молния"
+        },
+        "spell_removecurse": {
+            "name": "Снять Проклятие"
+        },
+        "spell_light": {
+            "name": "Свет"
+        },
+        "spell_identify": {
+            "name": "Опознать"
+        },
+        "spell_magicmapping": {
+            "name": "Магическая Карта"
+        },
+        "spell_sleep": {
+            "name": "Сон"
+        },
+        "spell_confuse": {
+            "name": "Смятение"
+        },
+        "spell_slow": {
+            "name": "Замедление"
+        },
+        "spell_opening": {
+            "name": "Отпирание"
+        },
+        "spell_locking": {
+            "name": "Запирание"
+        },
+        "spell_levitation": {
+            "name": "Левитация"
+        },
+        "spell_invisibility": {
+            "name": "Невидимость"
+        },
+        "spell_teleportation": {
+            "name": "Телепортация"
+        },
+        "spell_healing": {
+            "name": "Исцеление"
+        },
+        "spell_extrahealing": {
+            "name": "Особое Исцеление"
+        },
+        "spell_cureailment": {
+            "name": "Вылечить болезнь"
+        },
+        "spell_dig": {
+            "name": "Копать"
+        },
+        "spell_summon": {
+            "name": "Призвать Скелета"
+        },
+        "spell_stoneblood": {
+            "name": "Каменная Кровь"
+        },
+        "spell_bleed": {
+            "name": "Кровопускание"
+        },
+        "spell_dominate": {
+            "name": "Повелевание"
+        },
+        "spell_reflect_magic": {
+            "name": "Отражение Магии"
+        },
+        "spell_acid_spray": {
+            "name": "Брызнуть Кислотой"
+        },
+        "spell_steal_weapon": {
+            "name": "Украсть Оружие"
+        },
+        "spell_drain_soul": {
+            "name": "Похитить Душу"
+        },
+        "spell_vampiric_aura": {
+            "name": "Вампирская Аура"
+        },
+        "spell_charm": {
+            "name": "Очаровать Монстра"
+        },
+        "spell_revert_form": {
+            "name": "Вернуть Форму"
+        },
+        "spell_rat_form": {
+            "name": "Форма Крысы"
+        },
+        "spell_spider_form": {
+            "name": "Форма Членистоногого"
+        },
+        "spell_troll_form": {
+            "name": "Форма Тролля"
+        },
+        "spell_imp_form": {
+            "name": "Форма Беса"
+        },
+        "spell_spray_web": {
+            "name": "Брызнуть Паутиной"
+        },
+        "spell_poison": {
+            "name": "Яд"
+        },
+        "spell_speed": {
+            "name": "Скорость"
+        },
+        "spell_fear": {
+            "name": "Страх"
+        },
+        "spell_strike": {
+            "name": "Мощный Удар"
+        },
+        "spell_detect_food": {
+            "name": "Обнаружить Еду"
+        },
+        "spell_weakness": {
+            "name": "Слабость"
+        },
+        "spell_amplify_magic": {
+            "name": "Средоточие Стихий"
+        },
+        "spell_shadow_tag": {
+            "name": "Метка Чар"
+        },
+        "spell_telepull": {
+            "name": "Телепортировать Других"
+        },
+        "spell_demon_illu": {
+            "name": "Внутренний Демон"
+        },
+        "spell_trolls_blood": {
+            "name": "Кровь Тролля"
+        },
+        "spell_salvage": {
+            "name": "Разобрать"
+        },
+        "spell_flutter": {
+            "name": "Порхать"
+        },
+        "spell_dash": {
+            "name": "Рывок"
+        },
+        "spell_self_polymorph": {
+            "name": "Полиморф"
+        },
+        "spell_crab_form": {
+            "name": "Форма Членистоногого"
+        },
+        "spell_crab_web": {
+            "name": "Брызнуть Паутиной"
+        },
+		"spell_ghost_bolt": {
+			"name": "Призрачный Снаряд"
+		}
+    }
+}
